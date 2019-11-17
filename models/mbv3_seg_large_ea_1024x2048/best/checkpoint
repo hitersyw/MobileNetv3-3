@@ -1,0 +1,2 @@
+model_checkpoint_path: "mIOU_0.5925.ckpt-988"
+all_model_checkpoint_paths: "mIOU_0.5925.ckpt-988"

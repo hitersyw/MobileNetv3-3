@@ -1,0 +1,1162 @@
+2019-11-03 14:49:48,328 - train_mbv3.py[line:31] - INFO: Save log to `logs/mb3_small_128x128_cifar10_1103.txt`.
+2019-11-03 14:49:48,328 - train_mbv3.py[line:32] - INFO: Namespace(batch_size=256, channel=3, ckpt_iters=195, crop_height=512, crop_width=1024, epoches=24, eval='./tfrecords/cifar-10/128x128/test/', eval_batch_size=100, eval_epoches=1, eval_iters=2000, height=128, log_path='logs/mb3_small_128x128_cifar10_1103.txt', lr=0.001, lr_decay=0.99, max_lr=0.006, model_dir='models/mbv3_small_cifar10_128x128', moving_ave_decay=0.99, net='large', num_labels=10, reset_lr=1, restore=1, save_model_name='model', show_iters=10, step_size=1170, train='./tfrecords/cifar-10/128x128/train/', use_bn=1, weight_decay=0.0002, width=128)
+2019-11-03 14:50:03,096 - train_mbv3.py[line:170] - INFO: images.shape: (?, 128, 128, 3), labels: Tensor("one_hot:0", shape=(?, 10), dtype=int32)
+2019-11-03 14:50:03,096 - train_mbv3.py[line:171] - INFO: training...
+2019-11-03 14:50:46,326 - train_mbv3.py[line:201] - INFO: 14:50:46, Epoch 0, Step 0, Loss 4.7894, lr: 1.0000e-03, train_accu 0.1055
+2019-11-03 14:50:53,388 - train_mbv3.py[line:201] - INFO: 14:50:53, Epoch 0, Step 10, Loss 4.3854, lr: 1.0427e-03, train_accu 0.1758
+2019-11-03 14:51:00,273 - train_mbv3.py[line:201] - INFO: 14:51:00, Epoch 0, Step 20, Loss 4.0073, lr: 1.0855e-03, train_accu 0.2305
+2019-11-03 14:51:07,162 - train_mbv3.py[line:201] - INFO: 14:51:07, Epoch 0, Step 30, Loss 3.8515, lr: 1.1282e-03, train_accu 0.2070
+2019-11-03 14:51:14,188 - train_mbv3.py[line:201] - INFO: 14:51:14, Epoch 0, Step 40, Loss 3.6916, lr: 1.1709e-03, train_accu 0.2383
+2019-11-03 14:51:21,019 - train_mbv3.py[line:201] - INFO: 14:51:21, Epoch 0, Step 50, Loss 3.6450, lr: 1.2137e-03, train_accu 0.1992
+2019-11-03 14:51:27,788 - train_mbv3.py[line:201] - INFO: 14:51:27, Epoch 0, Step 60, Loss 3.4891, lr: 1.2564e-03, train_accu 0.2656
+2019-11-03 14:51:34,552 - train_mbv3.py[line:201] - INFO: 14:51:34, Epoch 0, Step 70, Loss 3.4069, lr: 1.2991e-03, train_accu 0.2461
+2019-11-03 14:51:41,568 - train_mbv3.py[line:201] - INFO: 14:51:41, Epoch 0, Step 80, Loss 3.2599, lr: 1.3419e-03, train_accu 0.2852
+2019-11-03 14:51:48,454 - train_mbv3.py[line:201] - INFO: 14:51:48, Epoch 0, Step 90, Loss 3.1252, lr: 1.3846e-03, train_accu 0.2695
+2019-11-03 14:51:55,242 - train_mbv3.py[line:201] - INFO: 14:51:55, Epoch 0, Step 100, Loss 3.1378, lr: 1.4274e-03, train_accu 0.2734
+2019-11-03 14:52:02,049 - train_mbv3.py[line:201] - INFO: 14:52:02, Epoch 0, Step 110, Loss 3.1016, lr: 1.4701e-03, train_accu 0.2578
+2019-11-03 14:52:08,802 - train_mbv3.py[line:201] - INFO: 14:52:08, Epoch 0, Step 120, Loss 3.0685, lr: 1.5128e-03, train_accu 0.3008
+2019-11-03 14:52:15,525 - train_mbv3.py[line:201] - INFO: 14:52:15, Epoch 0, Step 130, Loss 2.9029, lr: 1.5556e-03, train_accu 0.3438
+2019-11-03 14:52:22,280 - train_mbv3.py[line:201] - INFO: 14:52:22, Epoch 0, Step 140, Loss 2.7320, lr: 1.5983e-03, train_accu 0.3633
+2019-11-03 14:52:29,109 - train_mbv3.py[line:201] - INFO: 14:52:29, Epoch 0, Step 150, Loss 2.9216, lr: 1.6410e-03, train_accu 0.3086
+2019-11-03 14:52:35,982 - train_mbv3.py[line:201] - INFO: 14:52:35, Epoch 0, Step 160, Loss 2.8317, lr: 1.6838e-03, train_accu 0.3164
+2019-11-03 14:52:43,010 - train_mbv3.py[line:201] - INFO: 14:52:43, Epoch 0, Step 170, Loss 2.8432, lr: 1.7265e-03, train_accu 0.2930
+2019-11-03 14:52:49,789 - train_mbv3.py[line:201] - INFO: 14:52:49, Epoch 0, Step 180, Loss 2.8052, lr: 1.7692e-03, train_accu 0.2930
+2019-11-03 14:52:56,517 - train_mbv3.py[line:201] - INFO: 14:52:56, Epoch 0, Step 190, Loss 2.7143, lr: 1.8120e-03, train_accu 0.3789
+2019-11-03 14:53:00,743 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-195
+2019-11-03 14:53:00,745 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.2742
+2019-11-03 14:53:07,103 - train_mbv3.py[line:229] - INFO: Epoch 0, Global Step 195, val accuracy: 0.0987 (987.0/10000.0)
+2019-11-03 14:53:08,520 - train_mbv3.py[line:242] - INFO: Epoch 0, val accuracy improved from 0.0 to 0.0987, save best model to models/mbv3_small_cifar10_128x128/best/best_0.0987.ckpt.
+2019-11-03 14:53:09,230 - train_mbv3.py[line:201] - INFO: 14:53:09, Epoch 1, Step 0, Loss 2.7186, lr: 1.8333e-03, train_accu 0.3203
+2019-11-03 14:53:15,985 - train_mbv3.py[line:201] - INFO: 14:53:15, Epoch 1, Step 10, Loss 2.5719, lr: 1.8761e-03, train_accu 0.3867
+2019-11-03 14:53:22,873 - train_mbv3.py[line:201] - INFO: 14:53:22, Epoch 1, Step 20, Loss 2.6187, lr: 1.9188e-03, train_accu 0.4141
+2019-11-03 14:53:29,563 - train_mbv3.py[line:201] - INFO: 14:53:29, Epoch 1, Step 30, Loss 2.6742, lr: 1.9615e-03, train_accu 0.3594
+2019-11-03 14:53:36,372 - train_mbv3.py[line:201] - INFO: 14:53:36, Epoch 1, Step 40, Loss 2.6805, lr: 2.0043e-03, train_accu 0.3750
+2019-11-03 14:53:43,099 - train_mbv3.py[line:201] - INFO: 14:53:43, Epoch 1, Step 50, Loss 2.5652, lr: 2.0470e-03, train_accu 0.4023
+2019-11-03 14:53:49,918 - train_mbv3.py[line:201] - INFO: 14:53:49, Epoch 1, Step 60, Loss 2.5285, lr: 2.0897e-03, train_accu 0.3945
+2019-11-03 14:53:56,590 - train_mbv3.py[line:201] - INFO: 14:53:56, Epoch 1, Step 70, Loss 2.4690, lr: 2.1325e-03, train_accu 0.4219
+2019-11-03 14:54:03,268 - train_mbv3.py[line:201] - INFO: 14:54:03, Epoch 1, Step 80, Loss 2.5283, lr: 2.1752e-03, train_accu 0.4102
+2019-11-03 14:54:10,011 - train_mbv3.py[line:201] - INFO: 14:54:10, Epoch 1, Step 90, Loss 2.4073, lr: 2.2179e-03, train_accu 0.4219
+2019-11-03 14:54:16,780 - train_mbv3.py[line:201] - INFO: 14:54:16, Epoch 1, Step 100, Loss 2.4590, lr: 2.2607e-03, train_accu 0.3711
+2019-11-03 14:54:23,538 - train_mbv3.py[line:201] - INFO: 14:54:23, Epoch 1, Step 110, Loss 2.3159, lr: 2.3034e-03, train_accu 0.4570
+2019-11-03 14:54:30,266 - train_mbv3.py[line:201] - INFO: 14:54:30, Epoch 1, Step 120, Loss 2.3356, lr: 2.3462e-03, train_accu 0.4922
+2019-11-03 14:54:37,057 - train_mbv3.py[line:201] - INFO: 14:54:37, Epoch 1, Step 130, Loss 2.3093, lr: 2.3889e-03, train_accu 0.4531
+2019-11-03 14:54:43,813 - train_mbv3.py[line:201] - INFO: 14:54:43, Epoch 1, Step 140, Loss 2.3281, lr: 2.4316e-03, train_accu 0.4141
+2019-11-03 14:54:50,619 - train_mbv3.py[line:201] - INFO: 14:54:50, Epoch 1, Step 150, Loss 2.2350, lr: 2.4744e-03, train_accu 0.4727
+2019-11-03 14:54:57,347 - train_mbv3.py[line:201] - INFO: 14:54:57, Epoch 1, Step 160, Loss 2.2000, lr: 2.5171e-03, train_accu 0.4336
+2019-11-03 14:55:04,097 - train_mbv3.py[line:201] - INFO: 14:55:04, Epoch 1, Step 170, Loss 2.0916, lr: 2.5598e-03, train_accu 0.4570
+2019-11-03 14:55:10,791 - train_mbv3.py[line:201] - INFO: 14:55:10, Epoch 1, Step 180, Loss 2.1689, lr: 2.6026e-03, train_accu 0.4648
+2019-11-03 14:55:17,562 - train_mbv3.py[line:201] - INFO: 14:55:17, Epoch 1, Step 190, Loss 2.1125, lr: 2.6453e-03, train_accu 0.5078
+2019-11-03 14:55:21,252 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-390
+2019-11-03 14:55:21,254 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.4194
+2019-11-03 14:55:25,585 - train_mbv3.py[line:229] - INFO: Epoch 1, Global Step 390, val accuracy: 0.0988 (988.0/10000.0)
+2019-11-03 14:55:26,645 - train_mbv3.py[line:242] - INFO: Epoch 1, val accuracy improved from 0.0987 to 0.0988, save best model to models/mbv3_small_cifar10_128x128/best/best_0.0988.ckpt.
+2019-11-03 14:55:27,358 - train_mbv3.py[line:201] - INFO: 14:55:27, Epoch 2, Step 0, Loss 2.2030, lr: 2.6667e-03, train_accu 0.4570
+2019-11-03 14:55:34,230 - train_mbv3.py[line:201] - INFO: 14:55:34, Epoch 2, Step 10, Loss 2.1051, lr: 2.7094e-03, train_accu 0.4492
+2019-11-03 14:55:40,977 - train_mbv3.py[line:201] - INFO: 14:55:40, Epoch 2, Step 20, Loss 1.9869, lr: 2.7521e-03, train_accu 0.5273
+2019-11-03 14:55:47,744 - train_mbv3.py[line:201] - INFO: 14:55:47, Epoch 2, Step 30, Loss 2.1239, lr: 2.7949e-03, train_accu 0.5078
+2019-11-03 14:55:54,539 - train_mbv3.py[line:201] - INFO: 14:55:54, Epoch 2, Step 40, Loss 2.1713, lr: 2.8376e-03, train_accu 0.4258
+2019-11-03 14:56:01,232 - train_mbv3.py[line:201] - INFO: 14:56:01, Epoch 2, Step 50, Loss 2.0390, lr: 2.8803e-03, train_accu 0.4609
+2019-11-03 14:56:08,012 - train_mbv3.py[line:201] - INFO: 14:56:08, Epoch 2, Step 60, Loss 2.0876, lr: 2.9231e-03, train_accu 0.4805
+2019-11-03 14:56:14,734 - train_mbv3.py[line:201] - INFO: 14:56:14, Epoch 2, Step 70, Loss 2.0047, lr: 2.9658e-03, train_accu 0.4688
+2019-11-03 14:56:21,430 - train_mbv3.py[line:201] - INFO: 14:56:21, Epoch 2, Step 80, Loss 2.0669, lr: 3.0085e-03, train_accu 0.4805
+2019-11-03 14:56:28,194 - train_mbv3.py[line:201] - INFO: 14:56:28, Epoch 2, Step 90, Loss 2.0276, lr: 3.0513e-03, train_accu 0.5117
+2019-11-03 14:56:34,952 - train_mbv3.py[line:201] - INFO: 14:56:34, Epoch 2, Step 100, Loss 2.0302, lr: 3.0940e-03, train_accu 0.5039
+2019-11-03 14:56:41,730 - train_mbv3.py[line:201] - INFO: 14:56:41, Epoch 2, Step 110, Loss 2.0290, lr: 3.1368e-03, train_accu 0.4727
+2019-11-03 14:56:48,667 - train_mbv3.py[line:201] - INFO: 14:56:48, Epoch 2, Step 120, Loss 1.9567, lr: 3.1795e-03, train_accu 0.4883
+2019-11-03 14:56:55,396 - train_mbv3.py[line:201] - INFO: 14:56:55, Epoch 2, Step 130, Loss 1.9043, lr: 3.2222e-03, train_accu 0.5117
+2019-11-03 14:57:02,216 - train_mbv3.py[line:201] - INFO: 14:57:02, Epoch 2, Step 140, Loss 1.9421, lr: 3.2650e-03, train_accu 0.4688
+2019-11-03 14:57:09,028 - train_mbv3.py[line:201] - INFO: 14:57:09, Epoch 2, Step 150, Loss 1.8847, lr: 3.3077e-03, train_accu 0.5352
+2019-11-03 14:57:15,773 - train_mbv3.py[line:201] - INFO: 14:57:15, Epoch 2, Step 160, Loss 1.7726, lr: 3.3504e-03, train_accu 0.5586
+2019-11-03 14:57:22,484 - train_mbv3.py[line:201] - INFO: 14:57:22, Epoch 2, Step 170, Loss 1.8991, lr: 3.3932e-03, train_accu 0.5078
+2019-11-03 14:57:29,198 - train_mbv3.py[line:201] - INFO: 14:57:29, Epoch 2, Step 180, Loss 1.8632, lr: 3.4359e-03, train_accu 0.5039
+2019-11-03 14:57:35,974 - train_mbv3.py[line:201] - INFO: 14:57:35, Epoch 2, Step 190, Loss 1.8531, lr: 3.4786e-03, train_accu 0.5000
+2019-11-03 14:57:39,774 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-585
+2019-11-03 14:57:39,776 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.4966
+2019-11-03 14:57:44,061 - train_mbv3.py[line:229] - INFO: Epoch 2, Global Step 585, val accuracy: 0.1148 (1148.0/10000.0)
+2019-11-03 14:57:45,096 - train_mbv3.py[line:242] - INFO: Epoch 2, val accuracy improved from 0.0988 to 0.1148, save best model to models/mbv3_small_cifar10_128x128/best/best_0.1148.ckpt.
+2019-11-03 14:57:45,773 - train_mbv3.py[line:201] - INFO: 14:57:45, Epoch 3, Step 0, Loss 1.8303, lr: 3.5000e-03, train_accu 0.5117
+2019-11-03 14:57:52,419 - train_mbv3.py[line:201] - INFO: 14:57:52, Epoch 3, Step 10, Loss 1.7911, lr: 3.5427e-03, train_accu 0.5273
+2019-11-03 14:57:59,137 - train_mbv3.py[line:201] - INFO: 14:57:59, Epoch 3, Step 20, Loss 1.8302, lr: 3.5855e-03, train_accu 0.5234
+2019-11-03 14:58:06,059 - train_mbv3.py[line:201] - INFO: 14:58:06, Epoch 3, Step 30, Loss 1.7713, lr: 3.6282e-03, train_accu 0.5391
+2019-11-03 14:58:12,809 - train_mbv3.py[line:201] - INFO: 14:58:12, Epoch 3, Step 40, Loss 1.8216, lr: 3.6709e-03, train_accu 0.4766
+2019-11-03 14:58:19,543 - train_mbv3.py[line:201] - INFO: 14:58:19, Epoch 3, Step 50, Loss 1.6998, lr: 3.7137e-03, train_accu 0.5625
+2019-11-03 14:58:26,356 - train_mbv3.py[line:201] - INFO: 14:58:26, Epoch 3, Step 60, Loss 1.8974, lr: 3.7564e-03, train_accu 0.4961
+2019-11-03 14:58:33,054 - train_mbv3.py[line:201] - INFO: 14:58:33, Epoch 3, Step 70, Loss 1.6997, lr: 3.7991e-03, train_accu 0.5508
+2019-11-03 14:58:39,855 - train_mbv3.py[line:201] - INFO: 14:58:39, Epoch 3, Step 80, Loss 1.7681, lr: 3.8419e-03, train_accu 0.5508
+2019-11-03 14:58:46,818 - train_mbv3.py[line:201] - INFO: 14:58:46, Epoch 3, Step 90, Loss 1.9378, lr: 3.8846e-03, train_accu 0.4492
+2019-11-03 14:58:53,720 - train_mbv3.py[line:201] - INFO: 14:58:53, Epoch 3, Step 100, Loss 1.7358, lr: 3.9274e-03, train_accu 0.5391
+2019-11-03 14:59:00,431 - train_mbv3.py[line:201] - INFO: 14:59:00, Epoch 3, Step 110, Loss 1.7627, lr: 3.9701e-03, train_accu 0.5273
+2019-11-03 14:59:07,140 - train_mbv3.py[line:201] - INFO: 14:59:07, Epoch 3, Step 120, Loss 1.8546, lr: 4.0128e-03, train_accu 0.5273
+2019-11-03 14:59:13,990 - train_mbv3.py[line:201] - INFO: 14:59:13, Epoch 3, Step 130, Loss 1.8637, lr: 4.0556e-03, train_accu 0.5273
+2019-11-03 14:59:20,818 - train_mbv3.py[line:201] - INFO: 14:59:20, Epoch 3, Step 140, Loss 1.7950, lr: 4.0983e-03, train_accu 0.5391
+2019-11-03 14:59:27,464 - train_mbv3.py[line:201] - INFO: 14:59:27, Epoch 3, Step 150, Loss 1.8148, lr: 4.1410e-03, train_accu 0.5469
+2019-11-03 14:59:34,206 - train_mbv3.py[line:201] - INFO: 14:59:34, Epoch 3, Step 160, Loss 1.7153, lr: 4.1838e-03, train_accu 0.5898
+2019-11-03 14:59:40,904 - train_mbv3.py[line:201] - INFO: 14:59:40, Epoch 3, Step 170, Loss 1.8833, lr: 4.2265e-03, train_accu 0.5273
+2019-11-03 14:59:47,608 - train_mbv3.py[line:201] - INFO: 14:59:47, Epoch 3, Step 180, Loss 1.8433, lr: 4.2692e-03, train_accu 0.5117
+2019-11-03 14:59:54,305 - train_mbv3.py[line:201] - INFO: 14:59:54, Epoch 3, Step 190, Loss 1.7487, lr: 4.3120e-03, train_accu 0.5625
+2019-11-03 14:59:58,037 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-780
+2019-11-03 14:59:58,040 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.5361
+2019-11-03 15:00:02,153 - train_mbv3.py[line:229] - INFO: Epoch 3, Global Step 780, val accuracy: 0.3435 (3435.0/10000.0)
+2019-11-03 15:00:03,250 - train_mbv3.py[line:242] - INFO: Epoch 3, val accuracy improved from 0.1148 to 0.3435, save best model to models/mbv3_small_cifar10_128x128/best/best_0.3435.ckpt.
+2019-11-03 15:00:03,916 - train_mbv3.py[line:201] - INFO: 15:00:03, Epoch 4, Step 0, Loss 1.7056, lr: 4.3333e-03, train_accu 0.5781
+2019-11-03 15:00:10,659 - train_mbv3.py[line:201] - INFO: 15:00:10, Epoch 4, Step 10, Loss 1.6615, lr: 4.3761e-03, train_accu 0.6055
+2019-11-03 15:00:17,313 - train_mbv3.py[line:201] - INFO: 15:00:17, Epoch 4, Step 20, Loss 1.8179, lr: 4.4188e-03, train_accu 0.5625
+2019-11-03 15:00:24,050 - train_mbv3.py[line:201] - INFO: 15:00:24, Epoch 4, Step 30, Loss 1.6327, lr: 4.4615e-03, train_accu 0.6289
+2019-11-03 15:00:30,840 - train_mbv3.py[line:201] - INFO: 15:00:30, Epoch 4, Step 40, Loss 1.6931, lr: 4.5043e-03, train_accu 0.5781
+2019-11-03 15:00:37,712 - train_mbv3.py[line:201] - INFO: 15:00:37, Epoch 4, Step 50, Loss 1.9002, lr: 4.5470e-03, train_accu 0.5234
+2019-11-03 15:00:44,400 - train_mbv3.py[line:201] - INFO: 15:00:44, Epoch 4, Step 60, Loss 1.7415, lr: 4.5897e-03, train_accu 0.5391
+2019-11-03 15:00:51,177 - train_mbv3.py[line:201] - INFO: 15:00:51, Epoch 4, Step 70, Loss 1.7993, lr: 4.6325e-03, train_accu 0.5469
+2019-11-03 15:00:57,967 - train_mbv3.py[line:201] - INFO: 15:00:57, Epoch 4, Step 80, Loss 1.7789, lr: 4.6752e-03, train_accu 0.5469
+2019-11-03 15:01:04,654 - train_mbv3.py[line:201] - INFO: 15:01:04, Epoch 4, Step 90, Loss 1.6413, lr: 4.7179e-03, train_accu 0.6211
+2019-11-03 15:01:11,386 - train_mbv3.py[line:201] - INFO: 15:01:11, Epoch 4, Step 100, Loss 1.6874, lr: 4.7607e-03, train_accu 0.6016
+2019-11-03 15:01:18,183 - train_mbv3.py[line:201] - INFO: 15:01:18, Epoch 4, Step 110, Loss 1.8160, lr: 4.8034e-03, train_accu 0.5742
+2019-11-03 15:01:25,005 - train_mbv3.py[line:201] - INFO: 15:01:25, Epoch 4, Step 120, Loss 1.8184, lr: 4.8462e-03, train_accu 0.5664
+2019-11-03 15:01:31,691 - train_mbv3.py[line:201] - INFO: 15:01:31, Epoch 4, Step 130, Loss 1.7484, lr: 4.8889e-03, train_accu 0.5898
+2019-11-03 15:01:38,579 - train_mbv3.py[line:201] - INFO: 15:01:38, Epoch 4, Step 140, Loss 1.8118, lr: 4.9316e-03, train_accu 0.5586
+2019-11-03 15:01:45,301 - train_mbv3.py[line:201] - INFO: 15:01:45, Epoch 4, Step 150, Loss 1.8327, lr: 4.9744e-03, train_accu 0.5508
+2019-11-03 15:01:51,953 - train_mbv3.py[line:201] - INFO: 15:01:51, Epoch 4, Step 160, Loss 1.8343, lr: 5.0171e-03, train_accu 0.5703
+2019-11-03 15:01:58,661 - train_mbv3.py[line:201] - INFO: 15:01:58, Epoch 4, Step 170, Loss 1.8151, lr: 5.0598e-03, train_accu 0.5664
+2019-11-03 15:02:05,284 - train_mbv3.py[line:201] - INFO: 15:02:05, Epoch 4, Step 180, Loss 1.7708, lr: 5.1026e-03, train_accu 0.6328
+2019-11-03 15:02:12,212 - train_mbv3.py[line:201] - INFO: 15:02:12, Epoch 4, Step 190, Loss 1.7491, lr: 5.1453e-03, train_accu 0.6406
+2019-11-03 15:02:16,179 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-975
+2019-11-03 15:02:16,181 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.5740
+2019-11-03 15:02:20,354 - train_mbv3.py[line:229] - INFO: Epoch 4, Global Step 975, val accuracy: 0.3964 (3964.0/10000.0)
+2019-11-03 15:02:21,482 - train_mbv3.py[line:242] - INFO: Epoch 4, val accuracy improved from 0.3435 to 0.3964, save best model to models/mbv3_small_cifar10_128x128/best/best_0.3964.ckpt.
+2019-11-03 15:02:22,180 - train_mbv3.py[line:201] - INFO: 15:02:22, Epoch 5, Step 0, Loss 1.7654, lr: 5.1667e-03, train_accu 0.6289
+2019-11-03 15:02:29,072 - train_mbv3.py[line:201] - INFO: 15:02:29, Epoch 5, Step 10, Loss 1.7563, lr: 5.2094e-03, train_accu 0.6250
+2019-11-03 15:02:35,704 - train_mbv3.py[line:201] - INFO: 15:02:35, Epoch 5, Step 20, Loss 1.8462, lr: 5.2521e-03, train_accu 0.6055
+2019-11-03 15:02:42,495 - train_mbv3.py[line:201] - INFO: 15:02:42, Epoch 5, Step 30, Loss 1.9327, lr: 5.2949e-03, train_accu 0.6055
+2019-11-03 15:02:49,161 - train_mbv3.py[line:201] - INFO: 15:02:49, Epoch 5, Step 40, Loss 1.9154, lr: 5.3376e-03, train_accu 0.5977
+2019-11-03 15:02:55,841 - train_mbv3.py[line:201] - INFO: 15:02:55, Epoch 5, Step 50, Loss 2.0523, lr: 5.3803e-03, train_accu 0.5703
+2019-11-03 15:03:02,595 - train_mbv3.py[line:201] - INFO: 15:03:02, Epoch 5, Step 60, Loss 1.9749, lr: 5.4231e-03, train_accu 0.5742
+2019-11-03 15:03:09,200 - train_mbv3.py[line:201] - INFO: 15:03:09, Epoch 5, Step 70, Loss 1.8653, lr: 5.4658e-03, train_accu 0.5742
+2019-11-03 15:03:15,824 - train_mbv3.py[line:201] - INFO: 15:03:15, Epoch 5, Step 80, Loss 1.8875, lr: 5.5085e-03, train_accu 0.5859
+2019-11-03 15:03:22,530 - train_mbv3.py[line:201] - INFO: 15:03:22, Epoch 5, Step 90, Loss 1.8248, lr: 5.5513e-03, train_accu 0.6367
+2019-11-03 15:03:29,313 - train_mbv3.py[line:201] - INFO: 15:03:29, Epoch 5, Step 100, Loss 1.9341, lr: 5.5940e-03, train_accu 0.5625
+2019-11-03 15:03:36,023 - train_mbv3.py[line:201] - INFO: 15:03:36, Epoch 5, Step 110, Loss 2.0673, lr: 5.6368e-03, train_accu 0.5586
+2019-11-03 15:03:42,815 - train_mbv3.py[line:201] - INFO: 15:03:42, Epoch 5, Step 120, Loss 1.9209, lr: 5.6795e-03, train_accu 0.6094
+2019-11-03 15:03:49,485 - train_mbv3.py[line:201] - INFO: 15:03:49, Epoch 5, Step 130, Loss 1.8625, lr: 5.7222e-03, train_accu 0.6367
+2019-11-03 15:03:56,177 - train_mbv3.py[line:201] - INFO: 15:03:56, Epoch 5, Step 140, Loss 1.9476, lr: 5.7650e-03, train_accu 0.6406
+2019-11-03 15:04:03,029 - train_mbv3.py[line:201] - INFO: 15:04:03, Epoch 5, Step 150, Loss 1.8724, lr: 5.8077e-03, train_accu 0.6367
+2019-11-03 15:04:09,744 - train_mbv3.py[line:201] - INFO: 15:04:09, Epoch 5, Step 160, Loss 2.0917, lr: 5.8504e-03, train_accu 0.6016
+2019-11-03 15:04:16,369 - train_mbv3.py[line:201] - INFO: 15:04:16, Epoch 5, Step 170, Loss 1.8644, lr: 5.8932e-03, train_accu 0.6445
+2019-11-03 15:04:23,153 - train_mbv3.py[line:201] - INFO: 15:04:23, Epoch 5, Step 180, Loss 2.0468, lr: 5.9359e-03, train_accu 0.5781
+2019-11-03 15:04:29,844 - train_mbv3.py[line:201] - INFO: 15:04:29, Epoch 5, Step 190, Loss 1.9279, lr: 5.9786e-03, train_accu 0.6758
+2019-11-03 15:04:33,437 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-1170
+2019-11-03 15:04:33,438 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.6005
+2019-11-03 15:04:37,650 - train_mbv3.py[line:229] - INFO: Epoch 5, Global Step 1170, val accuracy: 0.5491 (5491.0/10000.0)
+2019-11-03 15:04:38,671 - train_mbv3.py[line:242] - INFO: Epoch 5, val accuracy improved from 0.3964 to 0.5491, save best model to models/mbv3_small_cifar10_128x128/best/best_0.5491.ckpt.
+2019-11-03 15:04:39,340 - train_mbv3.py[line:201] - INFO: 15:04:39, Epoch 6, Step 0, Loss 2.0026, lr: 6.0000e-03, train_accu 0.6211
+2019-11-03 15:04:46,059 - train_mbv3.py[line:201] - INFO: 15:04:46, Epoch 6, Step 10, Loss 2.1665, lr: 5.9573e-03, train_accu 0.5781
+2019-11-03 15:04:52,833 - train_mbv3.py[line:201] - INFO: 15:04:52, Epoch 6, Step 20, Loss 2.1478, lr: 5.9145e-03, train_accu 0.6094
+2019-11-03 15:04:59,531 - train_mbv3.py[line:201] - INFO: 15:04:59, Epoch 6, Step 30, Loss 2.0251, lr: 5.8718e-03, train_accu 0.6172
+2019-11-03 15:05:06,245 - train_mbv3.py[line:201] - INFO: 15:05:06, Epoch 6, Step 40, Loss 2.1974, lr: 5.8291e-03, train_accu 0.5742
+2019-11-03 15:05:13,085 - train_mbv3.py[line:201] - INFO: 15:05:13, Epoch 6, Step 50, Loss 2.1185, lr: 5.7863e-03, train_accu 0.6250
+2019-11-03 15:05:19,904 - train_mbv3.py[line:201] - INFO: 15:05:19, Epoch 6, Step 60, Loss 2.0688, lr: 5.7436e-03, train_accu 0.6680
+2019-11-03 15:05:26,538 - train_mbv3.py[line:201] - INFO: 15:05:26, Epoch 6, Step 70, Loss 2.1116, lr: 5.7009e-03, train_accu 0.6055
+2019-11-03 15:05:33,162 - train_mbv3.py[line:201] - INFO: 15:05:33, Epoch 6, Step 80, Loss 1.9780, lr: 5.6581e-03, train_accu 0.6758
+2019-11-03 15:05:39,873 - train_mbv3.py[line:201] - INFO: 15:05:39, Epoch 6, Step 90, Loss 2.2026, lr: 5.6154e-03, train_accu 0.6406
+2019-11-03 15:05:46,641 - train_mbv3.py[line:201] - INFO: 15:05:46, Epoch 6, Step 100, Loss 2.1848, lr: 5.5726e-03, train_accu 0.6602
+2019-11-03 15:05:53,335 - train_mbv3.py[line:201] - INFO: 15:05:53, Epoch 6, Step 110, Loss 2.0958, lr: 5.5299e-03, train_accu 0.7109
+2019-11-03 15:06:00,016 - train_mbv3.py[line:201] - INFO: 15:06:00, Epoch 6, Step 120, Loss 2.2432, lr: 5.4872e-03, train_accu 0.6172
+2019-11-03 15:06:06,832 - train_mbv3.py[line:201] - INFO: 15:06:06, Epoch 6, Step 130, Loss 2.1786, lr: 5.4444e-03, train_accu 0.6914
+2019-11-03 15:06:13,493 - train_mbv3.py[line:201] - INFO: 15:06:13, Epoch 6, Step 140, Loss 2.2815, lr: 5.4017e-03, train_accu 0.6367
+2019-11-03 15:06:20,237 - train_mbv3.py[line:201] - INFO: 15:06:20, Epoch 6, Step 150, Loss 2.2579, lr: 5.3590e-03, train_accu 0.6172
+2019-11-03 15:06:27,026 - train_mbv3.py[line:201] - INFO: 15:06:27, Epoch 6, Step 160, Loss 2.3707, lr: 5.3162e-03, train_accu 0.5977
+2019-11-03 15:06:33,759 - train_mbv3.py[line:201] - INFO: 15:06:33, Epoch 6, Step 170, Loss 2.4410, lr: 5.2735e-03, train_accu 0.5977
+2019-11-03 15:06:40,416 - train_mbv3.py[line:201] - INFO: 15:06:40, Epoch 6, Step 180, Loss 2.3399, lr: 5.2308e-03, train_accu 0.6445
+2019-11-03 15:06:47,108 - train_mbv3.py[line:201] - INFO: 15:06:47, Epoch 6, Step 190, Loss 2.3389, lr: 5.1880e-03, train_accu 0.6719
+2019-11-03 15:06:50,933 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-1365
+2019-11-03 15:06:50,934 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.6302
+2019-11-03 15:06:54,960 - train_mbv3.py[line:229] - INFO: Epoch 6, Global Step 1365, val accuracy: 0.5112 (5112.0/10000.0)
+2019-11-03 15:06:54,961 - train_mbv3.py[line:242] - INFO: Saturation Epoch 1, val accuracy did not improve from 0.5491.
+2019-11-03 15:06:55,631 - train_mbv3.py[line:201] - INFO: 15:06:55, Epoch 7, Step 0, Loss 2.3117, lr: 5.1667e-03, train_accu 0.6289
+2019-11-03 15:07:02,325 - train_mbv3.py[line:201] - INFO: 15:07:02, Epoch 7, Step 10, Loss 2.5040, lr: 5.1239e-03, train_accu 0.6133
+2019-11-03 15:07:09,023 - train_mbv3.py[line:201] - INFO: 15:07:09, Epoch 7, Step 20, Loss 2.3289, lr: 5.0812e-03, train_accu 0.6875
+2019-11-03 15:07:15,822 - train_mbv3.py[line:201] - INFO: 15:07:15, Epoch 7, Step 30, Loss 2.5013, lr: 5.0385e-03, train_accu 0.6484
+2019-11-03 15:07:22,466 - train_mbv3.py[line:201] - INFO: 15:07:22, Epoch 7, Step 40, Loss 2.3266, lr: 4.9957e-03, train_accu 0.6914
+2019-11-03 15:07:29,230 - train_mbv3.py[line:201] - INFO: 15:07:29, Epoch 7, Step 50, Loss 2.3658, lr: 4.9530e-03, train_accu 0.6797
+2019-11-03 15:07:36,012 - train_mbv3.py[line:201] - INFO: 15:07:36, Epoch 7, Step 60, Loss 2.4609, lr: 4.9103e-03, train_accu 0.6680
+2019-11-03 15:07:42,729 - train_mbv3.py[line:201] - INFO: 15:07:42, Epoch 7, Step 70, Loss 2.3782, lr: 4.8675e-03, train_accu 0.6562
+2019-11-03 15:07:49,414 - train_mbv3.py[line:201] - INFO: 15:07:49, Epoch 7, Step 80, Loss 2.4228, lr: 4.8248e-03, train_accu 0.6836
+2019-11-03 15:07:56,228 - train_mbv3.py[line:201] - INFO: 15:07:56, Epoch 7, Step 90, Loss 2.5644, lr: 4.7821e-03, train_accu 0.6016
+2019-11-03 15:08:03,031 - train_mbv3.py[line:201] - INFO: 15:08:03, Epoch 7, Step 100, Loss 2.3986, lr: 4.7393e-03, train_accu 0.6602
+2019-11-03 15:08:09,749 - train_mbv3.py[line:201] - INFO: 15:08:09, Epoch 7, Step 110, Loss 2.3530, lr: 4.6966e-03, train_accu 0.6953
+2019-11-03 15:08:16,330 - train_mbv3.py[line:201] - INFO: 15:08:16, Epoch 7, Step 120, Loss 2.3787, lr: 4.6538e-03, train_accu 0.6914
+2019-11-03 15:08:22,991 - train_mbv3.py[line:201] - INFO: 15:08:22, Epoch 7, Step 130, Loss 2.5765, lr: 4.6111e-03, train_accu 0.6055
+2019-11-03 15:08:29,615 - train_mbv3.py[line:201] - INFO: 15:08:29, Epoch 7, Step 140, Loss 2.3095, lr: 4.5684e-03, train_accu 0.6914
+2019-11-03 15:08:36,260 - train_mbv3.py[line:201] - INFO: 15:08:36, Epoch 7, Step 150, Loss 2.4754, lr: 4.5256e-03, train_accu 0.6250
+2019-11-03 15:08:43,138 - train_mbv3.py[line:201] - INFO: 15:08:43, Epoch 7, Step 160, Loss 2.5420, lr: 4.4829e-03, train_accu 0.6367
+2019-11-03 15:08:49,951 - train_mbv3.py[line:201] - INFO: 15:08:49, Epoch 7, Step 170, Loss 2.4342, lr: 4.4402e-03, train_accu 0.6562
+2019-11-03 15:08:56,769 - train_mbv3.py[line:201] - INFO: 15:08:56, Epoch 7, Step 180, Loss 2.3246, lr: 4.3974e-03, train_accu 0.6758
+2019-11-03 15:09:03,551 - train_mbv3.py[line:201] - INFO: 15:09:03, Epoch 7, Step 190, Loss 2.1956, lr: 4.3547e-03, train_accu 0.7695
+2019-11-03 15:09:07,414 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-1560
+2019-11-03 15:09:07,416 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.6685
+2019-11-03 15:09:11,505 - train_mbv3.py[line:229] - INFO: Epoch 7, Global Step 1560, val accuracy: 0.6261 (6261.0/10000.0)
+2019-11-03 15:09:12,557 - train_mbv3.py[line:242] - INFO: Epoch 7, val accuracy improved from 0.5491 to 0.6261, save best model to models/mbv3_small_cifar10_128x128/best/best_0.6261.ckpt.
+2019-11-03 15:09:13,317 - train_mbv3.py[line:201] - INFO: 15:09:13, Epoch 8, Step 0, Loss 2.4252, lr: 4.3333e-03, train_accu 0.6523
+2019-11-03 15:09:19,938 - train_mbv3.py[line:201] - INFO: 15:09:19, Epoch 8, Step 10, Loss 2.3680, lr: 4.2906e-03, train_accu 0.6602
+2019-11-03 15:09:26,600 - train_mbv3.py[line:201] - INFO: 15:09:26, Epoch 8, Step 20, Loss 2.3754, lr: 4.2479e-03, train_accu 0.6719
+2019-11-03 15:09:33,280 - train_mbv3.py[line:201] - INFO: 15:09:33, Epoch 8, Step 30, Loss 2.5535, lr: 4.2051e-03, train_accu 0.6367
+2019-11-03 15:09:39,961 - train_mbv3.py[line:201] - INFO: 15:09:39, Epoch 8, Step 40, Loss 2.4182, lr: 4.1624e-03, train_accu 0.6523
+2019-11-03 15:09:46,581 - train_mbv3.py[line:201] - INFO: 15:09:46, Epoch 8, Step 50, Loss 2.4019, lr: 4.1197e-03, train_accu 0.6367
+2019-11-03 15:09:53,288 - train_mbv3.py[line:201] - INFO: 15:09:53, Epoch 8, Step 60, Loss 2.3144, lr: 4.0769e-03, train_accu 0.7227
+2019-11-03 15:10:00,167 - train_mbv3.py[line:201] - INFO: 15:10:00, Epoch 8, Step 70, Loss 2.3156, lr: 4.0342e-03, train_accu 0.6992
+2019-11-03 15:10:06,978 - train_mbv3.py[line:201] - INFO: 15:10:06, Epoch 8, Step 80, Loss 2.3948, lr: 3.9915e-03, train_accu 0.7109
+2019-11-03 15:10:13,783 - train_mbv3.py[line:201] - INFO: 15:10:13, Epoch 8, Step 90, Loss 2.3625, lr: 3.9487e-03, train_accu 0.7031
+2019-11-03 15:10:20,557 - train_mbv3.py[line:201] - INFO: 15:10:20, Epoch 8, Step 100, Loss 2.4002, lr: 3.9060e-03, train_accu 0.6602
+2019-11-03 15:10:27,408 - train_mbv3.py[line:201] - INFO: 15:10:27, Epoch 8, Step 110, Loss 2.3310, lr: 3.8632e-03, train_accu 0.7070
+2019-11-03 15:10:34,093 - train_mbv3.py[line:201] - INFO: 15:10:34, Epoch 8, Step 120, Loss 2.3913, lr: 3.8205e-03, train_accu 0.6562
+2019-11-03 15:10:40,749 - train_mbv3.py[line:201] - INFO: 15:10:40, Epoch 8, Step 130, Loss 2.3134, lr: 3.7778e-03, train_accu 0.6836
+2019-11-03 15:10:47,489 - train_mbv3.py[line:201] - INFO: 15:10:47, Epoch 8, Step 140, Loss 2.2323, lr: 3.7350e-03, train_accu 0.7305
+2019-11-03 15:10:54,335 - train_mbv3.py[line:201] - INFO: 15:10:54, Epoch 8, Step 150, Loss 2.2324, lr: 3.6923e-03, train_accu 0.7227
+2019-11-03 15:11:01,118 - train_mbv3.py[line:201] - INFO: 15:11:01, Epoch 8, Step 160, Loss 2.4233, lr: 3.6496e-03, train_accu 0.6914
+2019-11-03 15:11:07,853 - train_mbv3.py[line:201] - INFO: 15:11:07, Epoch 8, Step 170, Loss 2.2503, lr: 3.6068e-03, train_accu 0.7227
+2019-11-03 15:11:14,492 - train_mbv3.py[line:201] - INFO: 15:11:14, Epoch 8, Step 180, Loss 2.3559, lr: 3.5641e-03, train_accu 0.6562
+2019-11-03 15:11:21,275 - train_mbv3.py[line:201] - INFO: 15:11:21, Epoch 8, Step 190, Loss 2.2560, lr: 3.5214e-03, train_accu 0.7148
+2019-11-03 15:11:24,972 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-1755
+2019-11-03 15:11:24,973 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.6853
+2019-11-03 15:11:29,225 - train_mbv3.py[line:229] - INFO: Epoch 8, Global Step 1755, val accuracy: 0.6598 (6598.0/10000.0)
+2019-11-03 15:11:30,265 - train_mbv3.py[line:242] - INFO: Epoch 8, val accuracy improved from 0.6261 to 0.6598, save best model to models/mbv3_small_cifar10_128x128/best/best_0.6598.ckpt.
+2019-11-03 15:11:30,963 - train_mbv3.py[line:201] - INFO: 15:11:30, Epoch 9, Step 0, Loss 2.2893, lr: 3.5000e-03, train_accu 0.7070
+2019-11-03 15:11:37,838 - train_mbv3.py[line:201] - INFO: 15:11:37, Epoch 9, Step 10, Loss 2.2600, lr: 3.4573e-03, train_accu 0.6953
+2019-11-03 15:11:44,614 - train_mbv3.py[line:201] - INFO: 15:11:44, Epoch 9, Step 20, Loss 2.2091, lr: 3.4145e-03, train_accu 0.7344
+2019-11-03 15:11:51,293 - train_mbv3.py[line:201] - INFO: 15:11:51, Epoch 9, Step 30, Loss 2.2517, lr: 3.3718e-03, train_accu 0.6875
+2019-11-03 15:11:58,064 - train_mbv3.py[line:201] - INFO: 15:11:58, Epoch 9, Step 40, Loss 2.1029, lr: 3.3291e-03, train_accu 0.7461
+2019-11-03 15:12:04,872 - train_mbv3.py[line:201] - INFO: 15:12:04, Epoch 9, Step 50, Loss 2.3081, lr: 3.2863e-03, train_accu 0.6367
+2019-11-03 15:12:11,560 - train_mbv3.py[line:201] - INFO: 15:12:11, Epoch 9, Step 60, Loss 2.2295, lr: 3.2436e-03, train_accu 0.7109
+2019-11-03 15:12:18,233 - train_mbv3.py[line:201] - INFO: 15:12:18, Epoch 9, Step 70, Loss 2.2601, lr: 3.2009e-03, train_accu 0.6914
+2019-11-03 15:12:24,943 - train_mbv3.py[line:201] - INFO: 15:12:24, Epoch 9, Step 80, Loss 2.1671, lr: 3.1581e-03, train_accu 0.7109
+2019-11-03 15:12:31,623 - train_mbv3.py[line:201] - INFO: 15:12:31, Epoch 9, Step 90, Loss 2.1819, lr: 3.1154e-03, train_accu 0.7031
+2019-11-03 15:12:38,334 - train_mbv3.py[line:201] - INFO: 15:12:38, Epoch 9, Step 100, Loss 2.2970, lr: 3.0726e-03, train_accu 0.6758
+2019-11-03 15:12:44,963 - train_mbv3.py[line:201] - INFO: 15:12:44, Epoch 9, Step 110, Loss 2.1729, lr: 3.0299e-03, train_accu 0.7109
+2019-11-03 15:12:51,643 - train_mbv3.py[line:201] - INFO: 15:12:51, Epoch 9, Step 120, Loss 2.2481, lr: 2.9872e-03, train_accu 0.6836
+2019-11-03 15:12:58,505 - train_mbv3.py[line:201] - INFO: 15:12:58, Epoch 9, Step 130, Loss 2.0389, lr: 2.9444e-03, train_accu 0.7656
+2019-11-03 15:13:05,168 - train_mbv3.py[line:201] - INFO: 15:13:05, Epoch 9, Step 140, Loss 2.2753, lr: 2.9017e-03, train_accu 0.6484
+2019-11-03 15:13:11,966 - train_mbv3.py[line:201] - INFO: 15:13:11, Epoch 9, Step 150, Loss 2.0719, lr: 2.8590e-03, train_accu 0.7422
+2019-11-03 15:13:18,729 - train_mbv3.py[line:201] - INFO: 15:13:18, Epoch 9, Step 160, Loss 2.1643, lr: 2.8162e-03, train_accu 0.6914
+2019-11-03 15:13:25,314 - train_mbv3.py[line:201] - INFO: 15:13:25, Epoch 9, Step 170, Loss 2.0917, lr: 2.7735e-03, train_accu 0.7070
+2019-11-03 15:13:32,087 - train_mbv3.py[line:201] - INFO: 15:13:32, Epoch 9, Step 180, Loss 2.0639, lr: 2.7308e-03, train_accu 0.7227
+2019-11-03 15:13:38,868 - train_mbv3.py[line:201] - INFO: 15:13:38, Epoch 9, Step 190, Loss 2.0560, lr: 2.6880e-03, train_accu 0.7305
+2019-11-03 15:13:42,556 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-1950
+2019-11-03 15:13:42,557 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7066
+2019-11-03 15:13:46,737 - train_mbv3.py[line:229] - INFO: Epoch 9, Global Step 1950, val accuracy: 0.7225 (7225.0/10000.0)
+2019-11-03 15:13:47,752 - train_mbv3.py[line:242] - INFO: Epoch 9, val accuracy improved from 0.6598 to 0.7225, save best model to models/mbv3_small_cifar10_128x128/best/best_0.7225.ckpt.
+2019-11-03 15:13:48,413 - train_mbv3.py[line:201] - INFO: 15:13:48, Epoch 10, Step 0, Loss 2.1452, lr: 2.6667e-03, train_accu 0.7109
+2019-11-03 15:13:55,068 - train_mbv3.py[line:201] - INFO: 15:13:55, Epoch 10, Step 10, Loss 2.0107, lr: 2.6239e-03, train_accu 0.7539
+2019-11-03 15:14:01,744 - train_mbv3.py[line:201] - INFO: 15:14:01, Epoch 10, Step 20, Loss 2.0814, lr: 2.5812e-03, train_accu 0.6992
+2019-11-03 15:14:08,352 - train_mbv3.py[line:201] - INFO: 15:14:08, Epoch 10, Step 30, Loss 2.0964, lr: 2.5385e-03, train_accu 0.7148
+2019-11-03 15:14:14,962 - train_mbv3.py[line:201] - INFO: 15:14:14, Epoch 10, Step 40, Loss 2.0418, lr: 2.4957e-03, train_accu 0.7344
+2019-11-03 15:14:21,623 - train_mbv3.py[line:201] - INFO: 15:14:21, Epoch 10, Step 50, Loss 2.1380, lr: 2.4530e-03, train_accu 0.6836
+2019-11-03 15:14:28,364 - train_mbv3.py[line:201] - INFO: 15:14:28, Epoch 10, Step 60, Loss 2.0307, lr: 2.4103e-03, train_accu 0.7578
+2019-11-03 15:14:35,075 - train_mbv3.py[line:201] - INFO: 15:14:35, Epoch 10, Step 70, Loss 2.0800, lr: 2.3675e-03, train_accu 0.7031
+2019-11-03 15:14:41,850 - train_mbv3.py[line:201] - INFO: 15:14:41, Epoch 10, Step 80, Loss 2.0266, lr: 2.3248e-03, train_accu 0.7266
+2019-11-03 15:14:48,628 - train_mbv3.py[line:201] - INFO: 15:14:48, Epoch 10, Step 90, Loss 1.9581, lr: 2.2821e-03, train_accu 0.7305
+2019-11-03 15:14:55,330 - train_mbv3.py[line:201] - INFO: 15:14:55, Epoch 10, Step 100, Loss 1.9987, lr: 2.2393e-03, train_accu 0.6836
+2019-11-03 15:15:02,148 - train_mbv3.py[line:201] - INFO: 15:15:02, Epoch 10, Step 110, Loss 2.1058, lr: 2.1966e-03, train_accu 0.6953
+2019-11-03 15:15:09,053 - train_mbv3.py[line:201] - INFO: 15:15:09, Epoch 10, Step 120, Loss 2.0254, lr: 2.1538e-03, train_accu 0.7031
+2019-11-03 15:15:15,966 - train_mbv3.py[line:201] - INFO: 15:15:15, Epoch 10, Step 130, Loss 2.0044, lr: 2.1111e-03, train_accu 0.7656
+2019-11-03 15:15:22,664 - train_mbv3.py[line:201] - INFO: 15:15:22, Epoch 10, Step 140, Loss 1.9944, lr: 2.0684e-03, train_accu 0.7266
+2019-11-03 15:15:29,432 - train_mbv3.py[line:201] - INFO: 15:15:29, Epoch 10, Step 150, Loss 2.0309, lr: 2.0256e-03, train_accu 0.6797
+2019-11-03 15:15:36,286 - train_mbv3.py[line:201] - INFO: 15:15:36, Epoch 10, Step 160, Loss 1.9273, lr: 1.9829e-03, train_accu 0.7422
+2019-11-03 15:15:43,062 - train_mbv3.py[line:201] - INFO: 15:15:43, Epoch 10, Step 170, Loss 2.0626, lr: 1.9402e-03, train_accu 0.6914
+2019-11-03 15:15:49,847 - train_mbv3.py[line:201] - INFO: 15:15:49, Epoch 10, Step 180, Loss 1.8474, lr: 1.8974e-03, train_accu 0.7734
+2019-11-03 15:15:56,626 - train_mbv3.py[line:201] - INFO: 15:15:56, Epoch 10, Step 190, Loss 1.8758, lr: 1.8547e-03, train_accu 0.7656
+2019-11-03 15:16:00,342 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-2145
+2019-11-03 15:16:00,344 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7275
+2019-11-03 15:16:04,526 - train_mbv3.py[line:229] - INFO: Epoch 10, Global Step 2145, val accuracy: 0.6701 (6701.0/10000.0)
+2019-11-03 15:16:04,526 - train_mbv3.py[line:242] - INFO: Saturation Epoch 1, val accuracy did not improve from 0.7225.
+2019-11-03 15:16:05,201 - train_mbv3.py[line:201] - INFO: 15:16:05, Epoch 11, Step 0, Loss 1.9399, lr: 1.8333e-03, train_accu 0.7148
+2019-11-03 15:16:11,930 - train_mbv3.py[line:201] - INFO: 15:16:11, Epoch 11, Step 10, Loss 1.8644, lr: 1.7906e-03, train_accu 0.7656
+2019-11-03 15:16:18,744 - train_mbv3.py[line:201] - INFO: 15:16:18, Epoch 11, Step 20, Loss 1.9637, lr: 1.7479e-03, train_accu 0.7227
+2019-11-03 15:16:25,494 - train_mbv3.py[line:201] - INFO: 15:16:25, Epoch 11, Step 30, Loss 1.8602, lr: 1.7051e-03, train_accu 0.7383
+2019-11-03 15:16:32,210 - train_mbv3.py[line:201] - INFO: 15:16:32, Epoch 11, Step 40, Loss 1.9000, lr: 1.6624e-03, train_accu 0.7344
+2019-11-03 15:16:38,811 - train_mbv3.py[line:201] - INFO: 15:16:38, Epoch 11, Step 50, Loss 1.8974, lr: 1.6197e-03, train_accu 0.7109
+2019-11-03 15:16:45,401 - train_mbv3.py[line:201] - INFO: 15:16:45, Epoch 11, Step 60, Loss 1.8080, lr: 1.5769e-03, train_accu 0.7461
+2019-11-03 15:16:52,181 - train_mbv3.py[line:201] - INFO: 15:16:52, Epoch 11, Step 70, Loss 1.8020, lr: 1.5342e-03, train_accu 0.7461
+2019-11-03 15:16:58,869 - train_mbv3.py[line:201] - INFO: 15:16:58, Epoch 11, Step 80, Loss 1.9317, lr: 1.4915e-03, train_accu 0.6875
+2019-11-03 15:17:05,671 - train_mbv3.py[line:201] - INFO: 15:17:05, Epoch 11, Step 90, Loss 1.7530, lr: 1.4487e-03, train_accu 0.7578
+2019-11-03 15:17:12,330 - train_mbv3.py[line:201] - INFO: 15:17:12, Epoch 11, Step 100, Loss 1.8598, lr: 1.4060e-03, train_accu 0.7227
+2019-11-03 15:17:19,092 - train_mbv3.py[line:201] - INFO: 15:17:19, Epoch 11, Step 110, Loss 1.7594, lr: 1.3632e-03, train_accu 0.7812
+2019-11-03 15:17:25,717 - train_mbv3.py[line:201] - INFO: 15:17:25, Epoch 11, Step 120, Loss 1.9429, lr: 1.3205e-03, train_accu 0.7031
+2019-11-03 15:17:32,617 - train_mbv3.py[line:201] - INFO: 15:17:32, Epoch 11, Step 130, Loss 1.7681, lr: 1.2778e-03, train_accu 0.7891
+2019-11-03 15:17:39,410 - train_mbv3.py[line:201] - INFO: 15:17:39, Epoch 11, Step 140, Loss 1.7966, lr: 1.2350e-03, train_accu 0.7305
+2019-11-03 15:17:46,304 - train_mbv3.py[line:201] - INFO: 15:17:46, Epoch 11, Step 150, Loss 1.7716, lr: 1.1923e-03, train_accu 0.7500
+2019-11-03 15:17:52,986 - train_mbv3.py[line:201] - INFO: 15:17:52, Epoch 11, Step 160, Loss 1.7501, lr: 1.1496e-03, train_accu 0.7422
+2019-11-03 15:17:59,778 - train_mbv3.py[line:201] - INFO: 15:17:59, Epoch 11, Step 170, Loss 1.7838, lr: 1.1068e-03, train_accu 0.7578
+2019-11-03 15:18:06,511 - train_mbv3.py[line:201] - INFO: 15:18:06, Epoch 11, Step 180, Loss 1.7161, lr: 1.0641e-03, train_accu 0.7461
+2019-11-03 15:18:13,405 - train_mbv3.py[line:201] - INFO: 15:18:13, Epoch 11, Step 190, Loss 1.6370, lr: 1.0214e-03, train_accu 0.8125
+2019-11-03 15:18:17,139 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-2340
+2019-11-03 15:18:17,141 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7440
+2019-11-03 15:18:21,228 - train_mbv3.py[line:229] - INFO: Epoch 11, Global Step 2340, val accuracy: 0.7497 (7497.0/10000.0)
+2019-11-03 15:18:22,246 - train_mbv3.py[line:242] - INFO: Epoch 11, val accuracy improved from 0.7225 to 0.7497, save best model to models/mbv3_small_cifar10_128x128/best/best_0.7497.ckpt.
+2019-11-03 15:18:22,919 - train_mbv3.py[line:201] - INFO: 15:18:22, Epoch 12, Step 0, Loss 1.6846, lr: 1.0000e-03, train_accu 0.7812
+2019-11-03 15:18:29,687 - train_mbv3.py[line:201] - INFO: 15:18:29, Epoch 12, Step 10, Loss 1.7362, lr: 1.0214e-03, train_accu 0.7539
+2019-11-03 15:18:36,379 - train_mbv3.py[line:201] - INFO: 15:18:36, Epoch 12, Step 20, Loss 1.5548, lr: 1.0427e-03, train_accu 0.8242
+2019-11-03 15:18:43,154 - train_mbv3.py[line:201] - INFO: 15:18:43, Epoch 12, Step 30, Loss 1.7990, lr: 1.0641e-03, train_accu 0.7227
+2019-11-03 15:18:49,962 - train_mbv3.py[line:201] - INFO: 15:18:49, Epoch 12, Step 40, Loss 1.7587, lr: 1.0855e-03, train_accu 0.7578
+2019-11-03 15:18:56,822 - train_mbv3.py[line:201] - INFO: 15:18:56, Epoch 12, Step 50, Loss 1.6600, lr: 1.1068e-03, train_accu 0.7656
+2019-11-03 15:19:03,696 - train_mbv3.py[line:201] - INFO: 15:19:03, Epoch 12, Step 60, Loss 1.6743, lr: 1.1282e-03, train_accu 0.7266
+2019-11-03 15:19:10,581 - train_mbv3.py[line:201] - INFO: 15:19:10, Epoch 12, Step 70, Loss 1.7709, lr: 1.1496e-03, train_accu 0.7266
+2019-11-03 15:19:17,344 - train_mbv3.py[line:201] - INFO: 15:19:17, Epoch 12, Step 80, Loss 1.7754, lr: 1.1709e-03, train_accu 0.6953
+2019-11-03 15:19:23,991 - train_mbv3.py[line:201] - INFO: 15:19:23, Epoch 12, Step 90, Loss 1.7349, lr: 1.1923e-03, train_accu 0.7344
+2019-11-03 15:19:30,825 - train_mbv3.py[line:201] - INFO: 15:19:30, Epoch 12, Step 100, Loss 1.7445, lr: 1.2137e-03, train_accu 0.7539
+2019-11-03 15:19:37,543 - train_mbv3.py[line:201] - INFO: 15:19:37, Epoch 12, Step 110, Loss 1.5932, lr: 1.2350e-03, train_accu 0.7773
+2019-11-03 15:19:44,423 - train_mbv3.py[line:201] - INFO: 15:19:44, Epoch 12, Step 120, Loss 1.6190, lr: 1.2564e-03, train_accu 0.7930
+2019-11-03 15:19:51,141 - train_mbv3.py[line:201] - INFO: 15:19:51, Epoch 12, Step 130, Loss 1.6738, lr: 1.2778e-03, train_accu 0.7539
+2019-11-03 15:19:57,911 - train_mbv3.py[line:201] - INFO: 15:19:57, Epoch 12, Step 140, Loss 1.6275, lr: 1.2991e-03, train_accu 0.7383
+2019-11-03 15:20:04,784 - train_mbv3.py[line:201] - INFO: 15:20:04, Epoch 12, Step 150, Loss 1.7050, lr: 1.3205e-03, train_accu 0.7148
+2019-11-03 15:20:11,555 - train_mbv3.py[line:201] - INFO: 15:20:11, Epoch 12, Step 160, Loss 1.6563, lr: 1.3419e-03, train_accu 0.7383
+2019-11-03 15:20:18,286 - train_mbv3.py[line:201] - INFO: 15:20:18, Epoch 12, Step 170, Loss 1.7222, lr: 1.3632e-03, train_accu 0.7578
+2019-11-03 15:20:25,016 - train_mbv3.py[line:201] - INFO: 15:20:25, Epoch 12, Step 180, Loss 1.5527, lr: 1.3846e-03, train_accu 0.7734
+2019-11-03 15:20:31,834 - train_mbv3.py[line:201] - INFO: 15:20:31, Epoch 12, Step 190, Loss 1.5866, lr: 1.4060e-03, train_accu 0.7852
+2019-11-03 15:20:35,662 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-2535
+2019-11-03 15:20:35,664 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7524
+2019-11-03 15:20:39,701 - train_mbv3.py[line:229] - INFO: Epoch 12, Global Step 2535, val accuracy: 0.7409 (7409.0/10000.0)
+2019-11-03 15:20:39,701 - train_mbv3.py[line:242] - INFO: Saturation Epoch 1, val accuracy did not improve from 0.7497.
+2019-11-03 15:20:40,415 - train_mbv3.py[line:201] - INFO: 15:20:40, Epoch 13, Step 0, Loss 1.5711, lr: 1.4167e-03, train_accu 0.7773
+2019-11-03 15:20:47,186 - train_mbv3.py[line:201] - INFO: 15:20:47, Epoch 13, Step 10, Loss 1.5581, lr: 1.4380e-03, train_accu 0.7656
+2019-11-03 15:20:54,129 - train_mbv3.py[line:201] - INFO: 15:20:54, Epoch 13, Step 20, Loss 1.7071, lr: 1.4594e-03, train_accu 0.7227
+2019-11-03 15:21:00,943 - train_mbv3.py[line:201] - INFO: 15:21:00, Epoch 13, Step 30, Loss 1.7059, lr: 1.4808e-03, train_accu 0.6992
+2019-11-03 15:21:07,694 - train_mbv3.py[line:201] - INFO: 15:21:07, Epoch 13, Step 40, Loss 1.6351, lr: 1.5021e-03, train_accu 0.7383
+2019-11-03 15:21:14,507 - train_mbv3.py[line:201] - INFO: 15:21:14, Epoch 13, Step 50, Loss 1.6666, lr: 1.5235e-03, train_accu 0.7266
+2019-11-03 15:21:21,181 - train_mbv3.py[line:201] - INFO: 15:21:21, Epoch 13, Step 60, Loss 1.5172, lr: 1.5449e-03, train_accu 0.7852
+2019-11-03 15:21:28,057 - train_mbv3.py[line:201] - INFO: 15:21:28, Epoch 13, Step 70, Loss 1.7104, lr: 1.5662e-03, train_accu 0.7305
+2019-11-03 15:21:34,891 - train_mbv3.py[line:201] - INFO: 15:21:34, Epoch 13, Step 80, Loss 1.5312, lr: 1.5876e-03, train_accu 0.7539
+2019-11-03 15:21:41,574 - train_mbv3.py[line:201] - INFO: 15:21:41, Epoch 13, Step 90, Loss 1.5798, lr: 1.6090e-03, train_accu 0.7539
+2019-11-03 15:21:48,395 - train_mbv3.py[line:201] - INFO: 15:21:48, Epoch 13, Step 100, Loss 1.6134, lr: 1.6303e-03, train_accu 0.7383
+2019-11-03 15:21:55,084 - train_mbv3.py[line:201] - INFO: 15:21:55, Epoch 13, Step 110, Loss 1.5794, lr: 1.6517e-03, train_accu 0.7656
+2019-11-03 15:22:01,771 - train_mbv3.py[line:201] - INFO: 15:22:01, Epoch 13, Step 120, Loss 1.5933, lr: 1.6731e-03, train_accu 0.7617
+2019-11-03 15:22:08,387 - train_mbv3.py[line:201] - INFO: 15:22:08, Epoch 13, Step 130, Loss 1.6184, lr: 1.6944e-03, train_accu 0.7305
+2019-11-03 15:22:15,187 - train_mbv3.py[line:201] - INFO: 15:22:15, Epoch 13, Step 140, Loss 1.6516, lr: 1.7158e-03, train_accu 0.7188
+2019-11-03 15:22:21,996 - train_mbv3.py[line:201] - INFO: 15:22:21, Epoch 13, Step 150, Loss 1.4175, lr: 1.7372e-03, train_accu 0.8047
+2019-11-03 15:22:28,639 - train_mbv3.py[line:201] - INFO: 15:22:28, Epoch 13, Step 160, Loss 1.6890, lr: 1.7585e-03, train_accu 0.6914
+2019-11-03 15:22:35,302 - train_mbv3.py[line:201] - INFO: 15:22:35, Epoch 13, Step 170, Loss 1.6763, lr: 1.7799e-03, train_accu 0.7109
+2019-11-03 15:22:42,341 - train_mbv3.py[line:201] - INFO: 15:22:42, Epoch 13, Step 180, Loss 1.5269, lr: 1.8013e-03, train_accu 0.7461
+2019-11-03 15:22:49,131 - train_mbv3.py[line:201] - INFO: 15:22:49, Epoch 13, Step 190, Loss 1.5476, lr: 1.8226e-03, train_accu 0.7578
+2019-11-03 15:22:52,813 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-2730
+2019-11-03 15:22:52,814 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7538
+2019-11-03 15:22:56,906 - train_mbv3.py[line:229] - INFO: Epoch 13, Global Step 2730, val accuracy: 0.7578 (7578.0/10000.0)
+2019-11-03 15:22:57,935 - train_mbv3.py[line:242] - INFO: Epoch 13, val accuracy improved from 0.7497 to 0.7578, save best model to models/mbv3_small_cifar10_128x128/best/best_0.7578.ckpt.
+2019-11-03 15:22:58,604 - train_mbv3.py[line:201] - INFO: 15:22:58, Epoch 14, Step 0, Loss 1.6238, lr: 1.8333e-03, train_accu 0.7422
+2019-11-03 15:23:05,305 - train_mbv3.py[line:201] - INFO: 15:23:05, Epoch 14, Step 10, Loss 1.5122, lr: 1.8547e-03, train_accu 0.7539
+2019-11-03 15:23:11,965 - train_mbv3.py[line:201] - INFO: 15:23:11, Epoch 14, Step 20, Loss 1.5875, lr: 1.8761e-03, train_accu 0.7812
+2019-11-03 15:23:18,608 - train_mbv3.py[line:201] - INFO: 15:23:18, Epoch 14, Step 30, Loss 1.5672, lr: 1.8974e-03, train_accu 0.7930
+2019-11-03 15:23:25,294 - train_mbv3.py[line:201] - INFO: 15:23:25, Epoch 14, Step 40, Loss 1.5241, lr: 1.9188e-03, train_accu 0.7812
+2019-11-03 15:23:31,981 - train_mbv3.py[line:201] - INFO: 15:23:31, Epoch 14, Step 50, Loss 1.5038, lr: 1.9402e-03, train_accu 0.7812
+2019-11-03 15:23:38,869 - train_mbv3.py[line:201] - INFO: 15:23:38, Epoch 14, Step 60, Loss 1.6181, lr: 1.9615e-03, train_accu 0.7500
+2019-11-03 15:23:45,603 - train_mbv3.py[line:201] - INFO: 15:23:45, Epoch 14, Step 70, Loss 1.5987, lr: 1.9829e-03, train_accu 0.7461
+2019-11-03 15:23:52,398 - train_mbv3.py[line:201] - INFO: 15:23:52, Epoch 14, Step 80, Loss 1.6737, lr: 2.0043e-03, train_accu 0.7461
+2019-11-03 15:23:59,182 - train_mbv3.py[line:201] - INFO: 15:23:59, Epoch 14, Step 90, Loss 1.5602, lr: 2.0256e-03, train_accu 0.7305
+2019-11-03 15:24:06,037 - train_mbv3.py[line:201] - INFO: 15:24:06, Epoch 14, Step 100, Loss 1.6142, lr: 2.0470e-03, train_accu 0.7344
+2019-11-03 15:24:12,907 - train_mbv3.py[line:201] - INFO: 15:24:12, Epoch 14, Step 110, Loss 1.7198, lr: 2.0684e-03, train_accu 0.6797
+2019-11-03 15:24:19,823 - train_mbv3.py[line:201] - INFO: 15:24:19, Epoch 14, Step 120, Loss 1.5375, lr: 2.0897e-03, train_accu 0.7734
+2019-11-03 15:24:26,558 - train_mbv3.py[line:201] - INFO: 15:24:26, Epoch 14, Step 130, Loss 1.6529, lr: 2.1111e-03, train_accu 0.7031
+2019-11-03 15:24:33,312 - train_mbv3.py[line:201] - INFO: 15:24:33, Epoch 14, Step 140, Loss 1.6109, lr: 2.1325e-03, train_accu 0.7539
+2019-11-03 15:24:40,325 - train_mbv3.py[line:201] - INFO: 15:24:40, Epoch 14, Step 150, Loss 1.6529, lr: 2.1538e-03, train_accu 0.7109
+2019-11-03 15:24:47,280 - train_mbv3.py[line:201] - INFO: 15:24:47, Epoch 14, Step 160, Loss 1.6614, lr: 2.1752e-03, train_accu 0.7383
+2019-11-03 15:24:54,205 - train_mbv3.py[line:201] - INFO: 15:24:54, Epoch 14, Step 170, Loss 1.6762, lr: 2.1966e-03, train_accu 0.7266
+2019-11-03 15:25:01,037 - train_mbv3.py[line:201] - INFO: 15:25:01, Epoch 14, Step 180, Loss 1.7024, lr: 2.2179e-03, train_accu 0.7148
+2019-11-03 15:25:07,817 - train_mbv3.py[line:201] - INFO: 15:25:07, Epoch 14, Step 190, Loss 1.5145, lr: 2.2393e-03, train_accu 0.7578
+2019-11-03 15:25:11,671 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-2925
+2019-11-03 15:25:11,672 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7467
+2019-11-03 15:25:15,823 - train_mbv3.py[line:229] - INFO: Epoch 14, Global Step 2925, val accuracy: 0.7241 (7241.0/10000.0)
+2019-11-03 15:25:15,823 - train_mbv3.py[line:242] - INFO: Saturation Epoch 1, val accuracy did not improve from 0.7578.
+2019-11-03 15:25:16,508 - train_mbv3.py[line:201] - INFO: 15:25:16, Epoch 15, Step 0, Loss 1.6528, lr: 2.2500e-03, train_accu 0.7344
+2019-11-03 15:25:23,170 - train_mbv3.py[line:201] - INFO: 15:25:23, Epoch 15, Step 10, Loss 1.5368, lr: 2.2714e-03, train_accu 0.7578
+2019-11-03 15:25:30,139 - train_mbv3.py[line:201] - INFO: 15:25:30, Epoch 15, Step 20, Loss 1.5549, lr: 2.2927e-03, train_accu 0.7734
+2019-11-03 15:25:37,186 - train_mbv3.py[line:201] - INFO: 15:25:37, Epoch 15, Step 30, Loss 1.5106, lr: 2.3141e-03, train_accu 0.7773
+2019-11-03 15:25:44,006 - train_mbv3.py[line:201] - INFO: 15:25:44, Epoch 15, Step 40, Loss 1.5603, lr: 2.3355e-03, train_accu 0.7656
+2019-11-03 15:25:50,656 - train_mbv3.py[line:201] - INFO: 15:25:50, Epoch 15, Step 50, Loss 1.5760, lr: 2.3568e-03, train_accu 0.7422
+2019-11-03 15:25:57,436 - train_mbv3.py[line:201] - INFO: 15:25:57, Epoch 15, Step 60, Loss 1.6448, lr: 2.3782e-03, train_accu 0.7344
+2019-11-03 15:26:04,179 - train_mbv3.py[line:201] - INFO: 15:26:04, Epoch 15, Step 70, Loss 1.6840, lr: 2.3996e-03, train_accu 0.6953
+2019-11-03 15:26:10,991 - train_mbv3.py[line:201] - INFO: 15:26:10, Epoch 15, Step 80, Loss 1.7168, lr: 2.4209e-03, train_accu 0.7148
+2019-11-03 15:26:17,696 - train_mbv3.py[line:201] - INFO: 15:26:17, Epoch 15, Step 90, Loss 1.7223, lr: 2.4423e-03, train_accu 0.7070
+2019-11-03 15:26:24,431 - train_mbv3.py[line:201] - INFO: 15:26:24, Epoch 15, Step 100, Loss 1.6535, lr: 2.4637e-03, train_accu 0.7539
+2019-11-03 15:26:31,081 - train_mbv3.py[line:201] - INFO: 15:26:31, Epoch 15, Step 110, Loss 1.6740, lr: 2.4850e-03, train_accu 0.7227
+2019-11-03 15:26:37,827 - train_mbv3.py[line:201] - INFO: 15:26:37, Epoch 15, Step 120, Loss 1.6562, lr: 2.5064e-03, train_accu 0.7461
+2019-11-03 15:26:44,457 - train_mbv3.py[line:201] - INFO: 15:26:44, Epoch 15, Step 130, Loss 1.6244, lr: 2.5278e-03, train_accu 0.7422
+2019-11-03 15:26:51,227 - train_mbv3.py[line:201] - INFO: 15:26:51, Epoch 15, Step 140, Loss 1.6023, lr: 2.5491e-03, train_accu 0.7383
+2019-11-03 15:26:58,094 - train_mbv3.py[line:201] - INFO: 15:26:58, Epoch 15, Step 150, Loss 1.6208, lr: 2.5705e-03, train_accu 0.7539
+2019-11-03 15:27:04,996 - train_mbv3.py[line:201] - INFO: 15:27:04, Epoch 15, Step 160, Loss 1.8633, lr: 2.5919e-03, train_accu 0.6836
+2019-11-03 15:27:11,741 - train_mbv3.py[line:201] - INFO: 15:27:11, Epoch 15, Step 170, Loss 1.6250, lr: 2.6132e-03, train_accu 0.7422
+2019-11-03 15:27:18,622 - train_mbv3.py[line:201] - INFO: 15:27:18, Epoch 15, Step 180, Loss 1.7532, lr: 2.6346e-03, train_accu 0.7109
+2019-11-03 15:27:25,482 - train_mbv3.py[line:201] - INFO: 15:27:25, Epoch 15, Step 190, Loss 1.5747, lr: 2.6560e-03, train_accu 0.7539
+2019-11-03 15:27:29,232 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-3120
+2019-11-03 15:27:29,233 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7421
+2019-11-03 15:27:33,334 - train_mbv3.py[line:229] - INFO: Epoch 15, Global Step 3120, val accuracy: 0.7264 (7264.0/10000.0)
+2019-11-03 15:27:33,334 - train_mbv3.py[line:242] - INFO: Saturation Epoch 2, val accuracy did not improve from 0.7578.
+2019-11-03 15:27:34,046 - train_mbv3.py[line:201] - INFO: 15:27:34, Epoch 16, Step 0, Loss 1.6902, lr: 2.6667e-03, train_accu 0.7148
+2019-11-03 15:27:40,897 - train_mbv3.py[line:201] - INFO: 15:27:40, Epoch 16, Step 10, Loss 1.6340, lr: 2.6880e-03, train_accu 0.7500
+2019-11-03 15:27:47,878 - train_mbv3.py[line:201] - INFO: 15:27:47, Epoch 16, Step 20, Loss 1.7179, lr: 2.7094e-03, train_accu 0.7109
+2019-11-03 15:27:54,602 - train_mbv3.py[line:201] - INFO: 15:27:54, Epoch 16, Step 30, Loss 1.7010, lr: 2.7308e-03, train_accu 0.7266
+2019-11-03 15:28:01,446 - train_mbv3.py[line:201] - INFO: 15:28:01, Epoch 16, Step 40, Loss 1.6615, lr: 2.7521e-03, train_accu 0.7812
+2019-11-03 15:28:08,229 - train_mbv3.py[line:201] - INFO: 15:28:08, Epoch 16, Step 50, Loss 1.6829, lr: 2.7735e-03, train_accu 0.7383
+2019-11-03 15:28:15,097 - train_mbv3.py[line:201] - INFO: 15:28:15, Epoch 16, Step 60, Loss 1.7027, lr: 2.7949e-03, train_accu 0.7383
+2019-11-03 15:28:21,944 - train_mbv3.py[line:201] - INFO: 15:28:21, Epoch 16, Step 70, Loss 1.7592, lr: 2.8162e-03, train_accu 0.7188
+2019-11-03 15:28:28,814 - train_mbv3.py[line:201] - INFO: 15:28:28, Epoch 16, Step 80, Loss 1.6596, lr: 2.8376e-03, train_accu 0.7930
+2019-11-03 15:28:35,539 - train_mbv3.py[line:201] - INFO: 15:28:35, Epoch 16, Step 90, Loss 1.6371, lr: 2.8590e-03, train_accu 0.7695
+2019-11-03 15:28:42,344 - train_mbv3.py[line:201] - INFO: 15:28:42, Epoch 16, Step 100, Loss 1.7333, lr: 2.8803e-03, train_accu 0.7266
+2019-11-03 15:28:49,129 - train_mbv3.py[line:201] - INFO: 15:28:49, Epoch 16, Step 110, Loss 1.5916, lr: 2.9017e-03, train_accu 0.7773
+2019-11-03 15:28:55,893 - train_mbv3.py[line:201] - INFO: 15:28:55, Epoch 16, Step 120, Loss 1.7408, lr: 2.9231e-03, train_accu 0.7266
+2019-11-03 15:29:02,565 - train_mbv3.py[line:201] - INFO: 15:29:02, Epoch 16, Step 130, Loss 1.6644, lr: 2.9444e-03, train_accu 0.7461
+2019-11-03 15:29:09,216 - train_mbv3.py[line:201] - INFO: 15:29:09, Epoch 16, Step 140, Loss 1.7191, lr: 2.9658e-03, train_accu 0.7617
+2019-11-03 15:29:15,899 - train_mbv3.py[line:201] - INFO: 15:29:15, Epoch 16, Step 150, Loss 1.7547, lr: 2.9872e-03, train_accu 0.7383
+2019-11-03 15:29:22,550 - train_mbv3.py[line:201] - INFO: 15:29:22, Epoch 16, Step 160, Loss 1.7594, lr: 3.0085e-03, train_accu 0.7344
+2019-11-03 15:29:29,254 - train_mbv3.py[line:201] - INFO: 15:29:29, Epoch 16, Step 170, Loss 1.6839, lr: 3.0299e-03, train_accu 0.7734
+2019-11-03 15:29:36,004 - train_mbv3.py[line:201] - INFO: 15:29:35, Epoch 16, Step 180, Loss 1.8137, lr: 3.0513e-03, train_accu 0.7305
+2019-11-03 15:29:42,825 - train_mbv3.py[line:201] - INFO: 15:29:42, Epoch 16, Step 190, Loss 1.6846, lr: 3.0726e-03, train_accu 0.7578
+2019-11-03 15:29:46,525 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-3315
+2019-11-03 15:29:46,527 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7401
+2019-11-03 15:29:50,694 - train_mbv3.py[line:229] - INFO: Epoch 16, Global Step 3315, val accuracy: 0.6698 (6698.0/10000.0)
+2019-11-03 15:29:50,694 - train_mbv3.py[line:242] - INFO: Saturation Epoch 3, val accuracy did not improve from 0.7578.
+2019-11-03 15:29:51,393 - train_mbv3.py[line:201] - INFO: 15:29:51, Epoch 17, Step 0, Loss 1.7913, lr: 3.0833e-03, train_accu 0.6953
+2019-11-03 15:29:58,099 - train_mbv3.py[line:201] - INFO: 15:29:58, Epoch 17, Step 10, Loss 1.7656, lr: 3.1047e-03, train_accu 0.7305
+2019-11-03 15:30:04,965 - train_mbv3.py[line:201] - INFO: 15:30:04, Epoch 17, Step 20, Loss 1.7094, lr: 3.1261e-03, train_accu 0.7422
+2019-11-03 15:30:11,737 - train_mbv3.py[line:201] - INFO: 15:30:11, Epoch 17, Step 30, Loss 1.8143, lr: 3.1474e-03, train_accu 0.7188
+2019-11-03 15:30:18,340 - train_mbv3.py[line:201] - INFO: 15:30:18, Epoch 17, Step 40, Loss 1.7769, lr: 3.1688e-03, train_accu 0.7266
+2019-11-03 15:30:25,139 - train_mbv3.py[line:201] - INFO: 15:30:25, Epoch 17, Step 50, Loss 1.9941, lr: 3.1902e-03, train_accu 0.6719
+2019-11-03 15:30:31,899 - train_mbv3.py[line:201] - INFO: 15:30:31, Epoch 17, Step 60, Loss 1.9025, lr: 3.2115e-03, train_accu 0.7070
+2019-11-03 15:30:38,667 - train_mbv3.py[line:201] - INFO: 15:30:38, Epoch 17, Step 70, Loss 1.7514, lr: 3.2329e-03, train_accu 0.7539
+2019-11-03 15:30:45,495 - train_mbv3.py[line:201] - INFO: 15:30:45, Epoch 17, Step 80, Loss 1.8531, lr: 3.2543e-03, train_accu 0.7422
+2019-11-03 15:30:52,277 - train_mbv3.py[line:201] - INFO: 15:30:52, Epoch 17, Step 90, Loss 1.7493, lr: 3.2756e-03, train_accu 0.7695
+2019-11-03 15:30:59,135 - train_mbv3.py[line:201] - INFO: 15:30:59, Epoch 17, Step 100, Loss 1.9436, lr: 3.2970e-03, train_accu 0.6992
+2019-11-03 15:31:05,914 - train_mbv3.py[line:201] - INFO: 15:31:05, Epoch 17, Step 110, Loss 1.9094, lr: 3.3184e-03, train_accu 0.7109
+2019-11-03 15:31:12,774 - train_mbv3.py[line:201] - INFO: 15:31:12, Epoch 17, Step 120, Loss 1.7537, lr: 3.3397e-03, train_accu 0.7578
+2019-11-03 15:31:19,504 - train_mbv3.py[line:201] - INFO: 15:31:19, Epoch 17, Step 130, Loss 1.8452, lr: 3.3611e-03, train_accu 0.7695
+2019-11-03 15:31:26,234 - train_mbv3.py[line:201] - INFO: 15:31:26, Epoch 17, Step 140, Loss 1.9085, lr: 3.3825e-03, train_accu 0.7500
+2019-11-03 15:31:33,056 - train_mbv3.py[line:201] - INFO: 15:31:33, Epoch 17, Step 150, Loss 1.8167, lr: 3.4038e-03, train_accu 0.7070
+2019-11-03 15:31:39,914 - train_mbv3.py[line:201] - INFO: 15:31:39, Epoch 17, Step 160, Loss 1.8115, lr: 3.4252e-03, train_accu 0.7422
+2019-11-03 15:31:46,686 - train_mbv3.py[line:201] - INFO: 15:31:46, Epoch 17, Step 170, Loss 1.7724, lr: 3.4466e-03, train_accu 0.7734
+2019-11-03 15:31:53,606 - train_mbv3.py[line:201] - INFO: 15:31:53, Epoch 17, Step 180, Loss 1.8832, lr: 3.4679e-03, train_accu 0.7578
+2019-11-03 15:32:00,441 - train_mbv3.py[line:201] - INFO: 15:32:00, Epoch 17, Step 190, Loss 1.8741, lr: 3.4893e-03, train_accu 0.7422
+2019-11-03 15:32:04,193 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-3510
+2019-11-03 15:32:04,195 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7411
+2019-11-03 15:32:08,315 - train_mbv3.py[line:229] - INFO: Epoch 17, Global Step 3510, val accuracy: 0.5818 (5818.0/10000.0)
+2019-11-03 15:32:08,315 - train_mbv3.py[line:242] - INFO: Saturation Epoch 4, val accuracy did not improve from 0.7578.
+2019-11-03 15:32:09,001 - train_mbv3.py[line:201] - INFO: 15:32:08, Epoch 18, Step 0, Loss 1.8357, lr: 3.5000e-03, train_accu 0.7812
+2019-11-03 15:32:15,801 - train_mbv3.py[line:201] - INFO: 15:32:15, Epoch 18, Step 10, Loss 1.9726, lr: 3.4786e-03, train_accu 0.6992
+2019-11-03 15:32:22,775 - train_mbv3.py[line:201] - INFO: 15:32:22, Epoch 18, Step 20, Loss 1.7718, lr: 3.4573e-03, train_accu 0.7773
+2019-11-03 15:32:29,635 - train_mbv3.py[line:201] - INFO: 15:32:29, Epoch 18, Step 30, Loss 1.8836, lr: 3.4359e-03, train_accu 0.7344
+2019-11-03 15:32:36,227 - train_mbv3.py[line:201] - INFO: 15:32:36, Epoch 18, Step 40, Loss 1.8327, lr: 3.4145e-03, train_accu 0.7461
+2019-11-03 15:32:42,825 - train_mbv3.py[line:201] - INFO: 15:32:42, Epoch 18, Step 50, Loss 1.8323, lr: 3.3932e-03, train_accu 0.7461
+2019-11-03 15:32:49,493 - train_mbv3.py[line:201] - INFO: 15:32:49, Epoch 18, Step 60, Loss 1.8679, lr: 3.3718e-03, train_accu 0.7344
+2019-11-03 15:32:56,271 - train_mbv3.py[line:201] - INFO: 15:32:56, Epoch 18, Step 70, Loss 1.8299, lr: 3.3504e-03, train_accu 0.7773
+2019-11-03 15:33:03,012 - train_mbv3.py[line:201] - INFO: 15:33:03, Epoch 18, Step 80, Loss 1.8344, lr: 3.3291e-03, train_accu 0.7773
+2019-11-03 15:33:09,592 - train_mbv3.py[line:201] - INFO: 15:33:09, Epoch 18, Step 90, Loss 1.9903, lr: 3.3077e-03, train_accu 0.7070
+2019-11-03 15:33:16,350 - train_mbv3.py[line:201] - INFO: 15:33:16, Epoch 18, Step 100, Loss 1.8896, lr: 3.2863e-03, train_accu 0.7852
+2019-11-03 15:33:23,014 - train_mbv3.py[line:201] - INFO: 15:33:23, Epoch 18, Step 110, Loss 1.8298, lr: 3.2650e-03, train_accu 0.7539
+2019-11-03 15:33:29,765 - train_mbv3.py[line:201] - INFO: 15:33:29, Epoch 18, Step 120, Loss 1.8678, lr: 3.2436e-03, train_accu 0.7227
+2019-11-03 15:33:36,559 - train_mbv3.py[line:201] - INFO: 15:33:36, Epoch 18, Step 130, Loss 1.7843, lr: 3.2222e-03, train_accu 0.7773
+2019-11-03 15:33:43,287 - train_mbv3.py[line:201] - INFO: 15:33:43, Epoch 18, Step 140, Loss 1.8958, lr: 3.2009e-03, train_accu 0.7500
+2019-11-03 15:33:50,131 - train_mbv3.py[line:201] - INFO: 15:33:50, Epoch 18, Step 150, Loss 1.8860, lr: 3.1795e-03, train_accu 0.7383
+2019-11-03 15:33:56,831 - train_mbv3.py[line:201] - INFO: 15:33:56, Epoch 18, Step 160, Loss 1.9429, lr: 3.1581e-03, train_accu 0.7500
+2019-11-03 15:34:03,601 - train_mbv3.py[line:201] - INFO: 15:34:03, Epoch 18, Step 170, Loss 1.9098, lr: 3.1368e-03, train_accu 0.7344
+2019-11-03 15:34:10,382 - train_mbv3.py[line:201] - INFO: 15:34:10, Epoch 18, Step 180, Loss 1.7864, lr: 3.1154e-03, train_accu 0.7930
+2019-11-03 15:34:17,188 - train_mbv3.py[line:201] - INFO: 15:34:17, Epoch 18, Step 190, Loss 1.9088, lr: 3.0940e-03, train_accu 0.7383
+2019-11-03 15:34:20,879 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-3705
+2019-11-03 15:34:20,880 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7465
+2019-11-03 15:34:25,105 - train_mbv3.py[line:229] - INFO: Epoch 18, Global Step 3705, val accuracy: 0.6791 (6791.0/10000.0)
+2019-11-03 15:34:25,106 - train_mbv3.py[line:242] - INFO: Saturation Epoch 5, val accuracy did not improve from 0.7578.
+2019-11-03 15:34:25,787 - train_mbv3.py[line:201] - INFO: 15:34:25, Epoch 19, Step 0, Loss 1.8872, lr: 3.0833e-03, train_accu 0.7578
+2019-11-03 15:34:32,474 - train_mbv3.py[line:201] - INFO: 15:34:32, Epoch 19, Step 10, Loss 1.7802, lr: 3.0620e-03, train_accu 0.7969
+2019-11-03 15:34:39,133 - train_mbv3.py[line:201] - INFO: 15:34:39, Epoch 19, Step 20, Loss 1.9046, lr: 3.0406e-03, train_accu 0.7734
+2019-11-03 15:34:45,935 - train_mbv3.py[line:201] - INFO: 15:34:45, Epoch 19, Step 30, Loss 1.8214, lr: 3.0192e-03, train_accu 0.7812
+2019-11-03 15:34:52,691 - train_mbv3.py[line:201] - INFO: 15:34:52, Epoch 19, Step 40, Loss 1.9662, lr: 2.9979e-03, train_accu 0.6953
+2019-11-03 15:34:59,604 - train_mbv3.py[line:201] - INFO: 15:34:59, Epoch 19, Step 50, Loss 1.8521, lr: 2.9765e-03, train_accu 0.7695
+2019-11-03 15:35:06,273 - train_mbv3.py[line:201] - INFO: 15:35:06, Epoch 19, Step 60, Loss 1.9287, lr: 2.9551e-03, train_accu 0.7266
+2019-11-03 15:35:12,979 - train_mbv3.py[line:201] - INFO: 15:35:12, Epoch 19, Step 70, Loss 1.9028, lr: 2.9338e-03, train_accu 0.7227
+2019-11-03 15:35:19,558 - train_mbv3.py[line:201] - INFO: 15:35:19, Epoch 19, Step 80, Loss 1.8630, lr: 2.9124e-03, train_accu 0.7695
+2019-11-03 15:35:26,281 - train_mbv3.py[line:201] - INFO: 15:35:26, Epoch 19, Step 90, Loss 1.8402, lr: 2.8910e-03, train_accu 0.7617
+2019-11-03 15:35:33,107 - train_mbv3.py[line:201] - INFO: 15:35:33, Epoch 19, Step 100, Loss 1.8934, lr: 2.8697e-03, train_accu 0.7344
+2019-11-03 15:35:39,855 - train_mbv3.py[line:201] - INFO: 15:35:39, Epoch 19, Step 110, Loss 1.7882, lr: 2.8483e-03, train_accu 0.8008
+2019-11-03 15:35:46,661 - train_mbv3.py[line:201] - INFO: 15:35:46, Epoch 19, Step 120, Loss 1.9790, lr: 2.8269e-03, train_accu 0.7422
+2019-11-03 15:35:53,486 - train_mbv3.py[line:201] - INFO: 15:35:53, Epoch 19, Step 130, Loss 1.8891, lr: 2.8056e-03, train_accu 0.7461
+2019-11-03 15:36:00,124 - train_mbv3.py[line:201] - INFO: 15:36:00, Epoch 19, Step 140, Loss 1.7764, lr: 2.7842e-03, train_accu 0.7891
+2019-11-03 15:36:07,007 - train_mbv3.py[line:201] - INFO: 15:36:07, Epoch 19, Step 150, Loss 1.9150, lr: 2.7628e-03, train_accu 0.7148
+2019-11-03 15:36:13,796 - train_mbv3.py[line:201] - INFO: 15:36:13, Epoch 19, Step 160, Loss 1.8704, lr: 2.7415e-03, train_accu 0.7461
+2019-11-03 15:36:20,795 - train_mbv3.py[line:201] - INFO: 15:36:20, Epoch 19, Step 170, Loss 1.8574, lr: 2.7201e-03, train_accu 0.7109
+2019-11-03 15:36:27,726 - train_mbv3.py[line:201] - INFO: 15:36:27, Epoch 19, Step 180, Loss 1.9041, lr: 2.6987e-03, train_accu 0.7188
+2019-11-03 15:36:34,599 - train_mbv3.py[line:201] - INFO: 15:36:34, Epoch 19, Step 190, Loss 1.8529, lr: 2.6774e-03, train_accu 0.7578
+2019-11-03 15:36:38,255 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-3900
+2019-11-03 15:36:38,256 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7579
+2019-11-03 15:36:42,373 - train_mbv3.py[line:229] - INFO: Epoch 19, Global Step 3900, val accuracy: 0.7465 (7465.0/10000.0)
+2019-11-03 15:36:42,373 - train_mbv3.py[line:242] - INFO: Saturation Epoch 6, val accuracy did not improve from 0.7578.
+2019-11-03 15:36:43,030 - train_mbv3.py[line:201] - INFO: 15:36:43, Epoch 20, Step 0, Loss 1.8346, lr: 2.6667e-03, train_accu 0.7812
+2019-11-03 15:36:49,735 - train_mbv3.py[line:201] - INFO: 15:36:49, Epoch 20, Step 10, Loss 1.9310, lr: 2.6453e-03, train_accu 0.7539
+2019-11-03 15:36:56,520 - train_mbv3.py[line:201] - INFO: 15:36:56, Epoch 20, Step 20, Loss 1.6484, lr: 2.6239e-03, train_accu 0.8086
+2019-11-03 15:37:03,340 - train_mbv3.py[line:201] - INFO: 15:37:03, Epoch 20, Step 30, Loss 1.8065, lr: 2.6026e-03, train_accu 0.7617
+2019-11-03 15:37:10,197 - train_mbv3.py[line:201] - INFO: 15:37:10, Epoch 20, Step 40, Loss 1.7647, lr: 2.5812e-03, train_accu 0.7891
+2019-11-03 15:37:16,999 - train_mbv3.py[line:201] - INFO: 15:37:16, Epoch 20, Step 50, Loss 1.7961, lr: 2.5598e-03, train_accu 0.7539
+2019-11-03 15:37:23,830 - train_mbv3.py[line:201] - INFO: 15:37:23, Epoch 20, Step 60, Loss 1.8432, lr: 2.5385e-03, train_accu 0.7461
+2019-11-03 15:37:30,721 - train_mbv3.py[line:201] - INFO: 15:37:30, Epoch 20, Step 70, Loss 1.8704, lr: 2.5171e-03, train_accu 0.7617
+2019-11-03 15:37:37,612 - train_mbv3.py[line:201] - INFO: 15:37:37, Epoch 20, Step 80, Loss 1.8748, lr: 2.4957e-03, train_accu 0.7344
+2019-11-03 15:37:44,346 - train_mbv3.py[line:201] - INFO: 15:37:44, Epoch 20, Step 90, Loss 1.8416, lr: 2.4744e-03, train_accu 0.7617
+2019-11-03 15:37:51,274 - train_mbv3.py[line:201] - INFO: 15:37:51, Epoch 20, Step 100, Loss 1.7362, lr: 2.4530e-03, train_accu 0.7773
+2019-11-03 15:37:58,056 - train_mbv3.py[line:201] - INFO: 15:37:58, Epoch 20, Step 110, Loss 1.7463, lr: 2.4316e-03, train_accu 0.7930
+2019-11-03 15:38:05,047 - train_mbv3.py[line:201] - INFO: 15:38:05, Epoch 20, Step 120, Loss 1.8446, lr: 2.4103e-03, train_accu 0.7500
+2019-11-03 15:38:11,821 - train_mbv3.py[line:201] - INFO: 15:38:11, Epoch 20, Step 130, Loss 1.7945, lr: 2.3889e-03, train_accu 0.7539
+2019-11-03 15:38:18,577 - train_mbv3.py[line:201] - INFO: 15:38:18, Epoch 20, Step 140, Loss 1.8115, lr: 2.3675e-03, train_accu 0.7422
+2019-11-03 15:38:25,229 - train_mbv3.py[line:201] - INFO: 15:38:25, Epoch 20, Step 150, Loss 1.6715, lr: 2.3462e-03, train_accu 0.7812
+2019-11-03 15:38:31,994 - train_mbv3.py[line:201] - INFO: 15:38:31, Epoch 20, Step 160, Loss 1.7803, lr: 2.3248e-03, train_accu 0.7734
+2019-11-03 15:38:38,707 - train_mbv3.py[line:201] - INFO: 15:38:38, Epoch 20, Step 170, Loss 1.8135, lr: 2.3034e-03, train_accu 0.7617
+2019-11-03 15:38:45,489 - train_mbv3.py[line:201] - INFO: 15:38:45, Epoch 20, Step 180, Loss 1.7809, lr: 2.2821e-03, train_accu 0.7656
+2019-11-03 15:38:52,204 - train_mbv3.py[line:201] - INFO: 15:38:52, Epoch 20, Step 190, Loss 1.7851, lr: 2.2607e-03, train_accu 0.7539
+2019-11-03 15:38:56,162 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-4095
+2019-11-03 15:38:56,163 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7695
+2019-11-03 15:39:00,191 - train_mbv3.py[line:229] - INFO: Epoch 20, Global Step 4095, val accuracy: 0.7391 (7391.0/10000.0)
+2019-11-03 15:39:00,191 - train_mbv3.py[line:242] - INFO: Saturation Epoch 7, val accuracy did not improve from 0.7578.
+2019-11-03 15:39:00,866 - train_mbv3.py[line:201] - INFO: 15:39:00, Epoch 21, Step 0, Loss 1.8226, lr: 2.2500e-03, train_accu 0.7578
+2019-11-03 15:39:07,690 - train_mbv3.py[line:201] - INFO: 15:39:07, Epoch 21, Step 10, Loss 1.6023, lr: 2.2286e-03, train_accu 0.8164
+2019-11-03 15:39:14,407 - train_mbv3.py[line:201] - INFO: 15:39:14, Epoch 21, Step 20, Loss 1.6347, lr: 2.2073e-03, train_accu 0.8047
+2019-11-03 15:39:21,295 - train_mbv3.py[line:201] - INFO: 15:39:21, Epoch 21, Step 30, Loss 1.6713, lr: 2.1859e-03, train_accu 0.7852
+2019-11-03 15:39:28,125 - train_mbv3.py[line:201] - INFO: 15:39:28, Epoch 21, Step 40, Loss 1.6873, lr: 2.1645e-03, train_accu 0.7422
+2019-11-03 15:39:34,971 - train_mbv3.py[line:201] - INFO: 15:39:34, Epoch 21, Step 50, Loss 1.6811, lr: 2.1432e-03, train_accu 0.7383
+2019-11-03 15:39:41,710 - train_mbv3.py[line:201] - INFO: 15:39:41, Epoch 21, Step 60, Loss 1.6840, lr: 2.1218e-03, train_accu 0.7695
+2019-11-03 15:39:48,411 - train_mbv3.py[line:201] - INFO: 15:39:48, Epoch 21, Step 70, Loss 1.6443, lr: 2.1004e-03, train_accu 0.7852
+2019-11-03 15:39:55,003 - train_mbv3.py[line:201] - INFO: 15:39:54, Epoch 21, Step 80, Loss 1.6818, lr: 2.0791e-03, train_accu 0.7930
+2019-11-03 15:40:01,650 - train_mbv3.py[line:201] - INFO: 15:40:01, Epoch 21, Step 90, Loss 1.6134, lr: 2.0577e-03, train_accu 0.7891
+2019-11-03 15:40:08,292 - train_mbv3.py[line:201] - INFO: 15:40:08, Epoch 21, Step 100, Loss 1.7575, lr: 2.0363e-03, train_accu 0.7617
+2019-11-03 15:40:15,116 - train_mbv3.py[line:201] - INFO: 15:40:15, Epoch 21, Step 110, Loss 1.6525, lr: 2.0150e-03, train_accu 0.7578
+2019-11-03 15:40:21,809 - train_mbv3.py[line:201] - INFO: 15:40:21, Epoch 21, Step 120, Loss 1.6406, lr: 1.9936e-03, train_accu 0.7891
+2019-11-03 15:40:28,569 - train_mbv3.py[line:201] - INFO: 15:40:28, Epoch 21, Step 130, Loss 1.5406, lr: 1.9722e-03, train_accu 0.8281
+2019-11-03 15:40:35,314 - train_mbv3.py[line:201] - INFO: 15:40:35, Epoch 21, Step 140, Loss 1.7170, lr: 1.9509e-03, train_accu 0.7383
+2019-11-03 15:40:42,198 - train_mbv3.py[line:201] - INFO: 15:40:42, Epoch 21, Step 150, Loss 1.6756, lr: 1.9295e-03, train_accu 0.7617
+2019-11-03 15:40:48,867 - train_mbv3.py[line:201] - INFO: 15:40:48, Epoch 21, Step 160, Loss 1.6831, lr: 1.9081e-03, train_accu 0.7656
+2019-11-03 15:40:55,580 - train_mbv3.py[line:201] - INFO: 15:40:55, Epoch 21, Step 170, Loss 1.6883, lr: 1.8868e-03, train_accu 0.7695
+2019-11-03 15:41:02,360 - train_mbv3.py[line:201] - INFO: 15:41:02, Epoch 21, Step 180, Loss 1.5481, lr: 1.8654e-03, train_accu 0.7930
+2019-11-03 15:41:09,133 - train_mbv3.py[line:201] - INFO: 15:41:09, Epoch 21, Step 190, Loss 1.5314, lr: 1.8440e-03, train_accu 0.8047
+2019-11-03 15:41:12,824 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-4290
+2019-11-03 15:41:12,826 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7777
+2019-11-03 15:41:16,900 - train_mbv3.py[line:229] - INFO: Epoch 21, Global Step 4290, val accuracy: 0.6754 (6754.0/10000.0)
+2019-11-03 15:41:16,900 - train_mbv3.py[line:242] - INFO: Saturation Epoch 8, val accuracy did not improve from 0.7578.
+2019-11-03 15:41:17,605 - train_mbv3.py[line:201] - INFO: 15:41:17, Epoch 22, Step 0, Loss 1.5924, lr: 1.8333e-03, train_accu 0.7773
+2019-11-03 15:41:24,316 - train_mbv3.py[line:201] - INFO: 15:41:24, Epoch 22, Step 10, Loss 1.6506, lr: 1.8120e-03, train_accu 0.7812
+2019-11-03 15:41:31,077 - train_mbv3.py[line:201] - INFO: 15:41:31, Epoch 22, Step 20, Loss 1.7108, lr: 1.7906e-03, train_accu 0.7422
+2019-11-03 15:41:37,865 - train_mbv3.py[line:201] - INFO: 15:41:37, Epoch 22, Step 30, Loss 1.7325, lr: 1.7692e-03, train_accu 0.7344
+2019-11-03 15:41:44,646 - train_mbv3.py[line:201] - INFO: 15:41:44, Epoch 22, Step 40, Loss 1.5713, lr: 1.7479e-03, train_accu 0.7891
+2019-11-03 15:41:51,619 - train_mbv3.py[line:201] - INFO: 15:41:51, Epoch 22, Step 50, Loss 1.5223, lr: 1.7265e-03, train_accu 0.8008
+2019-11-03 15:41:58,301 - train_mbv3.py[line:201] - INFO: 15:41:58, Epoch 22, Step 60, Loss 1.6007, lr: 1.7051e-03, train_accu 0.7656
+2019-11-03 15:42:05,033 - train_mbv3.py[line:201] - INFO: 15:42:05, Epoch 22, Step 70, Loss 1.5996, lr: 1.6838e-03, train_accu 0.8008
+2019-11-03 15:42:11,662 - train_mbv3.py[line:201] - INFO: 15:42:11, Epoch 22, Step 80, Loss 1.5507, lr: 1.6624e-03, train_accu 0.8086
+2019-11-03 15:42:18,300 - train_mbv3.py[line:201] - INFO: 15:42:18, Epoch 22, Step 90, Loss 1.5256, lr: 1.6410e-03, train_accu 0.7930
+2019-11-03 15:42:25,166 - train_mbv3.py[line:201] - INFO: 15:42:25, Epoch 22, Step 100, Loss 1.7148, lr: 1.6197e-03, train_accu 0.7383
+2019-11-03 15:42:31,956 - train_mbv3.py[line:201] - INFO: 15:42:31, Epoch 22, Step 110, Loss 1.4760, lr: 1.5983e-03, train_accu 0.8125
+2019-11-03 15:42:38,576 - train_mbv3.py[line:201] - INFO: 15:42:38, Epoch 22, Step 120, Loss 1.5265, lr: 1.5769e-03, train_accu 0.8086
+2019-11-03 15:42:45,335 - train_mbv3.py[line:201] - INFO: 15:42:45, Epoch 22, Step 130, Loss 1.5105, lr: 1.5556e-03, train_accu 0.8477
+2019-11-03 15:42:52,157 - train_mbv3.py[line:201] - INFO: 15:42:52, Epoch 22, Step 140, Loss 1.4819, lr: 1.5342e-03, train_accu 0.7930
+2019-11-03 15:42:58,828 - train_mbv3.py[line:201] - INFO: 15:42:58, Epoch 22, Step 150, Loss 1.5991, lr: 1.5128e-03, train_accu 0.7617
+2019-11-03 15:43:05,658 - train_mbv3.py[line:201] - INFO: 15:43:05, Epoch 22, Step 160, Loss 1.6709, lr: 1.4915e-03, train_accu 0.7461
+2019-11-03 15:43:12,366 - train_mbv3.py[line:201] - INFO: 15:43:12, Epoch 22, Step 170, Loss 1.5142, lr: 1.4701e-03, train_accu 0.7969
+2019-11-03 15:43:19,173 - train_mbv3.py[line:201] - INFO: 15:43:19, Epoch 22, Step 180, Loss 1.5196, lr: 1.4487e-03, train_accu 0.7969
+2019-11-03 15:43:26,184 - train_mbv3.py[line:201] - INFO: 15:43:26, Epoch 22, Step 190, Loss 1.5997, lr: 1.4274e-03, train_accu 0.7539
+2019-11-03 15:43:30,050 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-4485
+2019-11-03 15:43:30,051 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7862
+2019-11-03 15:43:34,238 - train_mbv3.py[line:229] - INFO: Epoch 22, Global Step 4485, val accuracy: 0.7887 (7887.0/10000.0)
+2019-11-03 15:43:35,275 - train_mbv3.py[line:242] - INFO: Epoch 22, val accuracy improved from 0.7578 to 0.7887, save best model to models/mbv3_small_cifar10_128x128/best/best_0.7887.ckpt.
+2019-11-03 15:43:35,971 - train_mbv3.py[line:201] - INFO: 15:43:35, Epoch 23, Step 0, Loss 1.5319, lr: 1.4167e-03, train_accu 0.8086
+2019-11-03 15:43:42,602 - train_mbv3.py[line:201] - INFO: 15:43:42, Epoch 23, Step 10, Loss 1.6372, lr: 1.3953e-03, train_accu 0.7695
+2019-11-03 15:43:49,394 - train_mbv3.py[line:201] - INFO: 15:43:49, Epoch 23, Step 20, Loss 1.4177, lr: 1.3739e-03, train_accu 0.8359
+2019-11-03 15:43:56,179 - train_mbv3.py[line:201] - INFO: 15:43:56, Epoch 23, Step 30, Loss 1.4053, lr: 1.3526e-03, train_accu 0.8320
+2019-11-03 15:44:03,132 - train_mbv3.py[line:201] - INFO: 15:44:03, Epoch 23, Step 40, Loss 1.5625, lr: 1.3312e-03, train_accu 0.7539
+2019-11-03 15:44:09,973 - train_mbv3.py[line:201] - INFO: 15:44:09, Epoch 23, Step 50, Loss 1.5082, lr: 1.3098e-03, train_accu 0.7734
+2019-11-03 15:44:16,748 - train_mbv3.py[line:201] - INFO: 15:44:16, Epoch 23, Step 60, Loss 1.5807, lr: 1.2885e-03, train_accu 0.7656
+2019-11-03 15:44:23,345 - train_mbv3.py[line:201] - INFO: 15:44:23, Epoch 23, Step 70, Loss 1.4506, lr: 1.2671e-03, train_accu 0.8203
+2019-11-03 15:44:29,988 - train_mbv3.py[line:201] - INFO: 15:44:29, Epoch 23, Step 80, Loss 1.4413, lr: 1.2457e-03, train_accu 0.7734
+2019-11-03 15:44:36,593 - train_mbv3.py[line:201] - INFO: 15:44:36, Epoch 23, Step 90, Loss 1.5254, lr: 1.2244e-03, train_accu 0.7930
+2019-11-03 15:44:43,281 - train_mbv3.py[line:201] - INFO: 15:44:43, Epoch 23, Step 100, Loss 1.4591, lr: 1.2030e-03, train_accu 0.7930
+2019-11-03 15:44:49,933 - train_mbv3.py[line:201] - INFO: 15:44:49, Epoch 23, Step 110, Loss 1.4473, lr: 1.1816e-03, train_accu 0.8281
+2019-11-03 15:44:56,615 - train_mbv3.py[line:201] - INFO: 15:44:56, Epoch 23, Step 120, Loss 1.3649, lr: 1.1603e-03, train_accu 0.8281
+2019-11-03 15:45:03,355 - train_mbv3.py[line:201] - INFO: 15:45:03, Epoch 23, Step 130, Loss 1.5675, lr: 1.1389e-03, train_accu 0.7383
+2019-11-03 15:45:09,961 - train_mbv3.py[line:201] - INFO: 15:45:09, Epoch 23, Step 140, Loss 1.4498, lr: 1.1175e-03, train_accu 0.7773
+2019-11-03 15:45:16,619 - train_mbv3.py[line:201] - INFO: 15:45:16, Epoch 23, Step 150, Loss 1.4759, lr: 1.0962e-03, train_accu 0.8047
+2019-11-03 15:45:23,403 - train_mbv3.py[line:201] - INFO: 15:45:23, Epoch 23, Step 160, Loss 1.4230, lr: 1.0748e-03, train_accu 0.8047
+2019-11-03 15:45:30,076 - train_mbv3.py[line:201] - INFO: 15:45:30, Epoch 23, Step 170, Loss 1.4083, lr: 1.0534e-03, train_accu 0.8086
+2019-11-03 15:45:36,736 - train_mbv3.py[line:201] - INFO: 15:45:36, Epoch 23, Step 180, Loss 1.3729, lr: 1.0321e-03, train_accu 0.8125
+2019-11-03 15:45:43,439 - train_mbv3.py[line:201] - INFO: 15:45:43, Epoch 23, Step 190, Loss 1.4632, lr: 1.0107e-03, train_accu 0.8008
+2019-11-03 15:45:47,102 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-4680
+2019-11-03 15:45:47,104 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.7975
+2019-11-03 15:45:51,181 - train_mbv3.py[line:229] - INFO: Epoch 23, Global Step 4680, val accuracy: 0.8267 (8267.0/10000.0)
+2019-11-03 15:45:52,207 - train_mbv3.py[line:242] - INFO: Epoch 23, val accuracy improved from 0.7887 to 0.8267, save best model to models/mbv3_small_cifar10_128x128/best/best_0.8267.ckpt.
+2019-11-03 15:46:20,622 - train_mbv3.py[line:31] - INFO: Save log to `logs/mb3_small_128x128_cifar10_1103.txt`.
+2019-11-03 15:46:20,622 - train_mbv3.py[line:32] - INFO: Namespace(batch_size=256, channel=3, ckpt_iters=195, crop_height=512, crop_width=1024, epoches=24, eval='./tfrecords/cifar-10/128x128/test/', eval_batch_size=100, eval_epoches=1, eval_iters=2000, height=128, log_path='logs/mb3_small_128x128_cifar10_1103.txt', lr=0.0001, lr_decay=0.99, max_lr=0.0006, model_dir='models/mbv3_small_cifar10_128x128', moving_ave_decay=0.99, net='large', num_labels=10, reset_lr=1, restore=1, save_model_name='model', show_iters=10, step_size=1170, train='./tfrecords/cifar-10/128x128/train/', use_bn=1, weight_decay=0.0002, width=128)
+2019-11-03 15:46:33,543 - /opt/conda/envs/py36/lib/python3.6/site-packages/tensorflow/python/platform/tf_logging.py[line:115] - INFO: Restoring parameters from models/mbv3_small_cifar10_128x128/model.ckpt-4680
+2019-11-03 15:46:37,165 - train_mbv3.py[line:162] - INFO: restored from models/mbv3_small_cifar10_128x128/model.ckpt-4680
+2019-11-03 15:46:37,941 - train_mbv3.py[line:170] - INFO: images.shape: (?, 128, 128, 3), labels: Tensor("one_hot:0", shape=(?, 10), dtype=int32)
+2019-11-03 15:46:37,942 - train_mbv3.py[line:171] - INFO: training...
+2019-11-03 15:47:02,705 - train_mbv3.py[line:201] - INFO: 15:47:02, Epoch 0, Step 0, Loss 1.4260, lr: 1.0000e-04, train_accu 0.8125
+2019-11-03 15:47:09,399 - train_mbv3.py[line:201] - INFO: 15:47:09, Epoch 0, Step 10, Loss 1.4617, lr: 1.0427e-04, train_accu 0.7930
+2019-11-03 15:47:16,134 - train_mbv3.py[line:201] - INFO: 15:47:16, Epoch 0, Step 20, Loss 1.4586, lr: 1.0855e-04, train_accu 0.8164
+2019-11-03 15:47:22,820 - train_mbv3.py[line:201] - INFO: 15:47:22, Epoch 0, Step 30, Loss 1.4054, lr: 1.1282e-04, train_accu 0.8047
+2019-11-03 15:47:29,553 - train_mbv3.py[line:201] - INFO: 15:47:29, Epoch 0, Step 40, Loss 1.2925, lr: 1.1709e-04, train_accu 0.8555
+2019-11-03 15:47:36,190 - train_mbv3.py[line:201] - INFO: 15:47:36, Epoch 0, Step 50, Loss 1.5580, lr: 1.2137e-04, train_accu 0.7852
+2019-11-03 15:47:42,827 - train_mbv3.py[line:201] - INFO: 15:47:42, Epoch 0, Step 60, Loss 1.4165, lr: 1.2564e-04, train_accu 0.8359
+2019-11-03 15:47:49,498 - train_mbv3.py[line:201] - INFO: 15:47:49, Epoch 0, Step 70, Loss 1.4554, lr: 1.2991e-04, train_accu 0.7969
+2019-11-03 15:47:56,073 - train_mbv3.py[line:201] - INFO: 15:47:56, Epoch 0, Step 80, Loss 1.3847, lr: 1.3419e-04, train_accu 0.8047
+2019-11-03 15:48:02,843 - train_mbv3.py[line:201] - INFO: 15:48:02, Epoch 0, Step 90, Loss 1.3696, lr: 1.3846e-04, train_accu 0.8320
+2019-11-03 15:48:09,465 - train_mbv3.py[line:201] - INFO: 15:48:09, Epoch 0, Step 100, Loss 1.4290, lr: 1.4274e-04, train_accu 0.7930
+2019-11-03 15:48:16,223 - train_mbv3.py[line:201] - INFO: 15:48:16, Epoch 0, Step 110, Loss 1.3730, lr: 1.4701e-04, train_accu 0.8242
+2019-11-03 15:48:22,955 - train_mbv3.py[line:201] - INFO: 15:48:22, Epoch 0, Step 120, Loss 1.3322, lr: 1.5128e-04, train_accu 0.8320
+2019-11-03 15:48:29,515 - train_mbv3.py[line:201] - INFO: 15:48:29, Epoch 0, Step 130, Loss 1.3450, lr: 1.5556e-04, train_accu 0.8398
+2019-11-03 15:48:36,199 - train_mbv3.py[line:201] - INFO: 15:48:36, Epoch 0, Step 140, Loss 1.4197, lr: 1.5983e-04, train_accu 0.7969
+2019-11-03 15:48:42,996 - train_mbv3.py[line:201] - INFO: 15:48:42, Epoch 0, Step 150, Loss 1.5397, lr: 1.6410e-04, train_accu 0.8086
+2019-11-03 15:48:49,599 - train_mbv3.py[line:201] - INFO: 15:48:49, Epoch 0, Step 160, Loss 1.4361, lr: 1.6838e-04, train_accu 0.8047
+2019-11-03 15:48:56,315 - train_mbv3.py[line:201] - INFO: 15:48:56, Epoch 0, Step 170, Loss 1.3385, lr: 1.7265e-04, train_accu 0.8203
+2019-11-03 15:49:02,978 - train_mbv3.py[line:201] - INFO: 15:49:02, Epoch 0, Step 180, Loss 1.4591, lr: 1.7692e-04, train_accu 0.7930
+2019-11-03 15:49:09,782 - train_mbv3.py[line:201] - INFO: 15:49:09, Epoch 0, Step 190, Loss 1.2897, lr: 1.8120e-04, train_accu 0.8594
+2019-11-03 15:49:14,150 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-195
+2019-11-03 15:49:14,152 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8112
+2019-11-03 15:49:20,818 - train_mbv3.py[line:229] - INFO: Epoch 0, Global Step 195, val accuracy: 0.8501 (8501.0/10000.0)
+2019-11-03 15:49:22,232 - train_mbv3.py[line:242] - INFO: Epoch 0, val accuracy improved from 0.0 to 0.8501, save best model to models/mbv3_small_cifar10_128x128/best/best_0.8501.ckpt.
+2019-11-03 15:49:22,937 - train_mbv3.py[line:201] - INFO: 15:49:22, Epoch 1, Step 0, Loss 1.3740, lr: 1.8333e-04, train_accu 0.8008
+2019-11-03 15:49:29,667 - train_mbv3.py[line:201] - INFO: 15:49:29, Epoch 1, Step 10, Loss 1.4054, lr: 1.8761e-04, train_accu 0.8125
+2019-11-03 15:49:36,358 - train_mbv3.py[line:201] - INFO: 15:49:36, Epoch 1, Step 20, Loss 1.3806, lr: 1.9188e-04, train_accu 0.8086
+2019-11-03 15:49:43,058 - train_mbv3.py[line:201] - INFO: 15:49:43, Epoch 1, Step 30, Loss 1.3011, lr: 1.9615e-04, train_accu 0.8359
+2019-11-03 15:49:49,836 - train_mbv3.py[line:201] - INFO: 15:49:49, Epoch 1, Step 40, Loss 1.3952, lr: 2.0043e-04, train_accu 0.7852
+2019-11-03 15:49:56,665 - train_mbv3.py[line:201] - INFO: 15:49:56, Epoch 1, Step 50, Loss 1.4095, lr: 2.0470e-04, train_accu 0.8203
+2019-11-03 15:50:03,504 - train_mbv3.py[line:201] - INFO: 15:50:03, Epoch 1, Step 60, Loss 1.3385, lr: 2.0897e-04, train_accu 0.8164
+2019-11-03 15:50:10,218 - train_mbv3.py[line:201] - INFO: 15:50:10, Epoch 1, Step 70, Loss 1.3527, lr: 2.1325e-04, train_accu 0.8281
+2019-11-03 15:50:16,954 - train_mbv3.py[line:201] - INFO: 15:50:16, Epoch 1, Step 80, Loss 1.3891, lr: 2.1752e-04, train_accu 0.7930
+2019-11-03 15:50:23,732 - train_mbv3.py[line:201] - INFO: 15:50:23, Epoch 1, Step 90, Loss 1.2716, lr: 2.2179e-04, train_accu 0.8516
+2019-11-03 15:50:30,490 - train_mbv3.py[line:201] - INFO: 15:50:30, Epoch 1, Step 100, Loss 1.3445, lr: 2.2607e-04, train_accu 0.8086
+2019-11-03 15:50:37,154 - train_mbv3.py[line:201] - INFO: 15:50:37, Epoch 1, Step 110, Loss 1.3578, lr: 2.3034e-04, train_accu 0.8320
+2019-11-03 15:50:43,885 - train_mbv3.py[line:201] - INFO: 15:50:43, Epoch 1, Step 120, Loss 1.4533, lr: 2.3462e-04, train_accu 0.8047
+2019-11-03 15:50:50,724 - train_mbv3.py[line:201] - INFO: 15:50:50, Epoch 1, Step 130, Loss 1.3647, lr: 2.3889e-04, train_accu 0.8203
+2019-11-03 15:50:57,420 - train_mbv3.py[line:201] - INFO: 15:50:57, Epoch 1, Step 140, Loss 1.4373, lr: 2.4316e-04, train_accu 0.7773
+2019-11-03 15:51:04,169 - train_mbv3.py[line:201] - INFO: 15:51:04, Epoch 1, Step 150, Loss 1.3547, lr: 2.4744e-04, train_accu 0.8086
+2019-11-03 15:51:10,896 - train_mbv3.py[line:201] - INFO: 15:51:10, Epoch 1, Step 160, Loss 1.2957, lr: 2.5171e-04, train_accu 0.8203
+2019-11-03 15:51:17,594 - train_mbv3.py[line:201] - INFO: 15:51:17, Epoch 1, Step 170, Loss 1.4018, lr: 2.5598e-04, train_accu 0.7812
+2019-11-03 15:51:24,260 - train_mbv3.py[line:201] - INFO: 15:51:24, Epoch 1, Step 180, Loss 1.3515, lr: 2.6026e-04, train_accu 0.8164
+2019-11-03 15:51:31,001 - train_mbv3.py[line:201] - INFO: 15:51:30, Epoch 1, Step 190, Loss 1.2731, lr: 2.6453e-04, train_accu 0.8477
+2019-11-03 15:51:34,686 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-390
+2019-11-03 15:51:34,687 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8153
+2019-11-03 15:51:39,127 - train_mbv3.py[line:229] - INFO: Epoch 1, Global Step 390, val accuracy: 0.8529 (8529.0/10000.0)
+2019-11-03 15:51:40,246 - train_mbv3.py[line:242] - INFO: Epoch 1, val accuracy improved from 0.8501 to 0.8529, save best model to models/mbv3_small_cifar10_128x128/best/best_0.8529.ckpt.
+2019-11-03 15:51:40,955 - train_mbv3.py[line:201] - INFO: 15:51:40, Epoch 2, Step 0, Loss 1.3102, lr: 2.6667e-04, train_accu 0.8398
+2019-11-03 15:51:47,723 - train_mbv3.py[line:201] - INFO: 15:51:47, Epoch 2, Step 10, Loss 1.2771, lr: 2.7094e-04, train_accu 0.8438
+2019-11-03 15:51:54,467 - train_mbv3.py[line:201] - INFO: 15:51:54, Epoch 2, Step 20, Loss 1.2653, lr: 2.7521e-04, train_accu 0.8359
+2019-11-03 15:52:01,195 - train_mbv3.py[line:201] - INFO: 15:52:01, Epoch 2, Step 30, Loss 1.3054, lr: 2.7949e-04, train_accu 0.8203
+2019-11-03 15:52:07,940 - train_mbv3.py[line:201] - INFO: 15:52:07, Epoch 2, Step 40, Loss 1.2862, lr: 2.8376e-04, train_accu 0.8359
+2019-11-03 15:52:14,848 - train_mbv3.py[line:201] - INFO: 15:52:14, Epoch 2, Step 50, Loss 1.2894, lr: 2.8803e-04, train_accu 0.8438
+2019-11-03 15:52:21,580 - train_mbv3.py[line:201] - INFO: 15:52:21, Epoch 2, Step 60, Loss 1.3955, lr: 2.9231e-04, train_accu 0.8125
+2019-11-03 15:52:28,465 - train_mbv3.py[line:201] - INFO: 15:52:28, Epoch 2, Step 70, Loss 1.2595, lr: 2.9658e-04, train_accu 0.8594
+2019-11-03 15:52:35,292 - train_mbv3.py[line:201] - INFO: 15:52:35, Epoch 2, Step 80, Loss 1.3664, lr: 3.0085e-04, train_accu 0.7969
+2019-11-03 15:52:42,069 - train_mbv3.py[line:201] - INFO: 15:52:42, Epoch 2, Step 90, Loss 1.3379, lr: 3.0513e-04, train_accu 0.8203
+2019-11-03 15:52:48,764 - train_mbv3.py[line:201] - INFO: 15:52:48, Epoch 2, Step 100, Loss 1.2404, lr: 3.0940e-04, train_accu 0.8359
+2019-11-03 15:52:55,452 - train_mbv3.py[line:201] - INFO: 15:52:55, Epoch 2, Step 110, Loss 1.3646, lr: 3.1368e-04, train_accu 0.7852
+2019-11-03 15:53:02,224 - train_mbv3.py[line:201] - INFO: 15:53:02, Epoch 2, Step 120, Loss 1.3575, lr: 3.1795e-04, train_accu 0.8359
+2019-11-03 15:53:08,935 - train_mbv3.py[line:201] - INFO: 15:53:08, Epoch 2, Step 130, Loss 1.3468, lr: 3.2222e-04, train_accu 0.8086
+2019-11-03 15:53:15,698 - train_mbv3.py[line:201] - INFO: 15:53:15, Epoch 2, Step 140, Loss 1.4717, lr: 3.2650e-04, train_accu 0.7500
+2019-11-03 15:53:22,604 - train_mbv3.py[line:201] - INFO: 15:53:22, Epoch 2, Step 150, Loss 1.3849, lr: 3.3077e-04, train_accu 0.8047
+2019-11-03 15:53:29,568 - train_mbv3.py[line:201] - INFO: 15:53:29, Epoch 2, Step 160, Loss 1.3258, lr: 3.3504e-04, train_accu 0.8203
+2019-11-03 15:53:36,256 - train_mbv3.py[line:201] - INFO: 15:53:36, Epoch 2, Step 170, Loss 1.2342, lr: 3.3932e-04, train_accu 0.8477
+2019-11-03 15:53:42,892 - train_mbv3.py[line:201] - INFO: 15:53:42, Epoch 2, Step 180, Loss 1.2925, lr: 3.4359e-04, train_accu 0.8555
+2019-11-03 15:53:49,638 - train_mbv3.py[line:201] - INFO: 15:53:49, Epoch 2, Step 190, Loss 1.2309, lr: 3.4786e-04, train_accu 0.8242
+2019-11-03 15:53:53,371 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-585
+2019-11-03 15:53:53,372 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8174
+2019-11-03 15:53:57,737 - train_mbv3.py[line:229] - INFO: Epoch 2, Global Step 585, val accuracy: 0.8492 (8492.0/10000.0)
+2019-11-03 15:53:57,737 - train_mbv3.py[line:242] - INFO: Saturation Epoch 1, val accuracy did not improve from 0.8529.
+2019-11-03 15:53:58,427 - train_mbv3.py[line:201] - INFO: 15:53:58, Epoch 3, Step 0, Loss 1.2918, lr: 3.5000e-04, train_accu 0.8281
+2019-11-03 15:54:05,285 - train_mbv3.py[line:201] - INFO: 15:54:05, Epoch 3, Step 10, Loss 1.3321, lr: 3.5427e-04, train_accu 0.7891
+2019-11-03 15:54:12,213 - train_mbv3.py[line:201] - INFO: 15:54:12, Epoch 3, Step 20, Loss 1.3541, lr: 3.5855e-04, train_accu 0.7852
+2019-11-03 15:54:18,969 - train_mbv3.py[line:201] - INFO: 15:54:18, Epoch 3, Step 30, Loss 1.2868, lr: 3.6282e-04, train_accu 0.8164
+2019-11-03 15:54:25,801 - train_mbv3.py[line:201] - INFO: 15:54:25, Epoch 3, Step 40, Loss 1.4894, lr: 3.6709e-04, train_accu 0.7383
+2019-11-03 15:54:32,644 - train_mbv3.py[line:201] - INFO: 15:54:32, Epoch 3, Step 50, Loss 1.4408, lr: 3.7137e-04, train_accu 0.7812
+2019-11-03 15:54:39,474 - train_mbv3.py[line:201] - INFO: 15:54:39, Epoch 3, Step 60, Loss 1.2369, lr: 3.7564e-04, train_accu 0.8281
+2019-11-03 15:54:46,149 - train_mbv3.py[line:201] - INFO: 15:54:46, Epoch 3, Step 70, Loss 1.2750, lr: 3.7991e-04, train_accu 0.8242
+2019-11-03 15:54:52,828 - train_mbv3.py[line:201] - INFO: 15:54:52, Epoch 3, Step 80, Loss 1.2468, lr: 3.8419e-04, train_accu 0.8555
+2019-11-03 15:54:59,665 - train_mbv3.py[line:201] - INFO: 15:54:59, Epoch 3, Step 90, Loss 1.2932, lr: 3.8846e-04, train_accu 0.8047
+2019-11-03 15:55:06,530 - train_mbv3.py[line:201] - INFO: 15:55:06, Epoch 3, Step 100, Loss 1.3759, lr: 3.9274e-04, train_accu 0.8047
+2019-11-03 15:55:13,446 - train_mbv3.py[line:201] - INFO: 15:55:13, Epoch 3, Step 110, Loss 1.2684, lr: 3.9701e-04, train_accu 0.8398
+2019-11-03 15:55:20,293 - train_mbv3.py[line:201] - INFO: 15:55:20, Epoch 3, Step 120, Loss 1.3190, lr: 4.0128e-04, train_accu 0.7891
+2019-11-03 15:55:26,958 - train_mbv3.py[line:201] - INFO: 15:55:26, Epoch 3, Step 130, Loss 1.2878, lr: 4.0556e-04, train_accu 0.8398
+2019-11-03 15:55:33,663 - train_mbv3.py[line:201] - INFO: 15:55:33, Epoch 3, Step 140, Loss 1.2023, lr: 4.0983e-04, train_accu 0.8555
+2019-11-03 15:55:40,477 - train_mbv3.py[line:201] - INFO: 15:55:40, Epoch 3, Step 150, Loss 1.3075, lr: 4.1410e-04, train_accu 0.8164
+2019-11-03 15:55:47,273 - train_mbv3.py[line:201] - INFO: 15:55:47, Epoch 3, Step 160, Loss 1.2615, lr: 4.1838e-04, train_accu 0.8086
+2019-11-03 15:55:53,992 - train_mbv3.py[line:201] - INFO: 15:55:53, Epoch 3, Step 170, Loss 1.3867, lr: 4.2265e-04, train_accu 0.7812
+2019-11-03 15:56:00,793 - train_mbv3.py[line:201] - INFO: 15:56:00, Epoch 3, Step 180, Loss 1.2445, lr: 4.2692e-04, train_accu 0.8203
+2019-11-03 15:56:07,673 - train_mbv3.py[line:201] - INFO: 15:56:07, Epoch 3, Step 190, Loss 1.2754, lr: 4.3120e-04, train_accu 0.8398
+2019-11-03 15:56:11,524 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-780
+2019-11-03 15:56:11,525 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8167
+2019-11-03 15:56:16,077 - train_mbv3.py[line:229] - INFO: Epoch 3, Global Step 780, val accuracy: 0.8417 (8417.0/10000.0)
+2019-11-03 15:56:16,078 - train_mbv3.py[line:242] - INFO: Saturation Epoch 2, val accuracy did not improve from 0.8529.
+2019-11-03 15:56:16,757 - train_mbv3.py[line:201] - INFO: 15:56:16, Epoch 4, Step 0, Loss 1.2862, lr: 4.3333e-04, train_accu 0.8438
+2019-11-03 15:56:23,466 - train_mbv3.py[line:201] - INFO: 15:56:23, Epoch 4, Step 10, Loss 1.2657, lr: 4.3761e-04, train_accu 0.8242
+2019-11-03 15:56:30,152 - train_mbv3.py[line:201] - INFO: 15:56:30, Epoch 4, Step 20, Loss 1.3480, lr: 4.4188e-04, train_accu 0.7891
+2019-11-03 15:56:37,107 - train_mbv3.py[line:201] - INFO: 15:56:37, Epoch 4, Step 30, Loss 1.4094, lr: 4.4615e-04, train_accu 0.7578
+2019-11-03 15:56:43,978 - train_mbv3.py[line:201] - INFO: 15:56:43, Epoch 4, Step 40, Loss 1.2964, lr: 4.5043e-04, train_accu 0.8047
+2019-11-03 15:56:50,800 - train_mbv3.py[line:201] - INFO: 15:56:50, Epoch 4, Step 50, Loss 1.2985, lr: 4.5470e-04, train_accu 0.8008
+2019-11-03 15:56:57,592 - train_mbv3.py[line:201] - INFO: 15:56:57, Epoch 4, Step 60, Loss 1.2648, lr: 4.5897e-04, train_accu 0.7930
+2019-11-03 15:57:04,283 - train_mbv3.py[line:201] - INFO: 15:57:04, Epoch 4, Step 70, Loss 1.2117, lr: 4.6325e-04, train_accu 0.8281
+2019-11-03 15:57:10,931 - train_mbv3.py[line:201] - INFO: 15:57:10, Epoch 4, Step 80, Loss 1.3450, lr: 4.6752e-04, train_accu 0.8008
+2019-11-03 15:57:17,838 - train_mbv3.py[line:201] - INFO: 15:57:17, Epoch 4, Step 90, Loss 1.1507, lr: 4.7179e-04, train_accu 0.8555
+2019-11-03 15:57:24,578 - train_mbv3.py[line:201] - INFO: 15:57:24, Epoch 4, Step 100, Loss 1.1476, lr: 4.7607e-04, train_accu 0.8750
+2019-11-03 15:57:31,368 - train_mbv3.py[line:201] - INFO: 15:57:31, Epoch 4, Step 110, Loss 1.3086, lr: 4.8034e-04, train_accu 0.7969
+2019-11-03 15:57:38,155 - train_mbv3.py[line:201] - INFO: 15:57:38, Epoch 4, Step 120, Loss 1.3198, lr: 4.8462e-04, train_accu 0.7969
+2019-11-03 15:57:44,880 - train_mbv3.py[line:201] - INFO: 15:57:44, Epoch 4, Step 130, Loss 1.2854, lr: 4.8889e-04, train_accu 0.8125
+2019-11-03 15:57:51,597 - train_mbv3.py[line:201] - INFO: 15:57:51, Epoch 4, Step 140, Loss 1.3897, lr: 4.9316e-04, train_accu 0.7812
+2019-11-03 15:57:58,344 - train_mbv3.py[line:201] - INFO: 15:57:58, Epoch 4, Step 150, Loss 1.3963, lr: 4.9744e-04, train_accu 0.7812
+2019-11-03 15:58:05,118 - train_mbv3.py[line:201] - INFO: 15:58:05, Epoch 4, Step 160, Loss 1.2035, lr: 5.0171e-04, train_accu 0.8398
+2019-11-03 15:58:11,751 - train_mbv3.py[line:201] - INFO: 15:58:11, Epoch 4, Step 170, Loss 1.1730, lr: 5.0598e-04, train_accu 0.8359
+2019-11-03 15:58:18,579 - train_mbv3.py[line:201] - INFO: 15:58:18, Epoch 4, Step 180, Loss 1.3169, lr: 5.1026e-04, train_accu 0.8203
+2019-11-03 15:58:25,364 - train_mbv3.py[line:201] - INFO: 15:58:25, Epoch 4, Step 190, Loss 1.2478, lr: 5.1453e-04, train_accu 0.8359
+2019-11-03 15:58:29,134 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-975
+2019-11-03 15:58:29,134 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8140
+2019-11-03 15:58:33,548 - train_mbv3.py[line:229] - INFO: Epoch 4, Global Step 975, val accuracy: 0.8443 (8443.0/10000.0)
+2019-11-03 15:58:33,548 - train_mbv3.py[line:242] - INFO: Saturation Epoch 3, val accuracy did not improve from 0.8529.
+2019-11-03 15:58:34,241 - train_mbv3.py[line:201] - INFO: 15:58:34, Epoch 5, Step 0, Loss 1.1537, lr: 5.1667e-04, train_accu 0.8320
+2019-11-03 15:58:41,131 - train_mbv3.py[line:201] - INFO: 15:58:41, Epoch 5, Step 10, Loss 1.2876, lr: 5.2094e-04, train_accu 0.8008
+2019-11-03 15:58:47,893 - train_mbv3.py[line:201] - INFO: 15:58:47, Epoch 5, Step 20, Loss 1.3289, lr: 5.2521e-04, train_accu 0.7734
+2019-11-03 15:58:54,604 - train_mbv3.py[line:201] - INFO: 15:58:54, Epoch 5, Step 30, Loss 1.3943, lr: 5.2949e-04, train_accu 0.7695
+2019-11-03 15:59:01,340 - train_mbv3.py[line:201] - INFO: 15:59:01, Epoch 5, Step 40, Loss 1.2011, lr: 5.3376e-04, train_accu 0.8359
+2019-11-03 15:59:08,122 - train_mbv3.py[line:201] - INFO: 15:59:08, Epoch 5, Step 50, Loss 1.2244, lr: 5.3803e-04, train_accu 0.8164
+2019-11-03 15:59:14,777 - train_mbv3.py[line:201] - INFO: 15:59:14, Epoch 5, Step 60, Loss 1.3297, lr: 5.4231e-04, train_accu 0.7891
+2019-11-03 15:59:21,440 - train_mbv3.py[line:201] - INFO: 15:59:21, Epoch 5, Step 70, Loss 1.2187, lr: 5.4658e-04, train_accu 0.8203
+2019-11-03 15:59:28,270 - train_mbv3.py[line:201] - INFO: 15:59:28, Epoch 5, Step 80, Loss 1.1664, lr: 5.5085e-04, train_accu 0.8438
+2019-11-03 15:59:35,189 - train_mbv3.py[line:201] - INFO: 15:59:35, Epoch 5, Step 90, Loss 1.2275, lr: 5.5513e-04, train_accu 0.8164
+2019-11-03 15:59:42,134 - train_mbv3.py[line:201] - INFO: 15:59:42, Epoch 5, Step 100, Loss 1.2173, lr: 5.5940e-04, train_accu 0.8281
+2019-11-03 15:59:48,763 - train_mbv3.py[line:201] - INFO: 15:59:48, Epoch 5, Step 110, Loss 1.3706, lr: 5.6368e-04, train_accu 0.7891
+2019-11-03 15:59:55,588 - train_mbv3.py[line:201] - INFO: 15:59:55, Epoch 5, Step 120, Loss 1.1674, lr: 5.6795e-04, train_accu 0.8164
+2019-11-03 16:00:02,423 - train_mbv3.py[line:201] - INFO: 16:00:02, Epoch 5, Step 130, Loss 1.1822, lr: 5.7222e-04, train_accu 0.8555
+2019-11-03 16:00:09,113 - train_mbv3.py[line:201] - INFO: 16:00:09, Epoch 5, Step 140, Loss 1.2850, lr: 5.7650e-04, train_accu 0.7812
+2019-11-03 16:00:15,832 - train_mbv3.py[line:201] - INFO: 16:00:15, Epoch 5, Step 150, Loss 1.1226, lr: 5.8077e-04, train_accu 0.8477
+2019-11-03 16:00:22,565 - train_mbv3.py[line:201] - INFO: 16:00:22, Epoch 5, Step 160, Loss 1.2068, lr: 5.8504e-04, train_accu 0.8242
+2019-11-03 16:00:29,379 - train_mbv3.py[line:201] - INFO: 16:00:29, Epoch 5, Step 170, Loss 1.1926, lr: 5.8932e-04, train_accu 0.8359
+2019-11-03 16:00:36,160 - train_mbv3.py[line:201] - INFO: 16:00:36, Epoch 5, Step 180, Loss 1.1797, lr: 5.9359e-04, train_accu 0.8477
+2019-11-03 16:00:42,952 - train_mbv3.py[line:201] - INFO: 16:00:42, Epoch 5, Step 190, Loss 1.2296, lr: 5.9786e-04, train_accu 0.8203
+2019-11-03 16:00:46,789 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-1170
+2019-11-03 16:00:46,790 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8200
+2019-11-03 16:00:51,051 - train_mbv3.py[line:229] - INFO: Epoch 5, Global Step 1170, val accuracy: 0.8271 (8271.0/10000.0)
+2019-11-03 16:00:51,051 - train_mbv3.py[line:242] - INFO: Saturation Epoch 4, val accuracy did not improve from 0.8529.
+2019-11-03 16:00:51,700 - train_mbv3.py[line:201] - INFO: 16:00:51, Epoch 6, Step 0, Loss 1.2106, lr: 6.0000e-04, train_accu 0.8281
+2019-11-03 16:00:58,608 - train_mbv3.py[line:201] - INFO: 16:00:58, Epoch 6, Step 10, Loss 1.2452, lr: 5.9573e-04, train_accu 0.8281
+2019-11-03 16:01:05,473 - train_mbv3.py[line:201] - INFO: 16:01:05, Epoch 6, Step 20, Loss 1.2674, lr: 5.9145e-04, train_accu 0.8086
+2019-11-03 16:01:12,062 - train_mbv3.py[line:201] - INFO: 16:01:12, Epoch 6, Step 30, Loss 1.1379, lr: 5.8718e-04, train_accu 0.8594
+2019-11-03 16:01:18,867 - train_mbv3.py[line:201] - INFO: 16:01:18, Epoch 6, Step 40, Loss 1.2971, lr: 5.8291e-04, train_accu 0.7734
+2019-11-03 16:01:25,650 - train_mbv3.py[line:201] - INFO: 16:01:25, Epoch 6, Step 50, Loss 1.0849, lr: 5.7863e-04, train_accu 0.8828
+2019-11-03 16:01:32,490 - train_mbv3.py[line:201] - INFO: 16:01:32, Epoch 6, Step 60, Loss 1.1413, lr: 5.7436e-04, train_accu 0.8320
+2019-11-03 16:01:39,216 - train_mbv3.py[line:201] - INFO: 16:01:39, Epoch 6, Step 70, Loss 1.1787, lr: 5.7009e-04, train_accu 0.8164
+2019-11-03 16:01:46,038 - train_mbv3.py[line:201] - INFO: 16:01:46, Epoch 6, Step 80, Loss 1.2574, lr: 5.6581e-04, train_accu 0.7969
+2019-11-03 16:01:52,774 - train_mbv3.py[line:201] - INFO: 16:01:52, Epoch 6, Step 90, Loss 1.1621, lr: 5.6154e-04, train_accu 0.8398
+2019-11-03 16:01:59,333 - train_mbv3.py[line:201] - INFO: 16:01:59, Epoch 6, Step 100, Loss 1.2000, lr: 5.5726e-04, train_accu 0.8242
+2019-11-03 16:02:05,992 - train_mbv3.py[line:201] - INFO: 16:02:05, Epoch 6, Step 110, Loss 1.1796, lr: 5.5299e-04, train_accu 0.8125
+2019-11-03 16:02:12,686 - train_mbv3.py[line:201] - INFO: 16:02:12, Epoch 6, Step 120, Loss 1.1895, lr: 5.4872e-04, train_accu 0.8242
+2019-11-03 16:02:19,284 - train_mbv3.py[line:201] - INFO: 16:02:19, Epoch 6, Step 130, Loss 1.1147, lr: 5.4444e-04, train_accu 0.8359
+2019-11-03 16:02:25,935 - train_mbv3.py[line:201] - INFO: 16:02:25, Epoch 6, Step 140, Loss 1.0928, lr: 5.4017e-04, train_accu 0.8789
+2019-11-03 16:02:32,643 - train_mbv3.py[line:201] - INFO: 16:02:32, Epoch 6, Step 150, Loss 1.1932, lr: 5.3590e-04, train_accu 0.8398
+2019-11-03 16:02:39,436 - train_mbv3.py[line:201] - INFO: 16:02:39, Epoch 6, Step 160, Loss 1.0933, lr: 5.3162e-04, train_accu 0.8594
+2019-11-03 16:02:46,287 - train_mbv3.py[line:201] - INFO: 16:02:46, Epoch 6, Step 170, Loss 1.2505, lr: 5.2735e-04, train_accu 0.7852
+2019-11-03 16:02:52,976 - train_mbv3.py[line:201] - INFO: 16:02:52, Epoch 6, Step 180, Loss 1.1108, lr: 5.2308e-04, train_accu 0.8477
+2019-11-03 16:02:59,586 - train_mbv3.py[line:201] - INFO: 16:02:59, Epoch 6, Step 190, Loss 1.1460, lr: 5.1880e-04, train_accu 0.8242
+2019-11-03 16:03:03,351 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-1365
+2019-11-03 16:03:03,352 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8186
+2019-11-03 16:03:07,571 - train_mbv3.py[line:229] - INFO: Epoch 6, Global Step 1365, val accuracy: 0.8353 (8353.0/10000.0)
+2019-11-03 16:03:07,572 - train_mbv3.py[line:242] - INFO: Saturation Epoch 5, val accuracy did not improve from 0.8529.
+2019-11-03 16:03:08,244 - train_mbv3.py[line:201] - INFO: 16:03:08, Epoch 7, Step 0, Loss 1.1744, lr: 5.1667e-04, train_accu 0.8125
+2019-11-03 16:03:14,851 - train_mbv3.py[line:201] - INFO: 16:03:14, Epoch 7, Step 10, Loss 1.2640, lr: 5.1239e-04, train_accu 0.8203
+2019-11-03 16:03:21,571 - train_mbv3.py[line:201] - INFO: 16:03:21, Epoch 7, Step 20, Loss 1.3002, lr: 5.0812e-04, train_accu 0.7695
+2019-11-03 16:03:28,430 - train_mbv3.py[line:201] - INFO: 16:03:28, Epoch 7, Step 30, Loss 1.1289, lr: 5.0385e-04, train_accu 0.8281
+2019-11-03 16:03:35,185 - train_mbv3.py[line:201] - INFO: 16:03:35, Epoch 7, Step 40, Loss 1.0718, lr: 4.9957e-04, train_accu 0.8516
+2019-11-03 16:03:42,093 - train_mbv3.py[line:201] - INFO: 16:03:42, Epoch 7, Step 50, Loss 1.1726, lr: 4.9530e-04, train_accu 0.8398
+2019-11-03 16:03:48,819 - train_mbv3.py[line:201] - INFO: 16:03:48, Epoch 7, Step 60, Loss 1.0810, lr: 4.9103e-04, train_accu 0.8359
+2019-11-03 16:03:55,516 - train_mbv3.py[line:201] - INFO: 16:03:55, Epoch 7, Step 70, Loss 1.0751, lr: 4.8675e-04, train_accu 0.8398
+2019-11-03 16:04:02,127 - train_mbv3.py[line:201] - INFO: 16:04:02, Epoch 7, Step 80, Loss 1.1776, lr: 4.8248e-04, train_accu 0.8086
+2019-11-03 16:04:08,897 - train_mbv3.py[line:201] - INFO: 16:04:08, Epoch 7, Step 90, Loss 1.1101, lr: 4.7821e-04, train_accu 0.8359
+2019-11-03 16:04:15,637 - train_mbv3.py[line:201] - INFO: 16:04:15, Epoch 7, Step 100, Loss 1.2858, lr: 4.7393e-04, train_accu 0.7930
+2019-11-03 16:04:22,404 - train_mbv3.py[line:201] - INFO: 16:04:22, Epoch 7, Step 110, Loss 1.1809, lr: 4.6966e-04, train_accu 0.8203
+2019-11-03 16:04:29,176 - train_mbv3.py[line:201] - INFO: 16:04:29, Epoch 7, Step 120, Loss 1.1100, lr: 4.6538e-04, train_accu 0.8438
+2019-11-03 16:04:35,943 - train_mbv3.py[line:201] - INFO: 16:04:35, Epoch 7, Step 130, Loss 1.1820, lr: 4.6111e-04, train_accu 0.8125
+2019-11-03 16:04:42,793 - train_mbv3.py[line:201] - INFO: 16:04:42, Epoch 7, Step 140, Loss 1.0548, lr: 4.5684e-04, train_accu 0.8711
+2019-11-03 16:04:49,457 - train_mbv3.py[line:201] - INFO: 16:04:49, Epoch 7, Step 150, Loss 1.1006, lr: 4.5256e-04, train_accu 0.8438
+2019-11-03 16:04:56,244 - train_mbv3.py[line:201] - INFO: 16:04:56, Epoch 7, Step 160, Loss 1.1728, lr: 4.4829e-04, train_accu 0.8203
+2019-11-03 16:05:02,987 - train_mbv3.py[line:201] - INFO: 16:05:02, Epoch 7, Step 170, Loss 1.1395, lr: 4.4402e-04, train_accu 0.8125
+2019-11-03 16:05:09,991 - train_mbv3.py[line:201] - INFO: 16:05:09, Epoch 7, Step 180, Loss 1.1478, lr: 4.3974e-04, train_accu 0.8086
+2019-11-03 16:05:16,827 - train_mbv3.py[line:201] - INFO: 16:05:16, Epoch 7, Step 190, Loss 1.1548, lr: 4.3547e-04, train_accu 0.8398
+2019-11-03 16:05:20,604 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-1560
+2019-11-03 16:05:20,606 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8219
+2019-11-03 16:05:24,976 - train_mbv3.py[line:229] - INFO: Epoch 7, Global Step 1560, val accuracy: 0.8382 (8382.0/10000.0)
+2019-11-03 16:05:24,977 - train_mbv3.py[line:242] - INFO: Saturation Epoch 6, val accuracy did not improve from 0.8529.
+2019-11-03 16:05:25,684 - train_mbv3.py[line:201] - INFO: 16:05:25, Epoch 8, Step 0, Loss 1.1164, lr: 4.3333e-04, train_accu 0.8281
+2019-11-03 16:05:32,525 - train_mbv3.py[line:201] - INFO: 16:05:32, Epoch 8, Step 10, Loss 1.1275, lr: 4.2906e-04, train_accu 0.8008
+2019-11-03 16:05:39,370 - train_mbv3.py[line:201] - INFO: 16:05:39, Epoch 8, Step 20, Loss 1.1730, lr: 4.2479e-04, train_accu 0.8125
+2019-11-03 16:05:46,231 - train_mbv3.py[line:201] - INFO: 16:05:46, Epoch 8, Step 30, Loss 1.1643, lr: 4.2051e-04, train_accu 0.8516
+2019-11-03 16:05:53,050 - train_mbv3.py[line:201] - INFO: 16:05:53, Epoch 8, Step 40, Loss 1.1896, lr: 4.1624e-04, train_accu 0.8008
+2019-11-03 16:05:59,919 - train_mbv3.py[line:201] - INFO: 16:05:59, Epoch 8, Step 50, Loss 1.2127, lr: 4.1197e-04, train_accu 0.8086
+2019-11-03 16:06:06,892 - train_mbv3.py[line:201] - INFO: 16:06:06, Epoch 8, Step 60, Loss 1.1719, lr: 4.0769e-04, train_accu 0.8047
+2019-11-03 16:06:13,574 - train_mbv3.py[line:201] - INFO: 16:06:13, Epoch 8, Step 70, Loss 1.1183, lr: 4.0342e-04, train_accu 0.8320
+2019-11-03 16:06:20,275 - train_mbv3.py[line:201] - INFO: 16:06:20, Epoch 8, Step 80, Loss 1.0766, lr: 3.9915e-04, train_accu 0.8164
+2019-11-03 16:06:26,897 - train_mbv3.py[line:201] - INFO: 16:06:26, Epoch 8, Step 90, Loss 1.1411, lr: 3.9487e-04, train_accu 0.8320
+2019-11-03 16:06:33,775 - train_mbv3.py[line:201] - INFO: 16:06:33, Epoch 8, Step 100, Loss 1.1183, lr: 3.9060e-04, train_accu 0.8594
+2019-11-03 16:06:40,457 - train_mbv3.py[line:201] - INFO: 16:06:40, Epoch 8, Step 110, Loss 1.0552, lr: 3.8632e-04, train_accu 0.8633
+2019-11-03 16:06:47,221 - train_mbv3.py[line:201] - INFO: 16:06:47, Epoch 8, Step 120, Loss 1.1552, lr: 3.8205e-04, train_accu 0.8164
+2019-11-03 16:06:54,242 - train_mbv3.py[line:201] - INFO: 16:06:54, Epoch 8, Step 130, Loss 1.3099, lr: 3.7778e-04, train_accu 0.7891
+2019-11-03 16:07:01,023 - train_mbv3.py[line:201] - INFO: 16:07:01, Epoch 8, Step 140, Loss 1.1311, lr: 3.7350e-04, train_accu 0.8359
+2019-11-03 16:07:07,753 - train_mbv3.py[line:201] - INFO: 16:07:07, Epoch 8, Step 150, Loss 1.0445, lr: 3.6923e-04, train_accu 0.8594
+2019-11-03 16:07:14,528 - train_mbv3.py[line:201] - INFO: 16:07:14, Epoch 8, Step 160, Loss 0.9908, lr: 3.6496e-04, train_accu 0.8828
+2019-11-03 16:07:21,300 - train_mbv3.py[line:201] - INFO: 16:07:21, Epoch 8, Step 170, Loss 1.1126, lr: 3.6068e-04, train_accu 0.8203
+2019-11-03 16:07:28,007 - train_mbv3.py[line:201] - INFO: 16:07:28, Epoch 8, Step 180, Loss 1.1463, lr: 3.5641e-04, train_accu 0.7891
+2019-11-03 16:07:34,807 - train_mbv3.py[line:201] - INFO: 16:07:34, Epoch 8, Step 190, Loss 1.1375, lr: 3.5214e-04, train_accu 0.8320
+2019-11-03 16:07:38,626 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-1755
+2019-11-03 16:07:38,627 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8244
+2019-11-03 16:07:43,118 - train_mbv3.py[line:229] - INFO: Epoch 8, Global Step 1755, val accuracy: 0.8583 (8583.0/10000.0)
+2019-11-03 16:07:44,178 - train_mbv3.py[line:242] - INFO: Epoch 8, val accuracy improved from 0.8529 to 0.8583, save best model to models/mbv3_small_cifar10_128x128/best/best_0.8583.ckpt.
+2019-11-03 16:07:44,869 - train_mbv3.py[line:201] - INFO: 16:07:44, Epoch 9, Step 0, Loss 1.0272, lr: 3.5000e-04, train_accu 0.8867
+2019-11-03 16:07:51,704 - train_mbv3.py[line:201] - INFO: 16:07:51, Epoch 9, Step 10, Loss 1.1254, lr: 3.4573e-04, train_accu 0.8164
+2019-11-03 16:07:58,439 - train_mbv3.py[line:201] - INFO: 16:07:58, Epoch 9, Step 20, Loss 1.1287, lr: 3.4145e-04, train_accu 0.8203
+2019-11-03 16:08:05,219 - train_mbv3.py[line:201] - INFO: 16:08:05, Epoch 9, Step 30, Loss 1.2486, lr: 3.3718e-04, train_accu 0.7695
+2019-11-03 16:08:12,053 - train_mbv3.py[line:201] - INFO: 16:08:12, Epoch 9, Step 40, Loss 1.1510, lr: 3.3291e-04, train_accu 0.8242
+2019-11-03 16:08:18,975 - train_mbv3.py[line:201] - INFO: 16:08:18, Epoch 9, Step 50, Loss 1.1835, lr: 3.2863e-04, train_accu 0.7969
+2019-11-03 16:08:25,794 - train_mbv3.py[line:201] - INFO: 16:08:25, Epoch 9, Step 60, Loss 1.1147, lr: 3.2436e-04, train_accu 0.8398
+2019-11-03 16:08:32,662 - train_mbv3.py[line:201] - INFO: 16:08:32, Epoch 9, Step 70, Loss 1.0990, lr: 3.2009e-04, train_accu 0.8594
+2019-11-03 16:08:39,310 - train_mbv3.py[line:201] - INFO: 16:08:39, Epoch 9, Step 80, Loss 1.0512, lr: 3.1581e-04, train_accu 0.8555
+2019-11-03 16:08:46,180 - train_mbv3.py[line:201] - INFO: 16:08:46, Epoch 9, Step 90, Loss 1.1400, lr: 3.1154e-04, train_accu 0.8242
+2019-11-03 16:08:52,919 - train_mbv3.py[line:201] - INFO: 16:08:52, Epoch 9, Step 100, Loss 1.1010, lr: 3.0726e-04, train_accu 0.8320
+2019-11-03 16:08:59,644 - train_mbv3.py[line:201] - INFO: 16:08:59, Epoch 9, Step 110, Loss 1.1371, lr: 3.0299e-04, train_accu 0.8203
+2019-11-03 16:09:06,295 - train_mbv3.py[line:201] - INFO: 16:09:06, Epoch 9, Step 120, Loss 1.1290, lr: 2.9872e-04, train_accu 0.8242
+2019-11-03 16:09:13,170 - train_mbv3.py[line:201] - INFO: 16:09:13, Epoch 9, Step 130, Loss 1.0472, lr: 2.9444e-04, train_accu 0.8516
+2019-11-03 16:09:20,060 - train_mbv3.py[line:201] - INFO: 16:09:20, Epoch 9, Step 140, Loss 1.1995, lr: 2.9017e-04, train_accu 0.8203
+2019-11-03 16:09:26,941 - train_mbv3.py[line:201] - INFO: 16:09:26, Epoch 9, Step 150, Loss 1.1095, lr: 2.8590e-04, train_accu 0.8281
+2019-11-03 16:09:33,803 - train_mbv3.py[line:201] - INFO: 16:09:33, Epoch 9, Step 160, Loss 1.1952, lr: 2.8162e-04, train_accu 0.7930
+2019-11-03 16:09:40,676 - train_mbv3.py[line:201] - INFO: 16:09:40, Epoch 9, Step 170, Loss 1.1489, lr: 2.7735e-04, train_accu 0.8359
+2019-11-03 16:09:47,529 - train_mbv3.py[line:201] - INFO: 16:09:47, Epoch 9, Step 180, Loss 1.1587, lr: 2.7308e-04, train_accu 0.8008
+2019-11-03 16:09:54,347 - train_mbv3.py[line:201] - INFO: 16:09:54, Epoch 9, Step 190, Loss 1.1113, lr: 2.6880e-04, train_accu 0.8203
+2019-11-03 16:09:58,114 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-1950
+2019-11-03 16:09:58,116 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8259
+2019-11-03 16:10:02,638 - train_mbv3.py[line:229] - INFO: Epoch 9, Global Step 1950, val accuracy: 0.8539 (8539.0/10000.0)
+2019-11-03 16:10:02,638 - train_mbv3.py[line:242] - INFO: Saturation Epoch 1, val accuracy did not improve from 0.8583.
+2019-11-03 16:10:03,317 - train_mbv3.py[line:201] - INFO: 16:10:03, Epoch 10, Step 0, Loss 1.1520, lr: 2.6667e-04, train_accu 0.8047
+2019-11-03 16:10:10,152 - train_mbv3.py[line:201] - INFO: 16:10:10, Epoch 10, Step 10, Loss 0.9907, lr: 2.6239e-04, train_accu 0.8516
+2019-11-03 16:10:16,844 - train_mbv3.py[line:201] - INFO: 16:10:16, Epoch 10, Step 20, Loss 1.1231, lr: 2.5812e-04, train_accu 0.8281
+2019-11-03 16:10:23,546 - train_mbv3.py[line:201] - INFO: 16:10:23, Epoch 10, Step 30, Loss 1.1531, lr: 2.5385e-04, train_accu 0.8281
+2019-11-03 16:10:30,265 - train_mbv3.py[line:201] - INFO: 16:10:30, Epoch 10, Step 40, Loss 0.9899, lr: 2.4957e-04, train_accu 0.8633
+2019-11-03 16:10:37,036 - train_mbv3.py[line:201] - INFO: 16:10:37, Epoch 10, Step 50, Loss 1.1776, lr: 2.4530e-04, train_accu 0.7930
+2019-11-03 16:10:43,753 - train_mbv3.py[line:201] - INFO: 16:10:43, Epoch 10, Step 60, Loss 1.0633, lr: 2.4103e-04, train_accu 0.8359
+2019-11-03 16:10:50,485 - train_mbv3.py[line:201] - INFO: 16:10:50, Epoch 10, Step 70, Loss 1.1024, lr: 2.3675e-04, train_accu 0.8281
+2019-11-03 16:10:57,133 - train_mbv3.py[line:201] - INFO: 16:10:57, Epoch 10, Step 80, Loss 1.0402, lr: 2.3248e-04, train_accu 0.8242
+2019-11-03 16:11:03,741 - train_mbv3.py[line:201] - INFO: 16:11:03, Epoch 10, Step 90, Loss 1.0730, lr: 2.2821e-04, train_accu 0.8398
+2019-11-03 16:11:10,595 - train_mbv3.py[line:201] - INFO: 16:11:10, Epoch 10, Step 100, Loss 1.0309, lr: 2.2393e-04, train_accu 0.8555
+2019-11-03 16:11:17,463 - train_mbv3.py[line:201] - INFO: 16:11:17, Epoch 10, Step 110, Loss 1.0897, lr: 2.1966e-04, train_accu 0.8203
+2019-11-03 16:11:24,073 - train_mbv3.py[line:201] - INFO: 16:11:24, Epoch 10, Step 120, Loss 1.2004, lr: 2.1538e-04, train_accu 0.8242
+2019-11-03 16:11:30,746 - train_mbv3.py[line:201] - INFO: 16:11:30, Epoch 10, Step 130, Loss 1.0549, lr: 2.1111e-04, train_accu 0.8477
+2019-11-03 16:11:37,536 - train_mbv3.py[line:201] - INFO: 16:11:37, Epoch 10, Step 140, Loss 1.1285, lr: 2.0684e-04, train_accu 0.8047
+2019-11-03 16:11:44,240 - train_mbv3.py[line:201] - INFO: 16:11:44, Epoch 10, Step 150, Loss 1.0898, lr: 2.0256e-04, train_accu 0.8281
+2019-11-03 16:11:51,069 - train_mbv3.py[line:201] - INFO: 16:11:51, Epoch 10, Step 160, Loss 1.0838, lr: 1.9829e-04, train_accu 0.8086
+2019-11-03 16:11:57,797 - train_mbv3.py[line:201] - INFO: 16:11:57, Epoch 10, Step 170, Loss 1.0239, lr: 1.9402e-04, train_accu 0.8438
+2019-11-03 16:12:04,488 - train_mbv3.py[line:201] - INFO: 16:12:04, Epoch 10, Step 180, Loss 0.9972, lr: 1.8974e-04, train_accu 0.8672
+2019-11-03 16:12:11,207 - train_mbv3.py[line:201] - INFO: 16:12:11, Epoch 10, Step 190, Loss 1.0430, lr: 1.8547e-04, train_accu 0.8711
+2019-11-03 16:12:15,012 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-2145
+2019-11-03 16:12:15,013 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8289
+2019-11-03 16:12:19,335 - train_mbv3.py[line:229] - INFO: Epoch 10, Global Step 2145, val accuracy: 0.8653 (8653.0/10000.0)
+2019-11-03 16:12:20,429 - train_mbv3.py[line:242] - INFO: Epoch 10, val accuracy improved from 0.8583 to 0.8653, save best model to models/mbv3_small_cifar10_128x128/best/best_0.8653.ckpt.
+2019-11-03 16:12:21,100 - train_mbv3.py[line:201] - INFO: 16:12:21, Epoch 11, Step 0, Loss 1.0777, lr: 1.8333e-04, train_accu 0.8398
+2019-11-03 16:12:27,797 - train_mbv3.py[line:201] - INFO: 16:12:27, Epoch 11, Step 10, Loss 1.0307, lr: 1.7906e-04, train_accu 0.8477
+2019-11-03 16:12:34,573 - train_mbv3.py[line:201] - INFO: 16:12:34, Epoch 11, Step 20, Loss 1.1558, lr: 1.7479e-04, train_accu 0.8008
+2019-11-03 16:12:41,334 - train_mbv3.py[line:201] - INFO: 16:12:41, Epoch 11, Step 30, Loss 1.1093, lr: 1.7051e-04, train_accu 0.8242
+2019-11-03 16:12:48,235 - train_mbv3.py[line:201] - INFO: 16:12:48, Epoch 11, Step 40, Loss 1.0520, lr: 1.6624e-04, train_accu 0.8125
+2019-11-03 16:12:55,245 - train_mbv3.py[line:201] - INFO: 16:12:55, Epoch 11, Step 50, Loss 1.1436, lr: 1.6197e-04, train_accu 0.7930
+2019-11-03 16:13:01,932 - train_mbv3.py[line:201] - INFO: 16:13:01, Epoch 11, Step 60, Loss 1.1047, lr: 1.5769e-04, train_accu 0.8359
+2019-11-03 16:13:08,760 - train_mbv3.py[line:201] - INFO: 16:13:08, Epoch 11, Step 70, Loss 1.1485, lr: 1.5342e-04, train_accu 0.7969
+2019-11-03 16:13:15,486 - train_mbv3.py[line:201] - INFO: 16:13:15, Epoch 11, Step 80, Loss 0.9183, lr: 1.4915e-04, train_accu 0.8789
+2019-11-03 16:13:22,272 - train_mbv3.py[line:201] - INFO: 16:13:22, Epoch 11, Step 90, Loss 1.0647, lr: 1.4487e-04, train_accu 0.8320
+2019-11-03 16:13:28,946 - train_mbv3.py[line:201] - INFO: 16:13:28, Epoch 11, Step 100, Loss 1.1053, lr: 1.4060e-04, train_accu 0.8125
+2019-11-03 16:13:35,691 - train_mbv3.py[line:201] - INFO: 16:13:35, Epoch 11, Step 110, Loss 1.0961, lr: 1.3632e-04, train_accu 0.8242
+2019-11-03 16:13:42,293 - train_mbv3.py[line:201] - INFO: 16:13:42, Epoch 11, Step 120, Loss 1.0918, lr: 1.3205e-04, train_accu 0.8281
+2019-11-03 16:13:48,929 - train_mbv3.py[line:201] - INFO: 16:13:48, Epoch 11, Step 130, Loss 1.1369, lr: 1.2778e-04, train_accu 0.8203
+2019-11-03 16:13:55,476 - train_mbv3.py[line:201] - INFO: 16:13:55, Epoch 11, Step 140, Loss 1.0647, lr: 1.2350e-04, train_accu 0.8203
+2019-11-03 16:14:02,309 - train_mbv3.py[line:201] - INFO: 16:14:02, Epoch 11, Step 150, Loss 1.0785, lr: 1.1923e-04, train_accu 0.8359
+2019-11-03 16:14:09,089 - train_mbv3.py[line:201] - INFO: 16:14:09, Epoch 11, Step 160, Loss 1.0631, lr: 1.1496e-04, train_accu 0.8438
+2019-11-03 16:14:15,919 - train_mbv3.py[line:201] - INFO: 16:14:15, Epoch 11, Step 170, Loss 1.0863, lr: 1.1068e-04, train_accu 0.8242
+2019-11-03 16:14:22,677 - train_mbv3.py[line:201] - INFO: 16:14:22, Epoch 11, Step 180, Loss 1.2130, lr: 1.0641e-04, train_accu 0.7734
+2019-11-03 16:14:29,315 - train_mbv3.py[line:201] - INFO: 16:14:29, Epoch 11, Step 190, Loss 1.2179, lr: 1.0214e-04, train_accu 0.7734
+2019-11-03 16:14:33,043 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-2340
+2019-11-03 16:14:33,044 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8288
+2019-11-03 16:14:37,554 - train_mbv3.py[line:229] - INFO: Epoch 11, Global Step 2340, val accuracy: 0.8666 (8666.0/10000.0)
+2019-11-03 16:14:38,658 - train_mbv3.py[line:242] - INFO: Epoch 11, val accuracy improved from 0.8653 to 0.8666, save best model to models/mbv3_small_cifar10_128x128/best/best_0.8666.ckpt.
+2019-11-03 16:14:39,334 - train_mbv3.py[line:201] - INFO: 16:14:39, Epoch 12, Step 0, Loss 1.0432, lr: 1.0000e-04, train_accu 0.8398
+2019-11-03 16:14:46,015 - train_mbv3.py[line:201] - INFO: 16:14:46, Epoch 12, Step 10, Loss 1.0504, lr: 1.0214e-04, train_accu 0.8594
+2019-11-03 16:14:52,693 - train_mbv3.py[line:201] - INFO: 16:14:52, Epoch 12, Step 20, Loss 1.0636, lr: 1.0427e-04, train_accu 0.8477
+2019-11-03 16:14:59,390 - train_mbv3.py[line:201] - INFO: 16:14:59, Epoch 12, Step 30, Loss 1.0823, lr: 1.0641e-04, train_accu 0.8359
+2019-11-03 16:15:06,108 - train_mbv3.py[line:201] - INFO: 16:15:06, Epoch 12, Step 40, Loss 1.0347, lr: 1.0855e-04, train_accu 0.8359
+2019-11-03 16:15:12,783 - train_mbv3.py[line:201] - INFO: 16:15:12, Epoch 12, Step 50, Loss 1.0288, lr: 1.1068e-04, train_accu 0.8477
+2019-11-03 16:15:19,704 - train_mbv3.py[line:201] - INFO: 16:15:19, Epoch 12, Step 60, Loss 0.9998, lr: 1.1282e-04, train_accu 0.8438
+2019-11-03 16:15:26,606 - train_mbv3.py[line:201] - INFO: 16:15:26, Epoch 12, Step 70, Loss 1.0637, lr: 1.1496e-04, train_accu 0.8164
+2019-11-03 16:15:33,512 - train_mbv3.py[line:201] - INFO: 16:15:33, Epoch 12, Step 80, Loss 1.1084, lr: 1.1709e-04, train_accu 0.8164
+2019-11-03 16:15:40,226 - train_mbv3.py[line:201] - INFO: 16:15:40, Epoch 12, Step 90, Loss 0.9575, lr: 1.1923e-04, train_accu 0.8789
+2019-11-03 16:15:46,944 - train_mbv3.py[line:201] - INFO: 16:15:46, Epoch 12, Step 100, Loss 1.0561, lr: 1.2137e-04, train_accu 0.8359
+2019-11-03 16:15:53,762 - train_mbv3.py[line:201] - INFO: 16:15:53, Epoch 12, Step 110, Loss 1.1060, lr: 1.2350e-04, train_accu 0.8203
+2019-11-03 16:16:00,479 - train_mbv3.py[line:201] - INFO: 16:16:00, Epoch 12, Step 120, Loss 1.0425, lr: 1.2564e-04, train_accu 0.8477
+2019-11-03 16:16:07,373 - train_mbv3.py[line:201] - INFO: 16:16:07, Epoch 12, Step 130, Loss 1.0475, lr: 1.2778e-04, train_accu 0.8516
+2019-11-03 16:16:14,053 - train_mbv3.py[line:201] - INFO: 16:16:14, Epoch 12, Step 140, Loss 1.0516, lr: 1.2991e-04, train_accu 0.8281
+2019-11-03 16:16:20,684 - train_mbv3.py[line:201] - INFO: 16:16:20, Epoch 12, Step 150, Loss 1.1488, lr: 1.3205e-04, train_accu 0.8086
+2019-11-03 16:16:27,264 - train_mbv3.py[line:201] - INFO: 16:16:27, Epoch 12, Step 160, Loss 1.0817, lr: 1.3419e-04, train_accu 0.8398
+2019-11-03 16:16:33,938 - train_mbv3.py[line:201] - INFO: 16:16:33, Epoch 12, Step 170, Loss 1.0785, lr: 1.3632e-04, train_accu 0.8125
+2019-11-03 16:16:40,598 - train_mbv3.py[line:201] - INFO: 16:16:40, Epoch 12, Step 180, Loss 1.0573, lr: 1.3846e-04, train_accu 0.8086
+2019-11-03 16:16:47,256 - train_mbv3.py[line:201] - INFO: 16:16:47, Epoch 12, Step 190, Loss 1.0603, lr: 1.4060e-04, train_accu 0.8359
+2019-11-03 16:16:50,971 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-2535
+2019-11-03 16:16:50,972 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8351
+2019-11-03 16:16:55,273 - train_mbv3.py[line:229] - INFO: Epoch 12, Global Step 2535, val accuracy: 0.8637 (8637.0/10000.0)
+2019-11-03 16:16:55,273 - train_mbv3.py[line:242] - INFO: Saturation Epoch 1, val accuracy did not improve from 0.8666.
+2019-11-03 16:16:55,922 - train_mbv3.py[line:201] - INFO: 16:16:55, Epoch 13, Step 0, Loss 0.9867, lr: 1.4167e-04, train_accu 0.8633
+2019-11-03 16:17:02,725 - train_mbv3.py[line:201] - INFO: 16:17:02, Epoch 13, Step 10, Loss 0.9541, lr: 1.4380e-04, train_accu 0.8828
+2019-11-03 16:17:09,392 - train_mbv3.py[line:201] - INFO: 16:17:09, Epoch 13, Step 20, Loss 1.0424, lr: 1.4594e-04, train_accu 0.8320
+2019-11-03 16:17:16,028 - train_mbv3.py[line:201] - INFO: 16:17:16, Epoch 13, Step 30, Loss 1.0456, lr: 1.4808e-04, train_accu 0.8359
+2019-11-03 16:17:22,740 - train_mbv3.py[line:201] - INFO: 16:17:22, Epoch 13, Step 40, Loss 1.0990, lr: 1.5021e-04, train_accu 0.7969
+2019-11-03 16:17:29,337 - train_mbv3.py[line:201] - INFO: 16:17:29, Epoch 13, Step 50, Loss 1.1073, lr: 1.5235e-04, train_accu 0.8398
+2019-11-03 16:17:35,871 - train_mbv3.py[line:201] - INFO: 16:17:35, Epoch 13, Step 60, Loss 1.0412, lr: 1.5449e-04, train_accu 0.8359
+2019-11-03 16:17:42,464 - train_mbv3.py[line:201] - INFO: 16:17:42, Epoch 13, Step 70, Loss 1.1272, lr: 1.5662e-04, train_accu 0.8203
+2019-11-03 16:17:49,127 - train_mbv3.py[line:201] - INFO: 16:17:49, Epoch 13, Step 80, Loss 1.0866, lr: 1.5876e-04, train_accu 0.8359
+2019-11-03 16:17:55,831 - train_mbv3.py[line:201] - INFO: 16:17:55, Epoch 13, Step 90, Loss 1.0919, lr: 1.6090e-04, train_accu 0.8164
+2019-11-03 16:18:02,530 - train_mbv3.py[line:201] - INFO: 16:18:02, Epoch 13, Step 100, Loss 1.0768, lr: 1.6303e-04, train_accu 0.8281
+2019-11-03 16:18:09,213 - train_mbv3.py[line:201] - INFO: 16:18:09, Epoch 13, Step 110, Loss 1.0066, lr: 1.6517e-04, train_accu 0.8438
+2019-11-03 16:18:15,923 - train_mbv3.py[line:201] - INFO: 16:18:15, Epoch 13, Step 120, Loss 1.0560, lr: 1.6731e-04, train_accu 0.8320
+2019-11-03 16:18:22,653 - train_mbv3.py[line:201] - INFO: 16:18:22, Epoch 13, Step 130, Loss 1.1388, lr: 1.6944e-04, train_accu 0.8086
+2019-11-03 16:18:29,336 - train_mbv3.py[line:201] - INFO: 16:18:29, Epoch 13, Step 140, Loss 0.9394, lr: 1.7158e-04, train_accu 0.8633
+2019-11-03 16:18:36,048 - train_mbv3.py[line:201] - INFO: 16:18:36, Epoch 13, Step 150, Loss 1.0252, lr: 1.7372e-04, train_accu 0.8516
+2019-11-03 16:18:42,737 - train_mbv3.py[line:201] - INFO: 16:18:42, Epoch 13, Step 160, Loss 1.0030, lr: 1.7585e-04, train_accu 0.8633
+2019-11-03 16:18:49,572 - train_mbv3.py[line:201] - INFO: 16:18:49, Epoch 13, Step 170, Loss 1.1394, lr: 1.7799e-04, train_accu 0.8086
+2019-11-03 16:18:56,288 - train_mbv3.py[line:201] - INFO: 16:18:56, Epoch 13, Step 180, Loss 1.1688, lr: 1.8013e-04, train_accu 0.8359
+2019-11-03 16:19:02,987 - train_mbv3.py[line:201] - INFO: 16:19:02, Epoch 13, Step 190, Loss 1.0189, lr: 1.8226e-04, train_accu 0.8398
+2019-11-03 16:19:06,801 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-2730
+2019-11-03 16:19:06,802 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8300
+2019-11-03 16:19:11,221 - train_mbv3.py[line:229] - INFO: Epoch 13, Global Step 2730, val accuracy: 0.8676 (8676.0/10000.0)
+2019-11-03 16:19:12,299 - train_mbv3.py[line:242] - INFO: Epoch 13, val accuracy improved from 0.8666 to 0.8676, save best model to models/mbv3_small_cifar10_128x128/best/best_0.8676.ckpt.
+2019-11-03 16:19:12,961 - train_mbv3.py[line:201] - INFO: 16:19:12, Epoch 14, Step 0, Loss 0.9868, lr: 1.8333e-04, train_accu 0.8555
+2019-11-03 16:19:19,610 - train_mbv3.py[line:201] - INFO: 16:19:19, Epoch 14, Step 10, Loss 0.9569, lr: 1.8547e-04, train_accu 0.8711
+2019-11-03 16:19:26,237 - train_mbv3.py[line:201] - INFO: 16:19:26, Epoch 14, Step 20, Loss 1.0944, lr: 1.8761e-04, train_accu 0.8164
+2019-11-03 16:19:32,889 - train_mbv3.py[line:201] - INFO: 16:19:32, Epoch 14, Step 30, Loss 1.1255, lr: 1.8974e-04, train_accu 0.7852
+2019-11-03 16:19:39,648 - train_mbv3.py[line:201] - INFO: 16:19:39, Epoch 14, Step 40, Loss 1.0628, lr: 1.9188e-04, train_accu 0.8203
+2019-11-03 16:19:46,351 - train_mbv3.py[line:201] - INFO: 16:19:46, Epoch 14, Step 50, Loss 1.0684, lr: 1.9402e-04, train_accu 0.8242
+2019-11-03 16:19:53,007 - train_mbv3.py[line:201] - INFO: 16:19:53, Epoch 14, Step 60, Loss 1.0387, lr: 1.9615e-04, train_accu 0.8359
+2019-11-03 16:19:59,780 - train_mbv3.py[line:201] - INFO: 16:19:59, Epoch 14, Step 70, Loss 1.0499, lr: 1.9829e-04, train_accu 0.8359
+2019-11-03 16:20:06,424 - train_mbv3.py[line:201] - INFO: 16:20:06, Epoch 14, Step 80, Loss 1.1245, lr: 2.0043e-04, train_accu 0.8008
+2019-11-03 16:20:13,180 - train_mbv3.py[line:201] - INFO: 16:20:13, Epoch 14, Step 90, Loss 1.0278, lr: 2.0256e-04, train_accu 0.8320
+2019-11-03 16:20:20,001 - train_mbv3.py[line:201] - INFO: 16:20:19, Epoch 14, Step 100, Loss 1.2788, lr: 2.0470e-04, train_accu 0.7539
+2019-11-03 16:20:26,744 - train_mbv3.py[line:201] - INFO: 16:20:26, Epoch 14, Step 110, Loss 1.0552, lr: 2.0684e-04, train_accu 0.8555
+2019-11-03 16:20:33,468 - train_mbv3.py[line:201] - INFO: 16:20:33, Epoch 14, Step 120, Loss 1.0238, lr: 2.0897e-04, train_accu 0.8320
+2019-11-03 16:20:40,072 - train_mbv3.py[line:201] - INFO: 16:20:40, Epoch 14, Step 130, Loss 1.0010, lr: 2.1111e-04, train_accu 0.8672
+2019-11-03 16:20:46,645 - train_mbv3.py[line:201] - INFO: 16:20:46, Epoch 14, Step 140, Loss 1.0515, lr: 2.1325e-04, train_accu 0.8164
+2019-11-03 16:20:53,254 - train_mbv3.py[line:201] - INFO: 16:20:53, Epoch 14, Step 150, Loss 1.0752, lr: 2.1538e-04, train_accu 0.8047
+2019-11-03 16:20:59,936 - train_mbv3.py[line:201] - INFO: 16:20:59, Epoch 14, Step 160, Loss 1.0415, lr: 2.1752e-04, train_accu 0.8242
+2019-11-03 16:21:06,894 - train_mbv3.py[line:201] - INFO: 16:21:06, Epoch 14, Step 170, Loss 0.9375, lr: 2.1966e-04, train_accu 0.8594
+2019-11-03 16:21:13,614 - train_mbv3.py[line:201] - INFO: 16:21:13, Epoch 14, Step 180, Loss 1.0928, lr: 2.2179e-04, train_accu 0.8281
+2019-11-03 16:21:20,491 - train_mbv3.py[line:201] - INFO: 16:21:20, Epoch 14, Step 190, Loss 1.0749, lr: 2.2393e-04, train_accu 0.8242
+2019-11-03 16:21:24,266 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-2925
+2019-11-03 16:21:24,267 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8341
+2019-11-03 16:21:28,512 - train_mbv3.py[line:229] - INFO: Epoch 14, Global Step 2925, val accuracy: 0.8593 (8593.0/10000.0)
+2019-11-03 16:21:28,512 - train_mbv3.py[line:242] - INFO: Saturation Epoch 1, val accuracy did not improve from 0.8676.
+2019-11-03 16:21:29,228 - train_mbv3.py[line:201] - INFO: 16:21:29, Epoch 15, Step 0, Loss 0.9974, lr: 2.2500e-04, train_accu 0.8750
+2019-11-03 16:21:35,960 - train_mbv3.py[line:201] - INFO: 16:21:35, Epoch 15, Step 10, Loss 1.0058, lr: 2.2714e-04, train_accu 0.8516
+2019-11-03 16:21:42,696 - train_mbv3.py[line:201] - INFO: 16:21:42, Epoch 15, Step 20, Loss 1.0645, lr: 2.2927e-04, train_accu 0.8320
+2019-11-03 16:21:49,388 - train_mbv3.py[line:201] - INFO: 16:21:49, Epoch 15, Step 30, Loss 1.0738, lr: 2.3141e-04, train_accu 0.8477
+2019-11-03 16:21:55,981 - train_mbv3.py[line:201] - INFO: 16:21:55, Epoch 15, Step 40, Loss 0.9572, lr: 2.3355e-04, train_accu 0.8438
+2019-11-03 16:22:02,686 - train_mbv3.py[line:201] - INFO: 16:22:02, Epoch 15, Step 50, Loss 1.0642, lr: 2.3568e-04, train_accu 0.8086
+2019-11-03 16:22:09,396 - train_mbv3.py[line:201] - INFO: 16:22:09, Epoch 15, Step 60, Loss 0.9706, lr: 2.3782e-04, train_accu 0.8516
+2019-11-03 16:22:16,100 - train_mbv3.py[line:201] - INFO: 16:22:16, Epoch 15, Step 70, Loss 1.0502, lr: 2.3996e-04, train_accu 0.8242
+2019-11-03 16:22:22,916 - train_mbv3.py[line:201] - INFO: 16:22:22, Epoch 15, Step 80, Loss 1.0362, lr: 2.4209e-04, train_accu 0.8398
+2019-11-03 16:22:29,496 - train_mbv3.py[line:201] - INFO: 16:22:29, Epoch 15, Step 90, Loss 0.9829, lr: 2.4423e-04, train_accu 0.8516
+2019-11-03 16:22:36,193 - train_mbv3.py[line:201] - INFO: 16:22:36, Epoch 15, Step 100, Loss 1.1029, lr: 2.4637e-04, train_accu 0.8281
+2019-11-03 16:22:42,811 - train_mbv3.py[line:201] - INFO: 16:22:42, Epoch 15, Step 110, Loss 1.0070, lr: 2.4850e-04, train_accu 0.8555
+2019-11-03 16:22:49,552 - train_mbv3.py[line:201] - INFO: 16:22:49, Epoch 15, Step 120, Loss 1.1357, lr: 2.5064e-04, train_accu 0.8047
+2019-11-03 16:22:56,397 - train_mbv3.py[line:201] - INFO: 16:22:56, Epoch 15, Step 130, Loss 0.9395, lr: 2.5278e-04, train_accu 0.8633
+2019-11-03 16:23:03,157 - train_mbv3.py[line:201] - INFO: 16:23:03, Epoch 15, Step 140, Loss 0.9974, lr: 2.5491e-04, train_accu 0.8477
+2019-11-03 16:23:10,021 - train_mbv3.py[line:201] - INFO: 16:23:10, Epoch 15, Step 150, Loss 0.9909, lr: 2.5705e-04, train_accu 0.8672
+2019-11-03 16:23:16,938 - train_mbv3.py[line:201] - INFO: 16:23:16, Epoch 15, Step 160, Loss 1.0452, lr: 2.5919e-04, train_accu 0.8320
+2019-11-03 16:23:23,837 - train_mbv3.py[line:201] - INFO: 16:23:23, Epoch 15, Step 170, Loss 1.0370, lr: 2.6132e-04, train_accu 0.8359
+2019-11-03 16:23:30,513 - train_mbv3.py[line:201] - INFO: 16:23:30, Epoch 15, Step 180, Loss 1.0914, lr: 2.6346e-04, train_accu 0.8320
+2019-11-03 16:23:37,271 - train_mbv3.py[line:201] - INFO: 16:23:37, Epoch 15, Step 190, Loss 1.1040, lr: 2.6560e-04, train_accu 0.8047
+2019-11-03 16:23:41,076 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-3120
+2019-11-03 16:23:41,078 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8336
+2019-11-03 16:23:45,496 - train_mbv3.py[line:229] - INFO: Epoch 15, Global Step 3120, val accuracy: 0.8529 (8529.0/10000.0)
+2019-11-03 16:23:45,496 - train_mbv3.py[line:242] - INFO: Saturation Epoch 2, val accuracy did not improve from 0.8676.
+2019-11-03 16:23:46,151 - train_mbv3.py[line:201] - INFO: 16:23:46, Epoch 16, Step 0, Loss 1.0625, lr: 2.6667e-04, train_accu 0.8555
+2019-11-03 16:23:52,951 - train_mbv3.py[line:201] - INFO: 16:23:52, Epoch 16, Step 10, Loss 1.1026, lr: 2.6880e-04, train_accu 0.8047
+2019-11-03 16:23:59,775 - train_mbv3.py[line:201] - INFO: 16:23:59, Epoch 16, Step 20, Loss 0.9549, lr: 2.7094e-04, train_accu 0.8555
+2019-11-03 16:24:06,579 - train_mbv3.py[line:201] - INFO: 16:24:06, Epoch 16, Step 30, Loss 1.0705, lr: 2.7308e-04, train_accu 0.8164
+2019-11-03 16:24:13,423 - train_mbv3.py[line:201] - INFO: 16:24:13, Epoch 16, Step 40, Loss 1.0420, lr: 2.7521e-04, train_accu 0.8320
+2019-11-03 16:24:20,200 - train_mbv3.py[line:201] - INFO: 16:24:20, Epoch 16, Step 50, Loss 0.9085, lr: 2.7735e-04, train_accu 0.8828
+2019-11-03 16:24:27,010 - train_mbv3.py[line:201] - INFO: 16:24:27, Epoch 16, Step 60, Loss 1.1366, lr: 2.7949e-04, train_accu 0.8047
+2019-11-03 16:24:33,912 - train_mbv3.py[line:201] - INFO: 16:24:33, Epoch 16, Step 70, Loss 1.0666, lr: 2.8162e-04, train_accu 0.8320
+2019-11-03 16:24:40,801 - train_mbv3.py[line:201] - INFO: 16:24:40, Epoch 16, Step 80, Loss 1.0642, lr: 2.8376e-04, train_accu 0.8281
+2019-11-03 16:24:47,635 - train_mbv3.py[line:201] - INFO: 16:24:47, Epoch 16, Step 90, Loss 1.1439, lr: 2.8590e-04, train_accu 0.7734
+2019-11-03 16:24:54,639 - train_mbv3.py[line:201] - INFO: 16:24:54, Epoch 16, Step 100, Loss 1.0142, lr: 2.8803e-04, train_accu 0.8477
+2019-11-03 16:25:01,432 - train_mbv3.py[line:201] - INFO: 16:25:01, Epoch 16, Step 110, Loss 0.9898, lr: 2.9017e-04, train_accu 0.8320
+2019-11-03 16:25:08,293 - train_mbv3.py[line:201] - INFO: 16:25:08, Epoch 16, Step 120, Loss 0.9678, lr: 2.9231e-04, train_accu 0.8516
+2019-11-03 16:25:15,081 - train_mbv3.py[line:201] - INFO: 16:25:15, Epoch 16, Step 130, Loss 1.0188, lr: 2.9444e-04, train_accu 0.8555
+2019-11-03 16:25:21,828 - train_mbv3.py[line:201] - INFO: 16:25:21, Epoch 16, Step 140, Loss 0.9531, lr: 2.9658e-04, train_accu 0.8711
+2019-11-03 16:25:28,681 - train_mbv3.py[line:201] - INFO: 16:25:28, Epoch 16, Step 150, Loss 0.9572, lr: 2.9872e-04, train_accu 0.8320
+2019-11-03 16:25:35,530 - train_mbv3.py[line:201] - INFO: 16:25:35, Epoch 16, Step 160, Loss 1.0174, lr: 3.0085e-04, train_accu 0.8398
+2019-11-03 16:25:42,225 - train_mbv3.py[line:201] - INFO: 16:25:42, Epoch 16, Step 170, Loss 1.0315, lr: 3.0299e-04, train_accu 0.8398
+2019-11-03 16:25:48,963 - train_mbv3.py[line:201] - INFO: 16:25:48, Epoch 16, Step 180, Loss 1.0605, lr: 3.0513e-04, train_accu 0.8047
+2019-11-03 16:25:55,689 - train_mbv3.py[line:201] - INFO: 16:25:55, Epoch 16, Step 190, Loss 1.0298, lr: 3.0726e-04, train_accu 0.8359
+2019-11-03 16:25:59,531 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-3315
+2019-11-03 16:25:59,532 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8336
+2019-11-03 16:26:03,791 - train_mbv3.py[line:229] - INFO: Epoch 16, Global Step 3315, val accuracy: 0.8668 (8668.0/10000.0)
+2019-11-03 16:26:03,791 - train_mbv3.py[line:242] - INFO: Saturation Epoch 3, val accuracy did not improve from 0.8676.
+2019-11-03 16:26:04,451 - train_mbv3.py[line:201] - INFO: 16:26:04, Epoch 17, Step 0, Loss 1.0508, lr: 3.0833e-04, train_accu 0.8477
+2019-11-03 16:26:11,167 - train_mbv3.py[line:201] - INFO: 16:26:11, Epoch 17, Step 10, Loss 1.1576, lr: 3.1047e-04, train_accu 0.7852
+2019-11-03 16:26:17,821 - train_mbv3.py[line:201] - INFO: 16:26:17, Epoch 17, Step 20, Loss 1.0007, lr: 3.1261e-04, train_accu 0.8203
+2019-11-03 16:26:24,389 - train_mbv3.py[line:201] - INFO: 16:26:24, Epoch 17, Step 30, Loss 1.0764, lr: 3.1474e-04, train_accu 0.8281
+2019-11-03 16:26:31,062 - train_mbv3.py[line:201] - INFO: 16:26:31, Epoch 17, Step 40, Loss 1.0502, lr: 3.1688e-04, train_accu 0.8164
+2019-11-03 16:26:37,823 - train_mbv3.py[line:201] - INFO: 16:26:37, Epoch 17, Step 50, Loss 1.0707, lr: 3.1902e-04, train_accu 0.8359
+2019-11-03 16:26:44,622 - train_mbv3.py[line:201] - INFO: 16:26:44, Epoch 17, Step 60, Loss 0.9108, lr: 3.2115e-04, train_accu 0.8828
+2019-11-03 16:26:51,391 - train_mbv3.py[line:201] - INFO: 16:26:51, Epoch 17, Step 70, Loss 1.0045, lr: 3.2329e-04, train_accu 0.8359
+2019-11-03 16:26:58,302 - train_mbv3.py[line:201] - INFO: 16:26:58, Epoch 17, Step 80, Loss 1.0613, lr: 3.2543e-04, train_accu 0.8242
+2019-11-03 16:27:05,068 - train_mbv3.py[line:201] - INFO: 16:27:05, Epoch 17, Step 90, Loss 0.9664, lr: 3.2756e-04, train_accu 0.8633
+2019-11-03 16:27:11,731 - train_mbv3.py[line:201] - INFO: 16:27:11, Epoch 17, Step 100, Loss 1.0015, lr: 3.2970e-04, train_accu 0.8594
+2019-11-03 16:27:18,486 - train_mbv3.py[line:201] - INFO: 16:27:18, Epoch 17, Step 110, Loss 0.9199, lr: 3.3184e-04, train_accu 0.8359
+2019-11-03 16:27:25,205 - train_mbv3.py[line:201] - INFO: 16:27:25, Epoch 17, Step 120, Loss 1.0437, lr: 3.3397e-04, train_accu 0.8242
+2019-11-03 16:27:31,891 - train_mbv3.py[line:201] - INFO: 16:27:31, Epoch 17, Step 130, Loss 1.0858, lr: 3.3611e-04, train_accu 0.8086
+2019-11-03 16:27:38,636 - train_mbv3.py[line:201] - INFO: 16:27:38, Epoch 17, Step 140, Loss 1.1006, lr: 3.3825e-04, train_accu 0.8242
+2019-11-03 16:27:45,456 - train_mbv3.py[line:201] - INFO: 16:27:45, Epoch 17, Step 150, Loss 1.1261, lr: 3.4038e-04, train_accu 0.7812
+2019-11-03 16:27:52,293 - train_mbv3.py[line:201] - INFO: 16:27:52, Epoch 17, Step 160, Loss 0.9951, lr: 3.4252e-04, train_accu 0.8438
+2019-11-03 16:27:58,885 - train_mbv3.py[line:201] - INFO: 16:27:58, Epoch 17, Step 170, Loss 1.1508, lr: 3.4466e-04, train_accu 0.7969
+2019-11-03 16:28:05,534 - train_mbv3.py[line:201] - INFO: 16:28:05, Epoch 17, Step 180, Loss 0.9672, lr: 3.4679e-04, train_accu 0.8594
+2019-11-03 16:28:12,502 - train_mbv3.py[line:201] - INFO: 16:28:12, Epoch 17, Step 190, Loss 1.1017, lr: 3.4893e-04, train_accu 0.7852
+2019-11-03 16:28:16,328 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-3510
+2019-11-03 16:28:16,330 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8314
+2019-11-03 16:28:20,742 - train_mbv3.py[line:229] - INFO: Epoch 17, Global Step 3510, val accuracy: 0.8592 (8592.0/10000.0)
+2019-11-03 16:28:20,743 - train_mbv3.py[line:242] - INFO: Saturation Epoch 4, val accuracy did not improve from 0.8676.
+2019-11-03 16:28:21,409 - train_mbv3.py[line:201] - INFO: 16:28:21, Epoch 18, Step 0, Loss 1.0880, lr: 3.5000e-04, train_accu 0.7695
+2019-11-03 16:28:28,056 - train_mbv3.py[line:201] - INFO: 16:28:28, Epoch 18, Step 10, Loss 1.0399, lr: 3.4786e-04, train_accu 0.8047
+2019-11-03 16:28:34,721 - train_mbv3.py[line:201] - INFO: 16:28:34, Epoch 18, Step 20, Loss 1.1164, lr: 3.4573e-04, train_accu 0.8047
+2019-11-03 16:28:41,407 - train_mbv3.py[line:201] - INFO: 16:28:41, Epoch 18, Step 30, Loss 1.0004, lr: 3.4359e-04, train_accu 0.8477
+2019-11-03 16:28:48,197 - train_mbv3.py[line:201] - INFO: 16:28:48, Epoch 18, Step 40, Loss 0.9792, lr: 3.4145e-04, train_accu 0.8672
+2019-11-03 16:28:54,994 - train_mbv3.py[line:201] - INFO: 16:28:54, Epoch 18, Step 50, Loss 1.1471, lr: 3.3932e-04, train_accu 0.7891
+2019-11-03 16:29:01,671 - train_mbv3.py[line:201] - INFO: 16:29:01, Epoch 18, Step 60, Loss 1.0757, lr: 3.3718e-04, train_accu 0.8086
+2019-11-03 16:29:08,287 - train_mbv3.py[line:201] - INFO: 16:29:08, Epoch 18, Step 70, Loss 0.9934, lr: 3.3504e-04, train_accu 0.8477
+2019-11-03 16:29:15,206 - train_mbv3.py[line:201] - INFO: 16:29:15, Epoch 18, Step 80, Loss 0.9382, lr: 3.3291e-04, train_accu 0.8711
+2019-11-03 16:29:21,925 - train_mbv3.py[line:201] - INFO: 16:29:21, Epoch 18, Step 90, Loss 1.0191, lr: 3.3077e-04, train_accu 0.8320
+2019-11-03 16:29:28,719 - train_mbv3.py[line:201] - INFO: 16:29:28, Epoch 18, Step 100, Loss 0.9590, lr: 3.2863e-04, train_accu 0.8594
+2019-11-03 16:29:35,558 - train_mbv3.py[line:201] - INFO: 16:29:35, Epoch 18, Step 110, Loss 1.0567, lr: 3.2650e-04, train_accu 0.8008
+2019-11-03 16:29:42,228 - train_mbv3.py[line:201] - INFO: 16:29:42, Epoch 18, Step 120, Loss 0.9471, lr: 3.2436e-04, train_accu 0.8633
+2019-11-03 16:29:48,878 - train_mbv3.py[line:201] - INFO: 16:29:48, Epoch 18, Step 130, Loss 0.9838, lr: 3.2222e-04, train_accu 0.8320
+2019-11-03 16:29:55,714 - train_mbv3.py[line:201] - INFO: 16:29:55, Epoch 18, Step 140, Loss 0.9932, lr: 3.2009e-04, train_accu 0.8398
+2019-11-03 16:30:02,566 - train_mbv3.py[line:201] - INFO: 16:30:02, Epoch 18, Step 150, Loss 1.0259, lr: 3.1795e-04, train_accu 0.8008
+2019-11-03 16:30:09,350 - train_mbv3.py[line:201] - INFO: 16:30:09, Epoch 18, Step 160, Loss 0.9419, lr: 3.1581e-04, train_accu 0.8438
+2019-11-03 16:30:16,115 - train_mbv3.py[line:201] - INFO: 16:30:16, Epoch 18, Step 170, Loss 0.9704, lr: 3.1368e-04, train_accu 0.8633
+2019-11-03 16:30:22,949 - train_mbv3.py[line:201] - INFO: 16:30:22, Epoch 18, Step 180, Loss 1.0239, lr: 3.1154e-04, train_accu 0.8320
+2019-11-03 16:30:29,665 - train_mbv3.py[line:201] - INFO: 16:30:29, Epoch 18, Step 190, Loss 0.9847, lr: 3.0940e-04, train_accu 0.8203
+2019-11-03 16:30:33,417 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-3705
+2019-11-03 16:30:33,418 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8331
+2019-11-03 16:30:37,695 - train_mbv3.py[line:229] - INFO: Epoch 18, Global Step 3705, val accuracy: 0.8520 (8520.0/10000.0)
+2019-11-03 16:30:37,695 - train_mbv3.py[line:242] - INFO: Saturation Epoch 5, val accuracy did not improve from 0.8676.
+2019-11-03 16:30:38,373 - train_mbv3.py[line:201] - INFO: 16:30:38, Epoch 19, Step 0, Loss 0.9979, lr: 3.0833e-04, train_accu 0.8398
+2019-11-03 16:30:45,215 - train_mbv3.py[line:201] - INFO: 16:30:45, Epoch 19, Step 10, Loss 1.0279, lr: 3.0620e-04, train_accu 0.8242
+2019-11-03 16:30:51,922 - train_mbv3.py[line:201] - INFO: 16:30:51, Epoch 19, Step 20, Loss 0.8771, lr: 3.0406e-04, train_accu 0.8672
+2019-11-03 16:30:58,791 - train_mbv3.py[line:201] - INFO: 16:30:58, Epoch 19, Step 30, Loss 0.9602, lr: 3.0192e-04, train_accu 0.8555
+2019-11-03 16:31:05,492 - train_mbv3.py[line:201] - INFO: 16:31:05, Epoch 19, Step 40, Loss 0.9391, lr: 2.9979e-04, train_accu 0.8555
+2019-11-03 16:31:12,560 - train_mbv3.py[line:201] - INFO: 16:31:12, Epoch 19, Step 50, Loss 1.2044, lr: 2.9765e-04, train_accu 0.7812
+2019-11-03 16:31:19,707 - train_mbv3.py[line:201] - INFO: 16:31:19, Epoch 19, Step 60, Loss 0.9837, lr: 2.9551e-04, train_accu 0.8555
+2019-11-03 16:31:26,580 - train_mbv3.py[line:201] - INFO: 16:31:26, Epoch 19, Step 70, Loss 0.9836, lr: 2.9338e-04, train_accu 0.8086
+2019-11-03 16:31:33,309 - train_mbv3.py[line:201] - INFO: 16:31:33, Epoch 19, Step 80, Loss 0.9605, lr: 2.9124e-04, train_accu 0.8242
+2019-11-03 16:31:40,076 - train_mbv3.py[line:201] - INFO: 16:31:40, Epoch 19, Step 90, Loss 1.1125, lr: 2.8910e-04, train_accu 0.7852
+2019-11-03 16:31:46,940 - train_mbv3.py[line:201] - INFO: 16:31:46, Epoch 19, Step 100, Loss 0.9823, lr: 2.8697e-04, train_accu 0.8555
+2019-11-03 16:31:53,817 - train_mbv3.py[line:201] - INFO: 16:31:53, Epoch 19, Step 110, Loss 1.0300, lr: 2.8483e-04, train_accu 0.8086
+2019-11-03 16:32:00,761 - train_mbv3.py[line:201] - INFO: 16:32:00, Epoch 19, Step 120, Loss 1.0169, lr: 2.8269e-04, train_accu 0.8125
+2019-11-03 16:32:07,765 - train_mbv3.py[line:201] - INFO: 16:32:07, Epoch 19, Step 130, Loss 0.9704, lr: 2.8056e-04, train_accu 0.8555
+2019-11-03 16:32:14,618 - train_mbv3.py[line:201] - INFO: 16:32:14, Epoch 19, Step 140, Loss 1.0498, lr: 2.7842e-04, train_accu 0.8477
+2019-11-03 16:32:21,428 - train_mbv3.py[line:201] - INFO: 16:32:21, Epoch 19, Step 150, Loss 0.9102, lr: 2.7628e-04, train_accu 0.8828
+2019-11-03 16:32:28,296 - train_mbv3.py[line:201] - INFO: 16:32:28, Epoch 19, Step 160, Loss 0.9744, lr: 2.7415e-04, train_accu 0.8594
+2019-11-03 16:32:35,128 - train_mbv3.py[line:201] - INFO: 16:32:35, Epoch 19, Step 170, Loss 0.9774, lr: 2.7201e-04, train_accu 0.8594
+2019-11-03 16:32:41,809 - train_mbv3.py[line:201] - INFO: 16:32:41, Epoch 19, Step 180, Loss 0.9315, lr: 2.6987e-04, train_accu 0.8555
+2019-11-03 16:32:48,588 - train_mbv3.py[line:201] - INFO: 16:32:48, Epoch 19, Step 190, Loss 0.9594, lr: 2.6774e-04, train_accu 0.8164
+2019-11-03 16:32:52,517 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-3900
+2019-11-03 16:32:52,518 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8324
+2019-11-03 16:32:56,770 - train_mbv3.py[line:229] - INFO: Epoch 19, Global Step 3900, val accuracy: 0.8614 (8614.0/10000.0)
+2019-11-03 16:32:56,770 - train_mbv3.py[line:242] - INFO: Saturation Epoch 6, val accuracy did not improve from 0.8676.
+2019-11-03 16:32:57,425 - train_mbv3.py[line:201] - INFO: 16:32:57, Epoch 20, Step 0, Loss 0.9861, lr: 2.6667e-04, train_accu 0.8555
+2019-11-03 16:33:04,241 - train_mbv3.py[line:201] - INFO: 16:33:04, Epoch 20, Step 10, Loss 1.0485, lr: 2.6453e-04, train_accu 0.8242
+2019-11-03 16:33:11,151 - train_mbv3.py[line:201] - INFO: 16:33:11, Epoch 20, Step 20, Loss 0.9597, lr: 2.6239e-04, train_accu 0.8594
+2019-11-03 16:33:17,957 - train_mbv3.py[line:201] - INFO: 16:33:17, Epoch 20, Step 30, Loss 0.9358, lr: 2.6026e-04, train_accu 0.8555
+2019-11-03 16:33:24,764 - train_mbv3.py[line:201] - INFO: 16:33:24, Epoch 20, Step 40, Loss 1.0287, lr: 2.5812e-04, train_accu 0.8398
+2019-11-03 16:33:31,585 - train_mbv3.py[line:201] - INFO: 16:33:31, Epoch 20, Step 50, Loss 1.0036, lr: 2.5598e-04, train_accu 0.8477
+2019-11-03 16:33:38,211 - train_mbv3.py[line:201] - INFO: 16:33:38, Epoch 20, Step 60, Loss 0.9327, lr: 2.5385e-04, train_accu 0.8672
+2019-11-03 16:33:45,011 - train_mbv3.py[line:201] - INFO: 16:33:45, Epoch 20, Step 70, Loss 0.9883, lr: 2.5171e-04, train_accu 0.8242
+2019-11-03 16:33:51,827 - train_mbv3.py[line:201] - INFO: 16:33:51, Epoch 20, Step 80, Loss 1.0857, lr: 2.4957e-04, train_accu 0.8281
+2019-11-03 16:33:58,729 - train_mbv3.py[line:201] - INFO: 16:33:58, Epoch 20, Step 90, Loss 1.0141, lr: 2.4744e-04, train_accu 0.8125
+2019-11-03 16:34:05,578 - train_mbv3.py[line:201] - INFO: 16:34:05, Epoch 20, Step 100, Loss 1.0011, lr: 2.4530e-04, train_accu 0.8242
+2019-11-03 16:34:12,259 - train_mbv3.py[line:201] - INFO: 16:34:12, Epoch 20, Step 110, Loss 0.9610, lr: 2.4316e-04, train_accu 0.8398
+2019-11-03 16:34:19,053 - train_mbv3.py[line:201] - INFO: 16:34:19, Epoch 20, Step 120, Loss 1.0907, lr: 2.4103e-04, train_accu 0.8086
+2019-11-03 16:34:25,890 - train_mbv3.py[line:201] - INFO: 16:34:25, Epoch 20, Step 130, Loss 0.9016, lr: 2.3889e-04, train_accu 0.8359
+2019-11-03 16:34:32,739 - train_mbv3.py[line:201] - INFO: 16:34:32, Epoch 20, Step 140, Loss 0.9558, lr: 2.3675e-04, train_accu 0.8203
+2019-11-03 16:34:39,619 - train_mbv3.py[line:201] - INFO: 16:34:39, Epoch 20, Step 150, Loss 0.9945, lr: 2.3462e-04, train_accu 0.8594
+2019-11-03 16:34:46,409 - train_mbv3.py[line:201] - INFO: 16:34:46, Epoch 20, Step 160, Loss 1.0072, lr: 2.3248e-04, train_accu 0.8242
+2019-11-03 16:34:53,120 - train_mbv3.py[line:201] - INFO: 16:34:53, Epoch 20, Step 170, Loss 0.8656, lr: 2.3034e-04, train_accu 0.8750
+2019-11-03 16:34:59,894 - train_mbv3.py[line:201] - INFO: 16:34:59, Epoch 20, Step 180, Loss 0.8856, lr: 2.2821e-04, train_accu 0.8750
+2019-11-03 16:35:06,766 - train_mbv3.py[line:201] - INFO: 16:35:06, Epoch 20, Step 190, Loss 0.9758, lr: 2.2607e-04, train_accu 0.8164
+2019-11-03 16:35:10,717 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-4095
+2019-11-03 16:35:10,719 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8352
+2019-11-03 16:35:14,983 - train_mbv3.py[line:229] - INFO: Epoch 20, Global Step 4095, val accuracy: 0.8665 (8665.0/10000.0)
+2019-11-03 16:35:14,983 - train_mbv3.py[line:242] - INFO: Saturation Epoch 7, val accuracy did not improve from 0.8676.
+2019-11-03 16:35:15,709 - train_mbv3.py[line:201] - INFO: 16:35:15, Epoch 21, Step 0, Loss 1.0299, lr: 2.2500e-04, train_accu 0.8281
+2019-11-03 16:35:22,630 - train_mbv3.py[line:201] - INFO: 16:35:22, Epoch 21, Step 10, Loss 0.9082, lr: 2.2286e-04, train_accu 0.8477
+2019-11-03 16:35:29,522 - train_mbv3.py[line:201] - INFO: 16:35:29, Epoch 21, Step 20, Loss 0.8652, lr: 2.2073e-04, train_accu 0.9141
+2019-11-03 16:35:36,392 - train_mbv3.py[line:201] - INFO: 16:35:36, Epoch 21, Step 30, Loss 0.9901, lr: 2.1859e-04, train_accu 0.8359
+2019-11-03 16:35:43,180 - train_mbv3.py[line:201] - INFO: 16:35:43, Epoch 21, Step 40, Loss 0.9874, lr: 2.1645e-04, train_accu 0.8164
+2019-11-03 16:35:49,891 - train_mbv3.py[line:201] - INFO: 16:35:49, Epoch 21, Step 50, Loss 0.9074, lr: 2.1432e-04, train_accu 0.8438
+2019-11-03 16:35:56,747 - train_mbv3.py[line:201] - INFO: 16:35:56, Epoch 21, Step 60, Loss 0.9284, lr: 2.1218e-04, train_accu 0.8477
+2019-11-03 16:36:03,501 - train_mbv3.py[line:201] - INFO: 16:36:03, Epoch 21, Step 70, Loss 0.9384, lr: 2.1004e-04, train_accu 0.8516
+2019-11-03 16:36:10,197 - train_mbv3.py[line:201] - INFO: 16:36:10, Epoch 21, Step 80, Loss 1.0028, lr: 2.0791e-04, train_accu 0.8281
+2019-11-03 16:36:17,040 - train_mbv3.py[line:201] - INFO: 16:36:17, Epoch 21, Step 90, Loss 0.9469, lr: 2.0577e-04, train_accu 0.8281
+2019-11-03 16:36:23,926 - train_mbv3.py[line:201] - INFO: 16:36:23, Epoch 21, Step 100, Loss 0.9029, lr: 2.0363e-04, train_accu 0.8672
+2019-11-03 16:36:30,863 - train_mbv3.py[line:201] - INFO: 16:36:30, Epoch 21, Step 110, Loss 0.9091, lr: 2.0150e-04, train_accu 0.8633
+2019-11-03 16:36:37,760 - train_mbv3.py[line:201] - INFO: 16:36:37, Epoch 21, Step 120, Loss 0.9183, lr: 1.9936e-04, train_accu 0.8477
+2019-11-03 16:36:44,663 - train_mbv3.py[line:201] - INFO: 16:36:44, Epoch 21, Step 130, Loss 0.9723, lr: 1.9722e-04, train_accu 0.8320
+2019-11-03 16:36:51,534 - train_mbv3.py[line:201] - INFO: 16:36:51, Epoch 21, Step 140, Loss 1.0426, lr: 1.9509e-04, train_accu 0.8164
+2019-11-03 16:36:58,311 - train_mbv3.py[line:201] - INFO: 16:36:58, Epoch 21, Step 150, Loss 0.9155, lr: 1.9295e-04, train_accu 0.8477
+2019-11-03 16:37:05,088 - train_mbv3.py[line:201] - INFO: 16:37:05, Epoch 21, Step 160, Loss 0.8892, lr: 1.9081e-04, train_accu 0.8359
+2019-11-03 16:37:11,909 - train_mbv3.py[line:201] - INFO: 16:37:11, Epoch 21, Step 170, Loss 0.9566, lr: 1.8868e-04, train_accu 0.8359
+2019-11-03 16:37:18,723 - train_mbv3.py[line:201] - INFO: 16:37:18, Epoch 21, Step 180, Loss 0.8632, lr: 1.8654e-04, train_accu 0.8906
+2019-11-03 16:37:25,520 - train_mbv3.py[line:201] - INFO: 16:37:25, Epoch 21, Step 190, Loss 0.9559, lr: 1.8440e-04, train_accu 0.8281
+2019-11-03 16:37:29,511 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-4290
+2019-11-03 16:37:29,512 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8383
+2019-11-03 16:37:33,841 - train_mbv3.py[line:229] - INFO: Epoch 21, Global Step 4290, val accuracy: 0.8635 (8635.0/10000.0)
+2019-11-03 16:37:33,841 - train_mbv3.py[line:242] - INFO: Saturation Epoch 8, val accuracy did not improve from 0.8676.
+2019-11-03 16:37:34,581 - train_mbv3.py[line:201] - INFO: 16:37:34, Epoch 22, Step 0, Loss 1.0112, lr: 1.8333e-04, train_accu 0.8281
+2019-11-03 16:37:41,446 - train_mbv3.py[line:201] - INFO: 16:37:41, Epoch 22, Step 10, Loss 1.0245, lr: 1.8120e-04, train_accu 0.8047
+2019-11-03 16:37:48,329 - train_mbv3.py[line:201] - INFO: 16:37:48, Epoch 22, Step 20, Loss 0.9994, lr: 1.7906e-04, train_accu 0.8164
+2019-11-03 16:37:55,246 - train_mbv3.py[line:201] - INFO: 16:37:55, Epoch 22, Step 30, Loss 1.0141, lr: 1.7692e-04, train_accu 0.8125
+2019-11-03 16:38:02,167 - train_mbv3.py[line:201] - INFO: 16:38:02, Epoch 22, Step 40, Loss 0.8776, lr: 1.7479e-04, train_accu 0.8477
+2019-11-03 16:38:09,030 - train_mbv3.py[line:201] - INFO: 16:38:09, Epoch 22, Step 50, Loss 0.9733, lr: 1.7265e-04, train_accu 0.8359
+2019-11-03 16:38:15,921 - train_mbv3.py[line:201] - INFO: 16:38:15, Epoch 22, Step 60, Loss 1.0283, lr: 1.7051e-04, train_accu 0.7930
+2019-11-03 16:38:22,790 - train_mbv3.py[line:201] - INFO: 16:38:22, Epoch 22, Step 70, Loss 0.9864, lr: 1.6838e-04, train_accu 0.8359
+2019-11-03 16:38:29,542 - train_mbv3.py[line:201] - INFO: 16:38:29, Epoch 22, Step 80, Loss 1.0757, lr: 1.6624e-04, train_accu 0.7891
+2019-11-03 16:38:36,435 - train_mbv3.py[line:201] - INFO: 16:38:36, Epoch 22, Step 90, Loss 0.8987, lr: 1.6410e-04, train_accu 0.8438
+2019-11-03 16:38:43,286 - train_mbv3.py[line:201] - INFO: 16:38:43, Epoch 22, Step 100, Loss 0.9069, lr: 1.6197e-04, train_accu 0.8438
+2019-11-03 16:38:50,068 - train_mbv3.py[line:201] - INFO: 16:38:50, Epoch 22, Step 110, Loss 0.9075, lr: 1.5983e-04, train_accu 0.8555
+2019-11-03 16:38:57,140 - train_mbv3.py[line:201] - INFO: 16:38:57, Epoch 22, Step 120, Loss 0.9650, lr: 1.5769e-04, train_accu 0.8320
+2019-11-03 16:39:03,947 - train_mbv3.py[line:201] - INFO: 16:39:03, Epoch 22, Step 130, Loss 0.9453, lr: 1.5556e-04, train_accu 0.8555
+2019-11-03 16:39:10,798 - train_mbv3.py[line:201] - INFO: 16:39:10, Epoch 22, Step 140, Loss 0.9442, lr: 1.5342e-04, train_accu 0.8398
+2019-11-03 16:39:17,567 - train_mbv3.py[line:201] - INFO: 16:39:17, Epoch 22, Step 150, Loss 0.9243, lr: 1.5128e-04, train_accu 0.8594
+2019-11-03 16:39:24,390 - train_mbv3.py[line:201] - INFO: 16:39:24, Epoch 22, Step 160, Loss 0.9173, lr: 1.4915e-04, train_accu 0.8555
+2019-11-03 16:39:31,281 - train_mbv3.py[line:201] - INFO: 16:39:31, Epoch 22, Step 170, Loss 0.9657, lr: 1.4701e-04, train_accu 0.8242
+2019-11-03 16:39:38,207 - train_mbv3.py[line:201] - INFO: 16:39:38, Epoch 22, Step 180, Loss 0.9464, lr: 1.4487e-04, train_accu 0.8320
+2019-11-03 16:39:44,992 - train_mbv3.py[line:201] - INFO: 16:39:44, Epoch 22, Step 190, Loss 0.8822, lr: 1.4274e-04, train_accu 0.8633
+2019-11-03 16:39:48,995 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-4485
+2019-11-03 16:39:48,996 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8393
+2019-11-03 16:39:53,264 - train_mbv3.py[line:229] - INFO: Epoch 22, Global Step 4485, val accuracy: 0.8696 (8696.0/10000.0)
+2019-11-03 16:39:54,340 - train_mbv3.py[line:242] - INFO: Epoch 22, val accuracy improved from 0.8676 to 0.8696, save best model to models/mbv3_small_cifar10_128x128/best/best_0.8696.ckpt.
+2019-11-03 16:39:55,007 - train_mbv3.py[line:201] - INFO: 16:39:55, Epoch 23, Step 0, Loss 1.0629, lr: 1.4167e-04, train_accu 0.7969
+2019-11-03 16:40:01,717 - train_mbv3.py[line:201] - INFO: 16:40:01, Epoch 23, Step 10, Loss 0.9332, lr: 1.3953e-04, train_accu 0.8516
+2019-11-03 16:40:08,776 - train_mbv3.py[line:201] - INFO: 16:40:08, Epoch 23, Step 20, Loss 0.9787, lr: 1.3739e-04, train_accu 0.8242
+2019-11-03 16:40:15,562 - train_mbv3.py[line:201] - INFO: 16:40:15, Epoch 23, Step 30, Loss 0.9962, lr: 1.3526e-04, train_accu 0.8555
+2019-11-03 16:40:22,403 - train_mbv3.py[line:201] - INFO: 16:40:22, Epoch 23, Step 40, Loss 1.0999, lr: 1.3312e-04, train_accu 0.8125
+2019-11-03 16:40:29,379 - train_mbv3.py[line:201] - INFO: 16:40:29, Epoch 23, Step 50, Loss 1.0598, lr: 1.3098e-04, train_accu 0.8008
+2019-11-03 16:40:36,237 - train_mbv3.py[line:201] - INFO: 16:40:36, Epoch 23, Step 60, Loss 0.9744, lr: 1.2885e-04, train_accu 0.8477
+2019-11-03 16:40:43,103 - train_mbv3.py[line:201] - INFO: 16:40:43, Epoch 23, Step 70, Loss 1.0755, lr: 1.2671e-04, train_accu 0.8086
+2019-11-03 16:40:49,923 - train_mbv3.py[line:201] - INFO: 16:40:49, Epoch 23, Step 80, Loss 1.0376, lr: 1.2457e-04, train_accu 0.8125
+2019-11-03 16:40:56,664 - train_mbv3.py[line:201] - INFO: 16:40:56, Epoch 23, Step 90, Loss 0.8272, lr: 1.2244e-04, train_accu 0.8789
+2019-11-03 16:41:03,302 - train_mbv3.py[line:201] - INFO: 16:41:03, Epoch 23, Step 100, Loss 0.9234, lr: 1.2030e-04, train_accu 0.8398
+2019-11-03 16:41:10,168 - train_mbv3.py[line:201] - INFO: 16:41:10, Epoch 23, Step 110, Loss 0.8864, lr: 1.1816e-04, train_accu 0.8750
+2019-11-03 16:41:17,020 - train_mbv3.py[line:201] - INFO: 16:41:17, Epoch 23, Step 120, Loss 0.8335, lr: 1.1603e-04, train_accu 0.8789
+2019-11-03 16:41:23,768 - train_mbv3.py[line:201] - INFO: 16:41:23, Epoch 23, Step 130, Loss 0.9490, lr: 1.1389e-04, train_accu 0.8438
+2019-11-03 16:41:30,803 - train_mbv3.py[line:201] - INFO: 16:41:30, Epoch 23, Step 140, Loss 0.8790, lr: 1.1175e-04, train_accu 0.8594
+2019-11-03 16:41:37,619 - train_mbv3.py[line:201] - INFO: 16:41:37, Epoch 23, Step 150, Loss 0.9114, lr: 1.0962e-04, train_accu 0.8398
+2019-11-03 16:41:44,608 - train_mbv3.py[line:201] - INFO: 16:41:44, Epoch 23, Step 160, Loss 1.0194, lr: 1.0748e-04, train_accu 0.7812
+2019-11-03 16:41:51,628 - train_mbv3.py[line:201] - INFO: 16:41:51, Epoch 23, Step 170, Loss 1.0107, lr: 1.0534e-04, train_accu 0.8281
+2019-11-03 16:41:58,519 - train_mbv3.py[line:201] - INFO: 16:41:58, Epoch 23, Step 180, Loss 0.8279, lr: 1.0321e-04, train_accu 0.8867
+2019-11-03 16:42:05,367 - train_mbv3.py[line:201] - INFO: 16:42:05, Epoch 23, Step 190, Loss 0.8788, lr: 1.0107e-04, train_accu 0.8750
+2019-11-03 16:42:09,296 - train_mbv3.py[line:206] - INFO: model saved to models/mbv3_small_cifar10_128x128/model.ckpt-4680
+2019-11-03 16:42:09,297 - train_mbv3.py[line:209] - INFO: Train accuracy: 0.8399
+2019-11-03 16:42:13,785 - train_mbv3.py[line:229] - INFO: Epoch 23, Global Step 4680, val accuracy: 0.8687 (8687.0/10000.0)
+2019-11-03 16:42:13,785 - train_mbv3.py[line:242] - INFO: Saturation Epoch 1, val accuracy did not improve from 0.8696.
